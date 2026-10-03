@@ -39,7 +39,9 @@ npm run preview
 3. **Root Directory**: 空（リポジトリ直下）
 4. Framework Preset: **Vite**（`vercel.json` あり）
 
-デプロイ後は `https://<project>.vercel.app/#/` でホームが開きます。
+本番: **https://geo-puzzle-kids-web.vercel.app/#/**
+
+デプロイ後は `https://<project>.vercel.app/#/` でホームが開きます（ページタイトルが「地図パズル」）。
 
 ## Android との同期
 
