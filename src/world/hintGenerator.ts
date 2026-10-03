@@ -107,18 +107,22 @@ export function buildPanels(country: Country, data: WorldData): HintPanel[] {
       case 'flag_tl':
         return panel(index, type, '国旗{こっき}の一部{いちぶ}', 'この色{いろ}が入{はい}っています', {
           flagQuarter: country.flagQuarters.topLeft,
+          flagCountryId: country.id,
         });
       case 'flag_tr':
         return panel(index, type, '国旗{こっき}の一部{いちぶ}', 'この色{いろ}が入{はい}っています', {
           flagQuarter: country.flagQuarters.topRight,
+          flagCountryId: country.id,
         });
       case 'flag_bl':
         return panel(index, type, '国旗{こっき}の一部{いちぶ}', 'この色{いろ}が入{はい}っています', {
           flagQuarter: country.flagQuarters.bottomLeft,
+          flagCountryId: country.id,
         });
       case 'flag_br':
         return panel(index, type, '国旗{こっき}の一部{いちぶ}', 'この色{いろ}が入{はい}っています', {
           flagQuarter: country.flagQuarters.bottomRight,
+          flagCountryId: country.id,
         });
       case 'silhouette':
         return panel(index, type, '国{くに}の形{かたち}', country.silhouetteRuby, {

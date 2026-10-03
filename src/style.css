@@ -596,6 +596,41 @@ body {
   border: 1px solid #475569;
 }
 
+.world-flag-crop {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  min-height: 2rem;
+}
+
+.world-flag-crop img {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  max-width: none;
+  object-fit: fill;
+}
+
+.world-flag-crop--tl img {
+  left: 0;
+  top: 0;
+}
+
+.world-flag-crop--tr img {
+  left: -100%;
+  top: 0;
+}
+
+.world-flag-crop--bl img {
+  left: 0;
+  top: -100%;
+}
+
+.world-flag-crop--br img {
+  left: -100%;
+  top: -100%;
+}
+
 .world-silhouette {
   width: 100%;
   height: 2rem;
@@ -658,6 +693,14 @@ body {
   border-radius: 3px;
   border: 1px solid #64748b;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.world-picker-flag-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .world-detail-name {

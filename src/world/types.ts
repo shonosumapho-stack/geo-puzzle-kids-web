@@ -70,6 +70,7 @@ export interface HintPanel {
   titleRuby: string;
   bodyRuby: string;
   flagQuarter?: string;
+  flagCountryId?: string;
   silhouettePath?: string;
   isRevealed: boolean;
 }

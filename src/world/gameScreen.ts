@@ -10,6 +10,7 @@ import { buildPanels } from './hintGenerator';
 import { clearActiveGame, loadActiveGame, saveActiveGame } from './gameState';
 import { questionScore, totalScore, WRONG_PENALTY_PANELS } from './score';
 import type { Country, GameDifficulty, HintPanel, QuestionResult } from './types';
+import { createFlagHintPreview, createMiniFlag, isFlagHintType } from './flagView';
 import { unlockCountry } from './unlockStore';
 
 export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficulty): Promise<void> {
@@ -118,7 +119,9 @@ export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficu
     const title = el('div', 'world-panel-title');
     setRubyText(title, p.titleRuby, furigana);
     cell.appendChild(title);
-    if (p.flagQuarter) {
+    if (p.flagQuarter && p.flagCountryId && isFlagHintType(p.type)) {
+      cell.appendChild(createFlagHintPreview(p.flagCountryId, p.type, p.flagQuarter));
+    } else if (p.flagQuarter) {
       const flag = el('div', 'world-flag-quarter');
       flag.style.background = p.flagQuarter;
       cell.appendChild(flag);
@@ -186,11 +189,9 @@ export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficu
     )) {
       const row = el('button', 'world-picker-item');
       row.type = 'button';
-      const flag = el('div', 'world-picker-flag');
-      flag.style.background = `linear-gradient(135deg, ${c.flagQuarters.topLeft} 25%, ${c.flagQuarters.topRight} 25% 50%, ${c.flagQuarters.bottomLeft} 50% 75%, ${c.flagQuarters.bottomRight} 75%)`;
       const name = el('span', '');
       setRubyText(name, c.nameRuby, furigana);
-      row.append(flag, name);
+      row.append(createMiniFlag(c.id, c.flagQuarters), name);
       row.addEventListener('click', () => {
         dialog.remove();
         submitAnswer(c.id);

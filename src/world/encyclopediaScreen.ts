@@ -1,6 +1,7 @@
 import { el } from '../shared/dom';
 import { loadWorldData, findCountry } from './countryData';
 import { isWorldFuriganaEnabled, setRubyText } from './furigana';
+import { createMiniFlag } from './flagView';
 import { getUnlockedCountryIds } from './unlockStore';
 
 export async function renderWorldEncyclopedia(root: HTMLElement): Promise<void> {
@@ -26,11 +27,9 @@ export async function renderWorldEncyclopedia(root: HTMLElement): Promise<void> 
     for (const c of countries) {
       const row = el('button', 'list-row world-ency-row');
       row.type = 'button';
-      const flag = el('div', 'world-picker-flag');
-      flag.style.background = `linear-gradient(135deg, ${c.flagQuarters.topLeft} 25%, ${c.flagQuarters.topRight} 25% 50%, ${c.flagQuarters.bottomLeft} 50% 75%, ${c.flagQuarters.bottomRight} 75%)`;
       const name = el('span', '');
       setRubyText(name, c.nameRuby, furigana);
-      row.append(flag, name);
+      row.append(createMiniFlag(c.id, c.flagQuarters), name);
       row.addEventListener('click', () => {
         window.location.hash = `#/world/country/${c.id}`;
       });
