@@ -596,6 +596,20 @@ body {
   border: 1px solid #475569;
 }
 
+.world-flag-crop {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  min-height: 2rem;
+  background: transparent;
+}
+
+.world-flag-crop-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .world-silhouette {
   width: 100%;
   height: 2rem;

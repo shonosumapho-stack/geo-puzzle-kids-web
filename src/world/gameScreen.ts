@@ -10,7 +10,7 @@ import { buildPanels } from './hintGenerator';
 import { clearActiveGame, loadActiveGame, saveActiveGame } from './gameState';
 import { questionScore, totalScore, WRONG_PENALTY_PANELS } from './score';
 import type { Country, GameDifficulty, HintPanel, QuestionResult } from './types';
-import { createMiniFlag } from './flagView';
+import { createFlagHintPreview, createMiniFlag, isFlagHintType } from './flagView';
 import { unlockCountry } from './unlockStore';
 
 export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficulty): Promise<void> {
@@ -119,7 +119,9 @@ export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficu
     const title = el('div', 'world-panel-title');
     setRubyText(title, p.titleRuby, furigana);
     cell.appendChild(title);
-    if (p.flagQuarter) {
+    if (p.flagQuarter && p.flagCountryId && isFlagHintType(p.type)) {
+      cell.appendChild(createFlagHintPreview(p.flagCountryId, p.type, p.flagQuarter));
+    } else if (p.flagQuarter) {
       const flag = el('div', 'world-flag-quarter');
       flag.style.background = p.flagQuarter;
       cell.appendChild(flag);
