@@ -191,7 +191,11 @@ export async function renderWorldGame(root: HTMLElement, difficulty: GameDifficu
       row.type = 'button';
       const name = el('span', '');
       setRubyText(name, c.nameRuby, furigana);
-      row.append(createMiniFlag(c.id, c.flagQuarters), name);
+      if (difficulty === 'easy') {
+        row.append(createMiniFlag(c.id, c.flagQuarters), name);
+      } else {
+        row.append(name);
+      }
       row.addEventListener('click', () => {
         dialog.remove();
         submitAnswer(c.id);

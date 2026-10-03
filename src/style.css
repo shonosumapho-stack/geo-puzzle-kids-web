@@ -603,32 +603,10 @@ body {
   min-height: 2rem;
 }
 
-.world-flag-crop img {
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  max-width: none;
-  object-fit: fill;
-}
-
-.world-flag-crop--tl img {
-  left: 0;
-  top: 0;
-}
-
-.world-flag-crop--tr img {
-  left: -100%;
-  top: 0;
-}
-
-.world-flag-crop--bl img {
-  left: 0;
-  top: -100%;
-}
-
-.world-flag-crop--br img {
-  left: -100%;
-  top: -100%;
+.world-flag-crop-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .world-silhouette {
@@ -694,13 +672,11 @@ body {
   border: 1px solid #64748b;
   flex-shrink: 0;
   overflow: hidden;
+  background: transparent;
 }
 
-.world-picker-flag-img {
+.world-picker-flag-canvas {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .world-detail-name {
@@ -725,7 +701,16 @@ body {
   max-width: 100%;
   width: 10rem;
   border-radius: 8px;
-  background: #fff;
+  background: transparent;
+  object-fit: contain;
+}
+
+.world-detail-flag {
+  width: 10rem;
+  height: 7rem;
+  border-radius: 8px;
+  background: transparent;
+  overflow: hidden;
 }
 
 .world-topic {

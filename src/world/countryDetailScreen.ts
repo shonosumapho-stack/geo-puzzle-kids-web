@@ -1,5 +1,6 @@
 import { el } from '../shared/dom';
 import { worldImageUrl } from './assets';
+import { createHeroFlag } from './flagView';
 import { findCountry, loadWorldData } from './countryData';
 import { isWorldFuriganaEnabled, setRubyText } from './furigana';
 import { clearActiveGame, loadActiveGame, saveActiveGame } from './gameState';
@@ -31,6 +32,10 @@ export async function renderWorldCountryDetail(
   const heroRow = el('div', 'world-detail-heroes');
   for (const path of [entry.flagPhoto, entry.countryMapPhoto, entry.worldMapPhoto]) {
     if (!path) continue;
+    if (path.startsWith('flags/')) {
+      heroRow.appendChild(createHeroFlag(path.slice('flags/'.length), country.flagQuarters));
+      continue;
+    }
     const img = document.createElement('img');
     img.className = 'world-detail-map';
     img.src = worldImageUrl(path);
