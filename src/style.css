@@ -234,52 +234,46 @@ body {
 }
 
 .puzzle-tray-viewport {
-  max-height: 9.5rem;
-  overflow: hidden;
+  max-height: 8.75rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  touch-action: none;
   flex: 0 0 auto;
 }
 
 .puzzle-tray {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.45rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
   padding: 0.15rem 0.1rem;
 }
 
 .puzzle-tray-item {
   width: 100%;
-  padding: 0.35rem;
+  padding: 0.3rem;
   border: 2px solid #334155;
   border-radius: 10px;
   background: #0f172a;
-  cursor: pointer;
-  touch-action: manipulation;
+  cursor: grab;
+  touch-action: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 3.75rem;
-}
-
-.puzzle-tray-item--selected {
-  border-color: #14b8a6;
-  box-shadow: 0 0 0 2px rgba(20, 184, 166, 0.35);
+  min-height: 3.5rem;
 }
 
 .puzzle-tray-item:active {
+  cursor: grabbing;
   border-color: #14b8a6;
 }
 
 .puzzle-tray-svg {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
   pointer-events: none;
 }
 
 .puzzle-map-path--placed {
-  cursor: pointer;
-}
-
-.puzzle-map-path--slot {
   cursor: pointer;
 }
 
