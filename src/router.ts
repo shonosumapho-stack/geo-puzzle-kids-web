@@ -33,7 +33,6 @@ async function renderJapanPlay(root: HTMLElement, regionId: string): Promise<voi
     backHash: '#/japan',
     storageKey: `geo-japan-best-${mode.id}`,
     pieces,
-    hint: '下のピースをドラッグして枠に合わせます。はめる前は名前は出ません。はめたあとは地図をタップすると名前が見えます。',
     encyclopediaHref: (code) =>
       `#/japan/encyclopedia?code=${encodeURIComponent(code)}&from=play&region=${encodeURIComponent(mode.id)}`,
   });
@@ -50,7 +49,6 @@ async function renderKanagawaPlay(root: HTMLElement, regionId: string): Promise<
     backHash: '#/kanagawa',
     storageKey: `geo-kana-best-${mode.id}`,
     pieces,
-    hint: '下のピースをドラッグして枠に合わせます。はめる前は名前は出ません。はめたあとは地図をタップすると名前が見えます。',
     encyclopediaHref: (code) =>
       `#/kanagawa/encyclopedia?code=${encodeURIComponent(code)}&from=play&region=${encodeURIComponent(mode.id)}`,
   });
