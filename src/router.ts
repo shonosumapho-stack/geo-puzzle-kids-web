@@ -6,6 +6,12 @@ import { renderKanagawaMenu } from './kanagawa/menuScreen';
 import { loadMunicipalities, loadPrefectures, loadWards, piecesForCodes } from './shared/mapData';
 import { renderJapanEncyclopedia, renderKanagawaEncyclopedia } from './shared/encyclopediaUi';
 import { renderMapPuzzle } from './shared/mapPuzzle';
+import { renderWorldCountryDetail } from './world/countryDetailScreen';
+import { renderWorldEncyclopedia } from './world/encyclopediaScreen';
+import { renderWorldGame } from './world/gameScreen';
+import { renderWorldMenu } from './world/menuScreen';
+import { renderWorldResult } from './world/resultScreen';
+import type { GameDifficulty } from './world/types';
 
 function parseQuery(hash: string): URLSearchParams {
   const q = hash.indexOf('?');
@@ -61,7 +67,38 @@ export function navigate(root: HTMLElement): void {
 
   if (path === '/' || path === '') {
     renderHub(root);
-    document.title = '地図パズル';
+    document.title = '地理ゲーム';
+    return;
+  }
+  if (path === '/world') {
+    renderWorldMenu(root);
+    document.title = '世界の国当て';
+    return;
+  }
+  if (path === '/world/play') {
+    const d = (query.get('difficulty') ?? 'easy') as GameDifficulty;
+    const difficulty = d === 'medium' || d === 'hard' ? d : 'easy';
+    void renderWorldGame(root, difficulty);
+    document.title = '世界の国当て';
+    return;
+  }
+  if (path === '/world/encyclopedia') {
+    void renderWorldEncyclopedia(root);
+    document.title = '世界の国図鑑';
+    return;
+  }
+  if (path === '/world/result') {
+    void renderWorldResult(root);
+    document.title = 'けっか';
+    return;
+  }
+  if (path.startsWith('/world/country/')) {
+    const countryId = path.replace('/world/country/', '');
+    void renderWorldCountryDetail(root, countryId, {
+      fromGame: query.get('from') === 'game',
+      difficulty: query.get('difficulty') ?? undefined,
+    });
+    document.title = '国のくわし';
     return;
   }
   if (path === '/japan') {

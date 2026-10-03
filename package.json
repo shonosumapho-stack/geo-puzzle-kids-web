@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "sync:world": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-world.ps1",
     "preview": "vite preview"
   },
   "devDependencies": {

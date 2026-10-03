@@ -1,0 +1,3145 @@
+{
+  "countries": [
+    {
+      "id": "us",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "アメリカ合衆国",
+      "nameRuby": "アメリカ合衆国{がっしゅうこく}",
+      "region": "北アメリカ",
+      "regionRuby": "北{きた}アメリカ",
+      "capital": "ワシントンD.C.",
+      "population": 331000000,
+      "areaKm2": 9833520,
+      "foods": [
+        "ハンバーガー",
+        "ホットドッグ"
+      ],
+      "landmarks": [
+        "タイムズスクエア",
+        "ゴールデンゲートブリッジ"
+      ],
+      "worldHeritage": [
+        "自由の女神",
+        "ヨセミテ国立公園"
+      ],
+      "animals": [
+        "ハクトウワシ"
+      ],
+      "climate": "地域により温暖湿潤から砂漠までさまざま",
+      "climateRuby": "地域{ちいき}により温暖{おんだん}湿潤{しつじゅん}から砂漠{さばく}までさまざま",
+      "trivia": "50の州からなる大国です。",
+      "triviaRuby": "50の州{しゅう}からなる大国{たいこく}です。",
+      "neighbors": [
+        "ca",
+        "mx"
+      ],
+      "flagQuarters": {
+        "topLeft": "#3C3B6E",
+        "topRight": "#B22234",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#B22234"
+      },
+      "mapLat": 39.8,
+      "mapLon": -98.5,
+      "silhouette": "大きな四角に湾曲した南側",
+      "capitalRuby": "ワシントンD.C.",
+      "silhouetteRuby": "大{おお}きな四角{しかく}に湾曲{わんきょく}した南側{みなみがわ}",
+      "foodsRuby": [
+        "ハンバーガー",
+        "ホットドッグ"
+      ],
+      "landmarksRuby": [
+        "タイムズスクエア",
+        "ゴールデンゲートブリッジ"
+      ],
+      "worldHeritageRuby": [
+        "自由{じゆう}の女神{めがみ}",
+        "ヨセミテ国立{こくりつ}公園{こうえん}"
+      ],
+      "animalsRuby": [
+        "ハクトウワシ"
+      ],
+      "resources": "IT・映画",
+      "resourcesRuby": "IT・映画{えいが}"
+    },
+    {
+      "id": "gb",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "イギリス",
+      "nameRuby": "イギリス",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ロンドン",
+      "population": 67000000,
+      "areaKm2": 243610,
+      "foods": [
+        "フィッシュアンドチップス",
+        "サンドイッチ"
+      ],
+      "landmarks": [
+        "ビッグベン",
+        "タワーブリッジ"
+      ],
+      "worldHeritage": [
+        "ストーンヘンジ",
+        "タワー・オブ・ロンドン"
+      ],
+      "animals": [],
+      "climate": "温暖湿潤で雨が多い",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}で雨{あめ}が多{おお}い",
+      "trivia": "イングランド・スコットランド・ウェールズ・北アイルランドで構成されます。",
+      "triviaRuby": "イングランド・スコットランド・ウェールズ・北{きた}アイルランドで構成{こうせい}されます。",
+      "neighbors": [
+        "ie"
+      ],
+      "flagQuarters": {
+        "topLeft": "#012169",
+        "topRight": "#C8102E",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#012169"
+      },
+      "mapLat": 54.0,
+      "mapLon": -2.0,
+      "silhouette": "細長い島の形",
+      "capitalRuby": "ロンドン",
+      "silhouetteRuby": "細長{ほそなが}い島{しま}の形{かたち}",
+      "foodsRuby": [
+        "フィッシュアンドチップス",
+        "サンドイッチ"
+      ],
+      "landmarksRuby": [
+        "ビッグベン",
+        "タワーブリッジ"
+      ],
+      "worldHeritageRuby": [
+        "ストーンヘンジ",
+        "タワー・オブ・ロンドン"
+      ],
+      "animalsRuby": [],
+      "resources": "金融",
+      "resourcesRuby": "金融{きんゆう}"
+    },
+    {
+      "id": "fr",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "フランス",
+      "nameRuby": "フランス",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "パリ",
+      "population": 68000000,
+      "areaKm2": 551695,
+      "foods": [
+        "クロワッサン",
+        "バゲット"
+      ],
+      "landmarks": [
+        "エッフェル塔",
+        "ルーヴル美術館"
+      ],
+      "worldHeritage": [
+        "ヴェルサイユ宮殿"
+      ],
+      "animals": [
+        "雄鶏"
+      ],
+      "climate": "温暖湿潤、地中海沿岸は温暖",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}、地中海{ちちゅうかい}沿岸{えんがん}は温暖{おんだん}",
+      "trivia": "近代オリンピックの発展に深く関わった国です。",
+      "triviaRuby": "近代{きんだい}オリンピックの発展{はってん}に深{ふか}く関{かか}わった国{くに}です。",
+      "neighbors": [
+        "be",
+        "lu",
+        "de",
+        "ch",
+        "es",
+        "it"
+      ],
+      "flagQuarters": {
+        "topLeft": "#002395",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#002395",
+        "bottomRight": "#ED2939"
+      },
+      "mapLat": 46.2,
+      "mapLon": 2.2,
+      "silhouette": "六角形に近い形",
+      "capitalRuby": "パリ",
+      "silhouetteRuby": "六角形{ろっかっけい}に近{ちか}い形{かたち}",
+      "foodsRuby": [
+        "クロワッサン",
+        "バゲット"
+      ],
+      "landmarksRuby": [
+        "エッフェル塔{とう}",
+        "ルーヴル美術館{びじゅつかん}"
+      ],
+      "worldHeritageRuby": [
+        "ヴェルサイユ宮殿{きゅうでん}"
+      ],
+      "animalsRuby": [
+        "雄鶏{おんどり}"
+      ],
+      "resources": "ワイン・農産物",
+      "resourcesRuby": "ワイン・農産物{のうさんぶつ}"
+    },
+    {
+      "id": "cn",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "中国",
+      "nameRuby": "中国{ちゅうごく}",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "北京",
+      "population": 1412000000,
+      "areaKm2": 9596961,
+      "foods": [
+        "餃子",
+        "北京ダック"
+      ],
+      "landmarks": [
+        "紫禁城の赤い壁",
+        "天安門広場の門"
+      ],
+      "worldHeritage": [
+        "万里の長城",
+        "紫禁城"
+      ],
+      "animals": [
+        "パンダ"
+      ],
+      "climate": "広大な国土で気候は多様",
+      "climateRuby": "広大な国土で気候{きこう}は多様{たよう}",
+      "trivia": "世界で最も人口が多い国です。",
+      "triviaRuby": "世界で最も人口{じんこう}が多{おお}い国{くに}です。",
+      "neighbors": [
+        "ru",
+        "mn",
+        "vn",
+        "la",
+        "kh"
+      ],
+      "flagQuarters": {
+        "topLeft": "#DE2910",
+        "topRight": "#DE2910",
+        "bottomLeft": "#DE2910",
+        "bottomRight": "#FFDE00"
+      },
+      "mapLat": 35.9,
+      "mapLon": 104.2,
+      "silhouette": "雄鶏の形に似ている",
+      "capitalRuby": "北京{ぺきん}",
+      "silhouetteRuby": "雄鶏{おんどり}の形{かたち}に似{に}ている",
+      "foodsRuby": [
+        "餃子{ぎょうざ}",
+        "北京{ぺきん}ダック"
+      ],
+      "landmarksRuby": [
+        "紫禁城{しききんじょう}の赤{あか}い壁{かべ}",
+        "天安門{てんあんもん}広場{ひろば}の門{もん}"
+      ],
+      "worldHeritageRuby": [
+        "万里{ばんり}の長城{ちょうじょう}",
+        "紫禁城{しききんじょう}"
+      ],
+      "animalsRuby": [
+        "パンダ"
+      ],
+      "resources": "製造業・電子機器",
+      "resourcesRuby": "製造{せいぞう}業{ぎょう}・電子{でんし}機器{きき}"
+    },
+    {
+      "id": "au",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "オーストラリア",
+      "nameRuby": "オーストラリア",
+      "region": "オセアニア",
+      "regionRuby": "オセアニア",
+      "capital": "キャンベラ",
+      "population": 26000000,
+      "areaKm2": 7692024,
+      "foods": [
+        "ミートパイ"
+      ],
+      "landmarks": [
+        "シドニーハーバーブリッジ",
+        "エアーズロック周辺"
+      ],
+      "worldHeritage": [
+        "グレート・バリア・リーフ",
+        "ウルル＝カタ・ジュタ"
+      ],
+      "animals": [
+        "カンガルー"
+      ],
+      "climate": "北部は熱帯、南部は温暖から乾燥",
+      "climateRuby": "北部{ほくぶ}は熱帯{ねったい}、南部{なんぶ}は温暖{おんだん}から乾燥{かんそう}",
+      "trivia": "世界で唯一、大陸全体が一つの国です。",
+      "triviaRuby": "世界{せかい}で唯一{ゆいいつ}、大陸{たいりく}全体{ぜんたい}が一{ひと}つの国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#00008B",
+        "topRight": "#00008B",
+        "bottomLeft": "#FF0000",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": -25.3,
+      "mapLon": 133.8,
+      "silhouette": "ほぼ長方形の大きな島",
+      "capitalRuby": "キャンベラ",
+      "silhouetteRuby": "ほぼ長方形{ちょうほうけい}の大{おお}きな島{しま}",
+      "foodsRuby": [
+        "ミートパイ"
+      ],
+      "landmarksRuby": [
+        "シドニーハーバーブリッジ",
+        "エアーズロック周辺{しゅうへん}"
+      ],
+      "worldHeritageRuby": [
+        "グレート・バリア・リーフ",
+        "ウルル＝カタ・ジュタ"
+      ],
+      "animalsRuby": [
+        "カンガルー"
+      ],
+      "resources": "鉄鉱石・羊毛",
+      "resourcesRuby": "鉄鉱{てっこう}石{せき}・羊毛{ようもう}"
+    },
+    {
+      "id": "br",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "ブラジル",
+      "nameRuby": "ブラジル",
+      "region": "南アメリカ",
+      "regionRuby": "南{みなみ}アメリカ",
+      "capital": "ブラジリア",
+      "population": 215000000,
+      "areaKm2": 8515767,
+      "foods": [
+        "フェイジョアーダ",
+        "チュラスコ"
+      ],
+      "landmarks": [
+        "コルコバードのキリスト像"
+      ],
+      "worldHeritage": [
+        "イグアスの滝"
+      ],
+      "animals": [
+        "ジャガー"
+      ],
+      "climate": "熱帯が中心で湿潤",
+      "climateRuby": "熱帯{ねったい}が中心{ちゅうしん}で湿潤{しつじゅん}",
+      "trivia": "南アメリカで最大の国です。",
+      "triviaRuby": "南{みなみ}アメリカで最大{さいだい}の国{くに}です。",
+      "neighbors": [
+        "ar",
+        "uy"
+      ],
+      "flagQuarters": {
+        "topLeft": "#009B3A",
+        "topRight": "#FEDF00",
+        "bottomLeft": "#009B3A",
+        "bottomRight": "#002776"
+      },
+      "mapLat": -14.2,
+      "mapLon": -51.9,
+      "silhouette": "大きな三角形に近い形",
+      "capitalRuby": "ブラジリア",
+      "silhouetteRuby": "大{おお}きな三角形{さんかっけい}に近{ちか}い形{かたち}",
+      "foodsRuby": [
+        "フェイジョアーダ",
+        "チュラスコ"
+      ],
+      "landmarksRuby": [
+        "コルコバードのキリスト像{ぞう}"
+      ],
+      "worldHeritageRuby": [
+        "イグアスの滝{たき}"
+      ],
+      "animalsRuby": [
+        "ジャガー"
+      ],
+      "resources": "コーヒー・鉄鉱石",
+      "resourcesRuby": "コーヒー・鉄鉱{てっこう}石{せき}"
+    },
+    {
+      "id": "eg",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "エジプト",
+      "nameRuby": "エジプト",
+      "region": "アフリカ",
+      "regionRuby": "アフリカ",
+      "capital": "カイロ",
+      "population": 109000000,
+      "areaKm2": 1002450,
+      "foods": [
+        "コシャリ"
+      ],
+      "landmarks": [
+        "スフィンクス"
+      ],
+      "worldHeritage": [
+        "ギザのピラミッド",
+        "ルクソール神殿"
+      ],
+      "animals": [
+        "ラクダ"
+      ],
+      "climate": "砂漠気候で乾燥、ナイル沿いは緑",
+      "climateRuby": "砂漠気候{きこう}で乾燥{かんそう}、ナイル沿{ぞ}いは緑{みどり}",
+      "trivia": "ナイル川は世界最長の川の一つです。",
+      "triviaRuby": "ナイル川{がわ}は世界{せかい}最長{さいちょう}の川{かわ}の一{ひと}つです。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#CE1126",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#000000",
+        "bottomRight": "#CE1126"
+      },
+      "mapLat": 26.8,
+      "mapLon": 30.8,
+      "silhouette": "長方形に近い形",
+      "capitalRuby": "カイロ",
+      "silhouetteRuby": "長方形{ちょうほうけい}に近{ちか}い形{かたち}",
+      "foodsRuby": [
+        "コシャリ"
+      ],
+      "landmarksRuby": [
+        "スフィンクス"
+      ],
+      "worldHeritageRuby": [
+        "ギザのピラミッド",
+        "ルクソール神殿{しんでん}"
+      ],
+      "animalsRuby": [
+        "ラクダ"
+      ],
+      "resources": "綿花",
+      "resourcesRuby": "綿花{めんか}"
+    },
+    {
+      "id": "de",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "ドイツ",
+      "nameRuby": "ドイツ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ベルリン",
+      "population": 84000000,
+      "areaKm2": 357022,
+      "foods": [
+        "ソーセージ",
+        "プレッツェル"
+      ],
+      "landmarks": [
+        "ブランデンブルク門"
+      ],
+      "worldHeritage": [
+        "ケルン大聖堂"
+      ],
+      "animals": [
+        "イノシシ"
+      ],
+      "climate": "温暖湿潤、夏は暖かい",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}、夏{なつ}は暖{あたた}かい",
+      "trivia": "ヨーロッパで人口が最も多い国の一つです。",
+      "triviaRuby": "ヨーロッパで人口{じんこう}が最{もっと}も多{おお}い国{くに}の一{ひと}つです。",
+      "neighbors": [
+        "fr",
+        "be",
+        "lu",
+        "ch",
+        "at",
+        "pl"
+      ],
+      "flagQuarters": {
+        "topLeft": "#000000",
+        "topRight": "#DD0000",
+        "bottomLeft": "#FFCE00",
+        "bottomRight": "#DD0000"
+      },
+      "mapLat": 51.2,
+      "mapLon": 10.5,
+      "silhouette": "やや細長い形",
+      "capitalRuby": "ベルリン",
+      "silhouetteRuby": "やや細長{ほそなが}い形{かたち}",
+      "foodsRuby": [
+        "ソーセージ",
+        "プレッツェル"
+      ],
+      "landmarksRuby": [
+        "ブランデンブルク門{もん}"
+      ],
+      "worldHeritageRuby": [
+        "ケルン大{だい}聖堂{せいどう}"
+      ],
+      "animalsRuby": [
+        "イノシシ"
+      ],
+      "resources": "自動車",
+      "resourcesRuby": "自動車{じどうしゃ}"
+    },
+    {
+      "id": "it",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "イタリア",
+      "nameRuby": "イタリア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ローマ",
+      "population": 59000000,
+      "areaKm2": 301340,
+      "foods": [
+        "ピザ",
+        "パスタ"
+      ],
+      "landmarks": [
+        "コロッセオ",
+        "ピサの斜塔"
+      ],
+      "worldHeritage": [
+        "ピサのドゥオモ広場"
+      ],
+      "animals": [
+        "オオカミ"
+      ],
+      "climate": "地中海性で温暖",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}で温暖{おんだん}",
+      "trivia": "ブーツの形をした国として有名です。",
+      "triviaRuby": "ブーツの形{かたち}をした国{くに}として有名{ゆうめい}です。",
+      "neighbors": [
+        "fr",
+        "ch",
+        "at",
+        "si"
+      ],
+      "flagQuarters": {
+        "topLeft": "#009246",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#009246",
+        "bottomRight": "#CE2B37"
+      },
+      "mapLat": 41.9,
+      "mapLon": 12.6,
+      "silhouette": "ブーツの形",
+      "capitalRuby": "ローマ",
+      "silhouetteRuby": "ブーツの形{かたち}",
+      "foodsRuby": [
+        "ピザ",
+        "パスタ"
+      ],
+      "landmarksRuby": [
+        "コロッセオ",
+        "ピサの斜{しゃ}塔{とう}"
+      ],
+      "worldHeritageRuby": [
+        "ピサのドゥオモ広場{ひろば}"
+      ],
+      "animalsRuby": [
+        "オオカミ"
+      ],
+      "resources": "ワイン・織物",
+      "resourcesRuby": "ワイン・織物{おりもの}"
+    },
+    {
+      "id": "es",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "スペイン",
+      "nameRuby": "スペイン",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "マドリード",
+      "population": 47000000,
+      "areaKm2": 505990,
+      "foods": [
+        "パエリア",
+        "タパス"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "サグラダ・ファミリア",
+        "アルハンブラ宮殿"
+      ],
+      "animals": [
+        "イベリアオオカミ"
+      ],
+      "climate": "地中海性と大陸性",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}と大陸{たいりく}性{せい}",
+      "trivia": "イベリア半島の大部分を占めます。",
+      "triviaRuby": "イベリア半島{はんとう}の大{だい}部分{ぶぶん}を占{し}めます。",
+      "neighbors": [
+        "fr",
+        "pt"
+      ],
+      "flagQuarters": {
+        "topLeft": "#AA151B",
+        "topRight": "#F1BF00",
+        "bottomLeft": "#AA151B",
+        "bottomRight": "#AA151B"
+      },
+      "mapLat": 40.5,
+      "mapLon": -3.7,
+      "silhouette": "四角に近い半島",
+      "capitalRuby": "マドリード",
+      "silhouetteRuby": "四角に近い半島{はんとう}",
+      "foodsRuby": [
+        "パエリア",
+        "タパス"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "サグラダ・ファミリア",
+        "アルハンブラ宮殿{きゅうでん}"
+      ],
+      "animalsRuby": [
+        "イベリアオオカミ"
+      ],
+      "resources": "オリーブ油・ワイン",
+      "resourcesRuby": "オリーブ油{ゆ}・ワイン"
+    },
+    {
+      "id": "mx",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "メキシコ",
+      "nameRuby": "メキシコ",
+      "region": "北アメリカ",
+      "regionRuby": "北{きた}アメリカ",
+      "capital": "メキシコシティ",
+      "population": 128000000,
+      "areaKm2": 1964375,
+      "foods": [
+        "タコス"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "テオティワカン",
+        "チチェン・イッツァ"
+      ],
+      "animals": [
+        "ジャガー"
+      ],
+      "climate": "北部は乾燥、南部は熱帯",
+      "climateRuby": "北部{ほくぶ}は乾燥{かんそう}、南部{なんぶ}は熱帯{ねったい}",
+      "trivia": "トルティーヤは主食として親しまれています。",
+      "triviaRuby": "トルティーヤは主食{しゅしょく}として親{した}しまれています。",
+      "neighbors": [
+        "us"
+      ],
+      "flagQuarters": {
+        "topLeft": "#006847",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#006847",
+        "bottomRight": "#CE1126"
+      },
+      "mapLat": 23.6,
+      "mapLon": -102.6,
+      "silhouette": "細長く南に伸びる形",
+      "capitalRuby": "メキシコシティ",
+      "silhouetteRuby": "細長{ほそなが}く南{みなみ}に伸{の}びる形{かたち}",
+      "foodsRuby": [
+        "タコス"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "テオティワカン",
+        "チチェン・イッツァ"
+      ],
+      "animalsRuby": [
+        "ジャガー"
+      ],
+      "resources": "銀・石油",
+      "resourcesRuby": "銀{ぎん}・石油{せきゆ}"
+    },
+    {
+      "id": "in",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "インド",
+      "nameRuby": "インド",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ニューデリー",
+      "population": 1417000000,
+      "areaKm2": 3287263,
+      "foods": [
+        "カレー",
+        "ナン"
+      ],
+      "landmarks": [
+        "インド門",
+        "レッドフォート"
+      ],
+      "worldHeritage": [
+        "タージマハル"
+      ],
+      "animals": [
+        "ベンガルトラ"
+      ],
+      "climate": "モンスーンで雨季と乾季",
+      "climateRuby": "モンスーンで雨季{うき}と乾季{かんき}",
+      "trivia": "世界で2番目に人口が多い国です。",
+      "triviaRuby": "世界で2番目に人口{じんこう}が多{おお}い国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#FF9933",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#138808",
+        "bottomRight": "#000080"
+      },
+      "mapLat": 20.6,
+      "mapLon": 79.0,
+      "silhouette": "三角形に近い大きな形",
+      "capitalRuby": "ニューデリー",
+      "silhouetteRuby": "三角形{さんかっけい}に近{ちか}い大{おお}きな形{かたち}",
+      "foodsRuby": [
+        "カレー",
+        "ナン"
+      ],
+      "landmarksRuby": [
+        "インド門{もん}",
+        "レッドフォート"
+      ],
+      "worldHeritageRuby": [
+        "タージマハル"
+      ],
+      "animalsRuby": [
+        "ベンガルトラ"
+      ],
+      "resources": "IT・綿花",
+      "resourcesRuby": "IT・綿花{めんか}"
+    },
+    {
+      "id": "ru",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "ロシア",
+      "nameRuby": "ロシア",
+      "region": "ヨーロッパ・アジア",
+      "regionRuby": "ヨーロッパ・アジア",
+      "capital": "モスクワ",
+      "population": 144000000,
+      "areaKm2": 17098242,
+      "foods": [
+        "ボルシチ",
+        "ブリヌイ"
+      ],
+      "landmarks": [
+        "赤の広場",
+        "エルミタージュ美術館"
+      ],
+      "worldHeritage": [
+        "クレムリン",
+        "バイカル湖"
+      ],
+      "animals": [
+        "シベリアトラ"
+      ],
+      "climate": "広大で寒冷から温帯まで",
+      "climateRuby": "広大{こうだい}で寒冷{かんれい}から温帯{おんたい}まで",
+      "trivia": "世界で最も面積が広い国です。",
+      "triviaRuby": "世界で最も面積{めんせき}が広{ひろ}い国{くに}です。",
+      "neighbors": [
+        "cn",
+        "mn",
+        "no",
+        "ee",
+        "lv",
+        "lt",
+        "pl"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#0039A6",
+        "bottomLeft": "#D52B1E",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 61.5,
+      "mapLon": 105.3,
+      "silhouette": "巨大な横長の形",
+      "capitalRuby": "モスクワ",
+      "silhouetteRuby": "巨大{きょだい}な横長{よこなが}の形{かたち}",
+      "foodsRuby": [
+        "ボルシチ",
+        "ブリヌイ"
+      ],
+      "landmarksRuby": [
+        "赤{あか}の広場{ひろば}",
+        "エルミタージュ美術館{びじゅつかん}"
+      ],
+      "worldHeritageRuby": [
+        "クレムリン",
+        "バイカル湖{こ}"
+      ],
+      "animalsRuby": [
+        "シベリアトラ"
+      ],
+      "resources": "石油・天然ガス",
+      "resourcesRuby": "石油{せきゆ}・天然{てんねん}ガス"
+    },
+    {
+      "id": "kr",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "韓国",
+      "nameRuby": "韓国{かんこく}",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ソウル",
+      "population": 52000000,
+      "areaKm2": 100363,
+      "foods": [
+        "キムチ",
+        "ビビンバ"
+      ],
+      "landmarks": [
+        "景福宮"
+      ],
+      "worldHeritage": [
+        "昌徳宮",
+        "水原華城"
+      ],
+      "animals": [
+        "トラ"
+      ],
+      "climate": "四季がはっきりした温帯",
+      "climateRuby": "四季{しき}がはっきりした温帯{おんたい}",
+      "trivia": "ハングルという独自の文字を使います。",
+      "triviaRuby": "ハングルという独自{どくじ}の文字{もじ}を使{つか}います。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#CD2E3A",
+        "bottomLeft": "#0047A0",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 36.5,
+      "mapLon": 127.8,
+      "silhouette": "半島の南側",
+      "capitalRuby": "ソウル",
+      "silhouetteRuby": "半島{はんとう}の南側{みなみがわ}",
+      "foodsRuby": [
+        "キムチ",
+        "ビビンバ"
+      ],
+      "landmarksRuby": [
+        "景福宮{けいふくきゅう}"
+      ],
+      "worldHeritageRuby": [
+        "昌徳宮{しょうとくきゅう}",
+        "水原華城{すいげんかじょう}"
+      ],
+      "animalsRuby": [
+        "トラ"
+      ],
+      "resources": "半導体・造船",
+      "resourcesRuby": "半導体{はんどうたい}・造船{ぞうせん}"
+    },
+    {
+      "id": "ca",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "カナダ",
+      "nameRuby": "カナダ",
+      "region": "北アメリカ",
+      "regionRuby": "北{きた}アメリカ",
+      "capital": "オタワ",
+      "population": 39000000,
+      "areaKm2": 9984670,
+      "foods": [
+        "メープルシロップ",
+        "プーティン"
+      ],
+      "landmarks": [
+        "CNタワー",
+        "ナイアガラの滝"
+      ],
+      "worldHeritage": [
+        "カナディアン・ロッキー山脈自然公園群"
+      ],
+      "animals": [
+        "ムース"
+      ],
+      "climate": "北部は寒冷、南部は温暖",
+      "climateRuby": "北部{ほくぶ}は寒冷{かんれい}、南部{なんぶ}は温暖{おんだん}",
+      "trivia": "世界で2番目に面積が広い国です。",
+      "triviaRuby": "世界で2番目に面積{めんせき}が広{ひろ}い国{くに}です。",
+      "neighbors": [
+        "us"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FF0000",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#FF0000",
+        "bottomRight": "#FF0000"
+      },
+      "mapLat": 56.1,
+      "mapLon": -106.3,
+      "silhouette": "横に広い大きな形",
+      "capitalRuby": "オタワ",
+      "silhouetteRuby": "横{よこ}に広{ひろ}い大{おお}きな形{かたち}",
+      "foodsRuby": [
+        "メープルシロップ",
+        "プーティン"
+      ],
+      "landmarksRuby": [
+        "CNタワー",
+        "ナイアガラの滝{たき}"
+      ],
+      "worldHeritageRuby": [
+        "カナディアン・ロッキー山脈{さんみゃく}自然{しぜん}公園{こうえん}群{ぐん}"
+      ],
+      "animalsRuby": [
+        "ムース"
+      ],
+      "resources": "木材・石油",
+      "resourcesRuby": "木材{もくざい}・石油{せきゆ}"
+    },
+    {
+      "id": "za",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "南アフリカ",
+      "nameRuby": "南{みなみ}アフリカ",
+      "region": "アフリカ",
+      "regionRuby": "アフリカ",
+      "capital": "プレトリア",
+      "population": 60000000,
+      "areaKm2": 1221037,
+      "foods": [
+        "バニーチャウ"
+      ],
+      "landmarks": [
+        "テーブルマウンテン"
+      ],
+      "worldHeritage": [
+        "マロティ＝ドラケンスバーグ公園"
+      ],
+      "animals": [
+        "ライオン"
+      ],
+      "climate": "地域により温暖から乾燥",
+      "climateRuby": "地域{ちいき}により温暖{おんだん}から乾燥{かんそう}",
+      "trivia": "3つの首都がある珍しい国です。",
+      "triviaRuby": "3つの首都{しゅと}がある珍{めずら}しい国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#007A4D",
+        "topRight": "#FFB612",
+        "bottomLeft": "#000000",
+        "bottomRight": "#DE3831"
+      },
+      "mapLat": -30.6,
+      "mapLon": 22.9,
+      "silhouette": "やや細長い南端の形",
+      "capitalRuby": "プレトリア",
+      "silhouetteRuby": "やや細長{ほそなが}い南端{なんたん}の形{かたち}",
+      "foodsRuby": [
+        "バニーチャウ"
+      ],
+      "landmarksRuby": [
+        "テーブルマウンテン"
+      ],
+      "worldHeritageRuby": [
+        "マロティ＝ドラケンスバーグ公園{こうえん}"
+      ],
+      "animalsRuby": [
+        "ライオン"
+      ],
+      "resources": "金・ダイヤモンド",
+      "resourcesRuby": "金{きん}・ダイヤモンド"
+    },
+    {
+      "id": "jp",
+      "difficulties": [
+        "easy"
+      ],
+      "name": "日本",
+      "nameRuby": "日本{にっぽん}",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "東京",
+      "population": 123800000,
+      "areaKm2": 377975,
+      "foods": [
+        "寿司",
+        "ラーメン"
+      ],
+      "landmarks": [
+        "東京スカイツリー",
+        "清水寺"
+      ],
+      "worldHeritage": [
+        "富士山",
+        "姫路城"
+      ],
+      "animals": [
+        "ニホンザル"
+      ],
+      "climate": "四季がはっきりした温帯",
+      "climateRuby": "四季{しき}がはっきりした温帯{おんたい}",
+      "trivia": "島国で火山が多い国です。",
+      "triviaRuby": "島国{しまぐに}で火山{かざん}が多{おお}い国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#BC002D",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 36.2,
+      "mapLon": 138.3,
+      "silhouette": "弧を描く列島",
+      "capitalRuby": "東京{とうきょう}",
+      "silhouetteRuby": "弧を描く列島{れっとう}",
+      "foodsRuby": [
+        "寿司{すし}",
+        "ラーメン"
+      ],
+      "landmarksRuby": [
+        "東京{とうきょう}スカイツリー",
+        "清水寺{きよみずでら}"
+      ],
+      "worldHeritageRuby": [
+        "富士山{ふじさん}",
+        "姫路城{ひめじじょう}"
+      ],
+      "animalsRuby": [
+        "ニホンザル"
+      ],
+      "resources": "自動車・電子機器",
+      "resourcesRuby": "自動車{じどうしゃ}・電子{でんし}機器{きき}"
+    },
+    {
+      "id": "nl",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "オランダ",
+      "nameRuby": "オランダ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "アムステルダム",
+      "population": 17500000,
+      "areaKm2": 41543,
+      "foods": [
+        "ストロープワッフル",
+        "ハーリング"
+      ],
+      "landmarks": [
+        "風車"
+      ],
+      "worldHeritage": [
+        "キンデルダイクの風車"
+      ],
+      "climateRuby": "海洋{かいよう}性{せい}で温暖{おんだん}湿潤{しつじゅん}",
+      "trivia": "国土の多くが海抜より低い国です。",
+      "triviaRuby": "国土{こくど}の多{おお}くが海抜{かいばつ}より低{ひく}い国{くに}です。",
+      "neighbors": [
+        "be",
+        "de"
+      ],
+      "flagQuarters": {
+        "topLeft": "#AE1C28",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#21468B",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 52.1,
+      "mapLon": 5.3,
+      "silhouette": "小さな四角形",
+      "capitalRuby": "アムステルダム",
+      "silhouetteRuby": "小{ちい}さな四角形{しかっけい}",
+      "foodsRuby": [
+        "ストロープワッフル",
+        "ハーリング"
+      ],
+      "landmarksRuby": [
+        "風車{かざぐるま}"
+      ],
+      "worldHeritageRuby": [
+        "キンデルダイクの風車{かざぐるま}"
+      ],
+      "animalsRuby": [
+        "フラミンゴ"
+      ],
+      "resources": "チューリップ・乳製品",
+      "resourcesRuby": "チューリップ・乳製品{にゅうせいひん}",
+      "animals": [
+        "フラミンゴ"
+      ],
+      "climate": "海洋性で温暖湿潤"
+    },
+    {
+      "id": "se",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "スウェーデン",
+      "nameRuby": "スウェーデン",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ストックホルム",
+      "population": 10500000,
+      "areaKm2": 450295,
+      "foods": [
+        "ミートボール",
+        "サーモン"
+      ],
+      "landmarks": [
+        "ガムラスタン"
+      ],
+      "worldHeritage": [
+        "ドロットニングホルム宮殿"
+      ],
+      "animals": [
+        "ヘラジカ"
+      ],
+      "climate": "北部は亜寒帯、南部は温帯",
+      "climateRuby": "北部{ほくぶ}は亜寒帯{あかんたい}、南部{なんぶ}は温帯{おんたい}",
+      "trivia": "ノーベル賞の選考国の一つです。",
+      "triviaRuby": "ノーベル賞{しょう}の選考{せんこう}国{こく}の一{ひと}つです。",
+      "neighbors": [
+        "no"
+      ],
+      "flagQuarters": {
+        "topLeft": "#006AA7",
+        "topRight": "#FECC00",
+        "bottomLeft": "#006AA7",
+        "bottomRight": "#006AA7"
+      },
+      "mapLat": 60.1,
+      "mapLon": 18.6,
+      "silhouette": "細長く南北に伸びる形",
+      "capitalRuby": "ストックホルム",
+      "silhouetteRuby": "細長{ほそなが}く南北{なんぼく}に伸{の}びる形{かたち}",
+      "foodsRuby": [
+        "ミートボール",
+        "サーモン"
+      ],
+      "landmarksRuby": [
+        "ガムラスタン"
+      ],
+      "worldHeritageRuby": [
+        "ドロットニングホルム宮殿{きゅうでん}"
+      ],
+      "animalsRuby": [
+        "ヘラジカ"
+      ],
+      "resources": "鉄鉱石・紙パルプ",
+      "resourcesRuby": "鉄鉱{てっこう}石{せき}・紙{し}パルプ"
+    },
+    {
+      "id": "ar",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "アルゼンチン",
+      "nameRuby": "アルゼンチン",
+      "region": "南アメリカ",
+      "regionRuby": "南{みなみ}アメリカ",
+      "capital": "ブエノスアイレス",
+      "population": 46000000,
+      "areaKm2": 2780400,
+      "foods": [
+        "アサード",
+        "エンパナーダ"
+      ],
+      "landmarks": [
+        "ペリト・モレノ氷河"
+      ],
+      "worldHeritage": [
+        "イグアスの滝"
+      ],
+      "animals": [
+        "グアナコ"
+      ],
+      "climate": "北部は熱帯、南部は温帯",
+      "climateRuby": "北部{ほくぶ}は熱帯{ねったい}、南部{なんぶ}は温帯{おんたい}",
+      "trivia": "パタゴニア地方は南極に近いです。",
+      "triviaRuby": "パタゴニア地方{ちほう}は南極{なんきょく}に近{ちか}いです。",
+      "neighbors": [
+        "br",
+        "uy"
+      ],
+      "flagQuarters": {
+        "topLeft": "#74ACDF",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#74ACDF",
+        "bottomRight": "#74ACDF"
+      },
+      "mapLat": -38.4,
+      "mapLon": -63.6,
+      "silhouette": "細長く南に伸びる形",
+      "capitalRuby": "ブエノスアイレス",
+      "silhouetteRuby": "細長{ほそなが}く南{みなみ}に伸{の}びる形{かたち}",
+      "foodsRuby": [
+        "アサード",
+        "エンパナーダ"
+      ],
+      "landmarksRuby": [
+        "ペリト・モレノ氷河{ひょうが}"
+      ],
+      "worldHeritageRuby": [
+        "イグアスの滝{たき}"
+      ],
+      "animalsRuby": [
+        "グアナコ"
+      ],
+      "resources": "牛肉・大豆",
+      "resourcesRuby": "牛肉{ぎゅうにく}・大豆{だいず}"
+    },
+    {
+      "id": "tr",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "トルコ",
+      "nameRuby": "トルコ",
+      "region": "アジア・ヨーロッパ",
+      "regionRuby": "アジア・ヨーロッパ",
+      "capital": "アンカラ",
+      "population": 85000000,
+      "areaKm2": 783562,
+      "foods": [
+        "ケバブ",
+        "バクラヴァ"
+      ],
+      "landmarks": [
+        "アヤソフィア"
+      ],
+      "worldHeritage": [
+        "イスタンブール歴史地区",
+        "トロイ遺跡"
+      ],
+      "animals": [
+        "オオヤマネコ"
+      ],
+      "climate": "地中海性と大陸性",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}と大陸{たいりく}性{せい}",
+      "trivia": "アジアとヨーロッパにまたがる国です。",
+      "triviaRuby": "アジアとヨーロッパにまたがる国{くに}です。",
+      "neighbors": [
+        "gr"
+      ],
+      "flagQuarters": {
+        "topLeft": "#E30A17",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#E30A17",
+        "bottomRight": "#E30A17"
+      },
+      "mapLat": 38.9,
+      "mapLon": 35.2,
+      "silhouette": "横長の橋のような形",
+      "capitalRuby": "アンカラ",
+      "silhouetteRuby": "横長{よこなが}の橋{はし}のような形{かたち}",
+      "foodsRuby": [
+        "ケバブ",
+        "バクラヴァ"
+      ],
+      "landmarksRuby": [
+        "アヤソフィア"
+      ],
+      "worldHeritageRuby": [
+        "イスタンブール歴史{れきし}地区{ちく}",
+        "トロイ遺跡{いせき}"
+      ],
+      "animalsRuby": [
+        "オオヤマネコ"
+      ],
+      "resources": "綿花・トルコ石",
+      "resourcesRuby": "綿花{めんか}・トルコ石{せき}"
+    },
+    {
+      "id": "vn",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ベトナム",
+      "nameRuby": "ベトナム",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ハノイ",
+      "population": 98000000,
+      "areaKm2": 331212,
+      "foods": [
+        "フォー",
+        "バインミー"
+      ],
+      "landmarks": [
+        "ホーチミン廟"
+      ],
+      "worldHeritage": [
+        "ハロン湾",
+        "ホイアン"
+      ],
+      "animals": [
+        "インドシナトラ"
+      ],
+      "climate": "熱帯モンスーン",
+      "climateRuby": "熱帯{ねったい}モンスーン",
+      "trivia": "細長いS字型の国です。",
+      "triviaRuby": "細長{ほそなが}いS字{じ}型{がた}の国{くに}です。",
+      "neighbors": [
+        "cn",
+        "la",
+        "kh"
+      ],
+      "flagQuarters": {
+        "topLeft": "#DA251D",
+        "topRight": "#FFFF00",
+        "bottomLeft": "#DA251D",
+        "bottomRight": "#DA251D"
+      },
+      "mapLat": 14.1,
+      "mapLon": 108.3,
+      "silhouette": "S字に曲がった細長い形",
+      "capitalRuby": "ハノイ",
+      "silhouetteRuby": "S字{じ}に曲{ま}がった細長{ほそなが}い形{かたち}",
+      "foodsRuby": [
+        "フォー",
+        "バインミー"
+      ],
+      "landmarksRuby": [
+        "ホーチミン廟{びょう}"
+      ],
+      "worldHeritageRuby": [
+        "ハロン湾{わん}",
+        "ホイアン"
+      ],
+      "animalsRuby": [
+        "インドシナトラ"
+      ],
+      "resources": "コーヒー・米",
+      "resourcesRuby": "コーヒー・米"
+    },
+    {
+      "id": "th",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "タイ",
+      "nameRuby": "タイ",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "バンコク",
+      "population": 70000000,
+      "areaKm2": 513120,
+      "foods": [
+        "トムヤムクン",
+        "パッタイ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "アユタヤ歴史公園"
+      ],
+      "animals": [
+        "ゾウ"
+      ],
+      "climate": "熱帯モンスーンで高温多湿",
+      "climateRuby": "熱帯{ねったい}モンスーンで高温{こうおん}多湿{たしつ}",
+      "trivia": "「微笑みの国」と呼ばれます。",
+      "triviaRuby": "「微笑{びしょう}みの国{くに}」と呼{よ}ばれます。",
+      "neighbors": [
+        "my",
+        "la",
+        "kh"
+      ],
+      "flagQuarters": {
+        "topLeft": "#A51931",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#2D2A4A",
+        "bottomRight": "#A51931"
+      },
+      "mapLat": 15.9,
+      "mapLon": 100.9,
+      "silhouette": "縦長の形",
+      "capitalRuby": "バンコク",
+      "silhouetteRuby": "縦長{たてなが}の形{かたち}",
+      "foodsRuby": [
+        "トムヤムクン",
+        "パッタイ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "アユタヤ歴史{れきし}公園{こうえん}"
+      ],
+      "animalsRuby": [
+        "ゾウ"
+      ],
+      "resources": "米・天然ゴム",
+      "resourcesRuby": "米・天然{てんねん}ゴム"
+    },
+    {
+      "id": "pl",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ポーランド",
+      "nameRuby": "ポーランド",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ワルシャワ",
+      "population": 38000000,
+      "areaKm2": 312696,
+      "foods": [
+        "ピエロギ"
+      ],
+      "landmarks": [
+        "ワルシャワ旧市街"
+      ],
+      "worldHeritage": [
+        "クラクフ歴史地区",
+        "アウシュヴィッツ"
+      ],
+      "animals": [
+        "バイソン"
+      ],
+      "climate": "温帯大陸性",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}",
+      "trivia": "ニコラウス・コペルニクスの故郷です。",
+      "triviaRuby": "ニコラウス・コペルニクスの故郷{こきょう}です。",
+      "neighbors": [
+        "de",
+        "sk",
+        "lt",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#DC143C",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 51.9,
+      "mapLon": 19.1,
+      "silhouette": "やや四角い形",
+      "capitalRuby": "ワルシャワ",
+      "silhouetteRuby": "やや四角{しかく}い形{かたち}",
+      "foodsRuby": [
+        "ピエロギ"
+      ],
+      "landmarksRuby": [
+        "ワルシャワ旧{きゅう}市街{しがい}"
+      ],
+      "worldHeritageRuby": [
+        "クラクフ歴史{れきし}地区{ちく}",
+        "アウシュヴィッツ"
+      ],
+      "animalsRuby": [
+        "バイソン"
+      ],
+      "resources": "石炭・銀",
+      "resourcesRuby": "石炭{せきたん}・銀{ぎん}"
+    },
+    {
+      "id": "gr",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ギリシャ",
+      "nameRuby": "ギリシャ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "アテネ",
+      "population": 10500000,
+      "areaKm2": 131957,
+      "foods": [
+        "ムサカ",
+        "ギロピタ"
+      ],
+      "landmarks": [
+        "パルテノン神殿",
+        "サントリーニ島"
+      ],
+      "worldHeritage": [
+        "アクロポリス",
+        "デルフィ"
+      ],
+      "animals": [
+        "イルカ"
+      ],
+      "climate": "地中海性で温暖",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}で温暖{おんだん}",
+      "trivia": "オリンピック発祥の地です。",
+      "triviaRuby": "オリンピック発祥{はっしょう}の地{ち}です。",
+      "neighbors": [
+        "tr",
+        "mk"
+      ],
+      "flagQuarters": {
+        "topLeft": "#0D5EAF",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#0D5EAF",
+        "bottomRight": "#0D5EAF"
+      },
+      "mapLat": 39.1,
+      "mapLon": 21.8,
+      "silhouette": "本土と多くの島々",
+      "capitalRuby": "アテネ",
+      "silhouetteRuby": "本土{ほんど}と多{おお}くの島々{しまじま}",
+      "foodsRuby": [
+        "ムサカ",
+        "ギロピタ"
+      ],
+      "landmarksRuby": [
+        "パルテノン神殿{しんでん}",
+        "サントリーニ島{しま}"
+      ],
+      "worldHeritageRuby": [
+        "アクロポリス",
+        "デルフィ"
+      ],
+      "animalsRuby": [
+        "イルカ"
+      ],
+      "resources": "オリーブ油・大理石",
+      "resourcesRuby": "オリーブ油{ゆ}・大理石{だいりせき}"
+    },
+    {
+      "id": "pt",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ポルトガル",
+      "nameRuby": "ポルトガル",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "リスボン",
+      "population": 10300000,
+      "areaKm2": 92090,
+      "foods": [
+        "パステル・デ・ナタ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "ベレンの塔"
+      ],
+      "animals": [
+        "イルカ"
+      ],
+      "climate": "地中海性で温暖",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}で温暖{おんだん}",
+      "trivia": "かつて大航海時代の先駆けでした。",
+      "triviaRuby": "かつて大{だい}航海{こうかい}時代{じだい}の先駆{さきが}けでした。",
+      "neighbors": [
+        "es"
+      ],
+      "flagQuarters": {
+        "topLeft": "#006600",
+        "topRight": "#FF0000",
+        "bottomLeft": "#006600",
+        "bottomRight": "#FFFF00"
+      },
+      "mapLat": 39.4,
+      "mapLon": -8.2,
+      "silhouette": "西海岸に沿った細長い形",
+      "capitalRuby": "リスボン",
+      "silhouetteRuby": "西{にし}海岸{かいがん}に沿{そ}った細長{ほそなが}い形{かたち}",
+      "foodsRuby": [
+        "パステル・デ・ナタ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "ベレンの塔{とう}"
+      ],
+      "animalsRuby": [
+        "イルカ"
+      ],
+      "resources": "コルク・ワイン",
+      "resourcesRuby": "コルク・ワイン"
+    },
+    {
+      "id": "no",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ノルウェー",
+      "nameRuby": "ノルウェー",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "オスロ",
+      "population": 5500000,
+      "areaKm2": 385207,
+      "foods": [
+        "サーモン"
+      ],
+      "landmarks": [
+        "フィヨルド",
+        "北極圏"
+      ],
+      "worldHeritage": [
+        "ブリッゲン"
+      ],
+      "animals": [
+        "ヘラジカ"
+      ],
+      "climate": "北部は亜寒帯、沿岸は温暖",
+      "climateRuby": "北部{ほくぶ}は亜寒帯{あかんたい}、沿岸{えんがん}は温暖{おんだん}",
+      "trivia": "オーロラが見られる国です。",
+      "triviaRuby": "オーロラが見{み}られる国{くに}です。",
+      "neighbors": [
+        "se",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#BA0C2F",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#00205B",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 60.5,
+      "mapLon": 8.5,
+      "silhouette": "細長く湾曲した西海岸",
+      "capitalRuby": "オスロ",
+      "silhouetteRuby": "細長{ほそなが}く湾曲{わんきょく}した西{にし}海岸{かいがん}",
+      "foodsRuby": [
+        "サーモン"
+      ],
+      "landmarksRuby": [
+        "フィヨルド",
+        "北極圏{ほっきょくけん}"
+      ],
+      "worldHeritageRuby": [
+        "ブリッゲン"
+      ],
+      "animalsRuby": [
+        "ヘラジカ"
+      ],
+      "resources": "石油・水産",
+      "resourcesRuby": "石油{せきゆ}・水産{すいさん}"
+    },
+    {
+      "id": "dk",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "デンマーク",
+      "nameRuby": "デンマーク",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "コペンハーゲン",
+      "population": 5900000,
+      "areaKm2": 43094,
+      "foods": [],
+      "landmarks": [
+        "リトルマーメイド像",
+        "チボリ公園"
+      ],
+      "worldHeritage": [
+        "ロスキレ大聖堂"
+      ],
+      "animals": [
+        "ハクチョウ"
+      ],
+      "climate": "温暖湿潤",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}",
+      "trivia": "アンデルセン童話の国です。",
+      "triviaRuby": "アンデルセン童話{どうわ}の国{くに}です。",
+      "neighbors": [
+        "de"
+      ],
+      "flagQuarters": {
+        "topLeft": "#C8102E",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#C8102E",
+        "bottomRight": "#C8102E"
+      },
+      "mapLat": 56.3,
+      "mapLon": 9.5,
+      "silhouette": "半島と島々",
+      "capitalRuby": "コペンハーゲン",
+      "silhouetteRuby": "半島{はんとう}と島々{しまじま}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "リトルマーメイド像{ぞう}",
+        "チボリ公園{こうえん}"
+      ],
+      "worldHeritageRuby": [
+        "ロスキレ大{だい}聖堂{せいどう}"
+      ],
+      "animalsRuby": [
+        "ハクチョウ"
+      ],
+      "resources": "豚肉・風力発電",
+      "resourcesRuby": "豚肉{ぶたにく}・風力{ふうりょく}発電{はつでん}"
+    },
+    {
+      "id": "ch",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "スイス",
+      "nameRuby": "スイス",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ベルン",
+      "population": 8700000,
+      "areaKm2": 41285,
+      "foods": [
+        "チーズフォンデュ",
+        "ラクレット"
+      ],
+      "landmarks": [
+        "マッターホルン",
+        "ジュネーブ湖"
+      ],
+      "worldHeritage": [
+        "ベルン旧市街"
+      ],
+      "animals": [
+        "アイベックス"
+      ],
+      "climate": "アルプスで地域差が大きい",
+      "climateRuby": "アルプスで地域{ちいき}差{さ}が大{おお}きい",
+      "trivia": "4つの公用語がある国です。",
+      "triviaRuby": "4つの公用{こうよう}語{ご}がある国{くに}です。",
+      "neighbors": [
+        "fr",
+        "de",
+        "it",
+        "at"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FF0000",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#FF0000",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 46.8,
+      "mapLon": 8.2,
+      "silhouette": "コンパクトな内陸国",
+      "capitalRuby": "ベルン",
+      "silhouetteRuby": "コンパクトな内陸{ないりく}国{こく}",
+      "foodsRuby": [
+        "チーズフォンデュ",
+        "ラクレット"
+      ],
+      "landmarksRuby": [
+        "マッターホルン",
+        "ジュネーブ湖{こ}"
+      ],
+      "worldHeritageRuby": [
+        "ベルン旧{きゅう}市街{しがい}"
+      ],
+      "animalsRuby": [
+        "アイベックス"
+      ],
+      "resources": "時計・チョコレート",
+      "resourcesRuby": "時計{とけい}・チョコレート"
+    },
+    {
+      "id": "at",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "オーストリア",
+      "nameRuby": "オーストリア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ウィーン",
+      "population": 9100000,
+      "areaKm2": 83879,
+      "foods": [
+        "ザッハトルテ"
+      ],
+      "landmarks": [
+        "ホーフブルク宮殿"
+      ],
+      "worldHeritage": [
+        "シェーンブルン宮殿",
+        "ザルツブルク歴史地区"
+      ],
+      "animals": [
+        "アイベックス"
+      ],
+      "climate": "温帯大陸性、アルプスは寒冷",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}、アルプスは寒冷{かんれい}",
+      "trivia": "モーツァルトの故郷として有名です。",
+      "triviaRuby": "モーツァルトの故郷{こきょう}として有名{ゆうめい}です。",
+      "neighbors": [
+        "de",
+        "ch",
+        "it",
+        "si",
+        "sk"
+      ],
+      "flagQuarters": {
+        "topLeft": "#ED2939",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#ED2939",
+        "bottomRight": "#ED2939"
+      },
+      "mapLat": 47.5,
+      "mapLon": 14.6,
+      "silhouette": "東西に細長い形",
+      "capitalRuby": "ウィーン",
+      "silhouetteRuby": "東西{とうざい}に細長{ほそなが}い形{かたち}",
+      "foodsRuby": [
+        "ザッハトルテ"
+      ],
+      "landmarksRuby": [
+        "ホーフブルク宮殿{きゅうでん}"
+      ],
+      "worldHeritageRuby": [
+        "シェーンブルン宮殿{きゅうでん}",
+        "ザルツブルク歴史{れきし}地区{ちく}"
+      ],
+      "animalsRuby": [
+        "アイベックス"
+      ],
+      "resources": "水力発電・観光",
+      "resourcesRuby": "水力{すいりょく}発電{はつでん}・観光{かんこう}"
+    },
+    {
+      "id": "be",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "ベルギー",
+      "nameRuby": "ベルギー",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ブリュッセル",
+      "population": 11600000,
+      "areaKm2": 30528,
+      "foods": [
+        "ワッフル",
+        "チョコレート"
+      ],
+      "landmarks": [
+        "アトミウム"
+      ],
+      "worldHeritage": [
+        "グラン・プラス"
+      ],
+      "animals": [
+        "ハクチョウ"
+      ],
+      "climate": "温暖湿潤",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}",
+      "trivia": "EUの本部がある国です。",
+      "triviaRuby": "EUの本部{ほんぶ}がある国{くに}です。",
+      "neighbors": [
+        "fr",
+        "nl",
+        "de",
+        "lu"
+      ],
+      "flagQuarters": {
+        "topLeft": "#000000",
+        "topRight": "#FDDA24",
+        "bottomLeft": "#EF3340",
+        "bottomRight": "#000000"
+      },
+      "mapLat": 50.5,
+      "mapLon": 4.5,
+      "silhouette": "小さな横長の形",
+      "capitalRuby": "ブリュッセル",
+      "silhouetteRuby": "小{ちい}さな横長{よこなが}の形{かたち}",
+      "foodsRuby": [
+        "ワッフル",
+        "チョコレート"
+      ],
+      "landmarksRuby": [
+        "アトミウム"
+      ],
+      "worldHeritageRuby": [
+        "グラン・プラス"
+      ],
+      "animalsRuby": [
+        "ハクチョウ"
+      ],
+      "resources": "チョコレート・ダイヤモンド",
+      "resourcesRuby": "チョコレート・ダイヤモンド"
+    },
+    {
+      "id": "ie",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "アイルランド",
+      "nameRuby": "アイルランド",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ダブリン",
+      "population": 5100000,
+      "areaKm2": 70273,
+      "foods": [
+        "アイリッシュシチュー",
+        "ソーダブレッド"
+      ],
+      "landmarks": [
+        "モハーの断崖"
+      ],
+      "worldHeritage": [
+        "ブルー・ナ・ボーニュ"
+      ],
+      "animals": [
+        "アザラシ"
+      ],
+      "climate": "温暖湿潤で雨が多い",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}で雨{あめ}が多{おお}い",
+      "trivia": "緑の島と呼ばれる国です。",
+      "triviaRuby": "緑{みどり}の島{しま}と呼{よ}ばれる国{くに}です。",
+      "neighbors": [
+        "gb"
+      ],
+      "flagQuarters": {
+        "topLeft": "#169B62",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#FF883E",
+        "bottomRight": "#169B62"
+      },
+      "mapLat": 53.4,
+      "mapLon": -8.2,
+      "silhouette": "丸みを帯びた島",
+      "capitalRuby": "ダブリン",
+      "silhouetteRuby": "丸{まる}みを帯{お}びた島{しま}",
+      "foodsRuby": [
+        "アイリッシュシチュー",
+        "ソーダブレッド"
+      ],
+      "landmarksRuby": [
+        "モハーの断崖{だんがい}"
+      ],
+      "worldHeritageRuby": [
+        "ブルー・ナ・ボーニュ"
+      ],
+      "animalsRuby": [
+        "アザラシ"
+      ],
+      "resources": "乳製品・医薬品",
+      "resourcesRuby": "乳製品{にゅうせいひん}・医薬品{いやくひん}"
+    },
+    {
+      "id": "ph",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "フィリピン",
+      "nameRuby": "フィリピン",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "マニラ",
+      "population": 115000000,
+      "areaKm2": 300000,
+      "foods": [
+        "アドボ",
+        "レチョン"
+      ],
+      "landmarks": [
+        "マニラ湾"
+      ],
+      "worldHeritage": [
+        "バナウェの棚田"
+      ],
+      "animals": [
+        "タマラウ"
+      ],
+      "climate": "熱帯モンスーン",
+      "climateRuby": "熱帯{ねったい}モンスーン",
+      "trivia": "7000以上の島からなる国です。",
+      "triviaRuby": "7000以上{いじょう}の島{しま}からなる国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#0038A8",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#CE1126",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 12.9,
+      "mapLon": 121.8,
+      "silhouette": "多くの島が弧状に並ぶ",
+      "capitalRuby": "マニラ",
+      "silhouetteRuby": "多{おお}くの島{しま}が弧状{こじょう}に並{なら}ぶ",
+      "foodsRuby": [
+        "アドボ",
+        "レチョン"
+      ],
+      "landmarksRuby": [
+        "マニラ湾{わん}"
+      ],
+      "worldHeritageRuby": [
+        "バナウェの棚田{ただ}"
+      ],
+      "animalsRuby": [
+        "タマラウ"
+      ],
+      "resources": "ココナッツ・バナナ",
+      "resourcesRuby": "ココナッツ・バナナ"
+    },
+    {
+      "id": "my",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "マレーシア",
+      "nameRuby": "マレーシア",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "クアラルンプール",
+      "population": 34000000,
+      "areaKm2": 330803,
+      "foods": [
+        "ナシレマ",
+        "サテ"
+      ],
+      "landmarks": [
+        "ペトロナスツインタワー",
+        "ランカウイ島"
+      ],
+      "worldHeritage": [
+        "マラッカ"
+      ],
+      "animals": [
+        "オランウータン"
+      ],
+      "climate": "熱帯雨林気候",
+      "climateRuby": "熱帯雨林気候{きこう}",
+      "trivia": "マレー半島とボルネオ島にまたがります。",
+      "triviaRuby": "マレー半島{はんとう}とボルネオ島{しま}にまたがります。",
+      "neighbors": [
+        "th",
+        "id"
+      ],
+      "flagQuarters": {
+        "topLeft": "#010066",
+        "topRight": "#CC0000",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#FFCC00"
+      },
+      "mapLat": 4.2,
+      "mapLon": 101.9,
+      "silhouette": "二つの地域に分かれる形",
+      "capitalRuby": "クアラルンプール",
+      "silhouetteRuby": "二{ふた}つの地域{ちいき}に分{わ}かれる形{かたち}",
+      "foodsRuby": [
+        "ナシレマ",
+        "サテ"
+      ],
+      "landmarksRuby": [
+        "ペトロナスツインタワー",
+        "ランカウイ島{しま}"
+      ],
+      "worldHeritageRuby": [
+        "マラッカ"
+      ],
+      "animalsRuby": [
+        "オランウータン"
+      ],
+      "resources": "パーム油・錫",
+      "resourcesRuby": "パーム油{ゆ}・錫{すず}"
+    },
+    {
+      "id": "id",
+      "difficulties": [
+        "medium"
+      ],
+      "name": "インドネシア",
+      "nameRuby": "インドネシア",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ジャカルタ",
+      "population": 276000000,
+      "areaKm2": 1904569,
+      "foods": [
+        "ナシゴレン",
+        "サテ"
+      ],
+      "landmarks": [
+        "コモド島"
+      ],
+      "worldHeritage": [
+        "ボロブドゥール",
+        "プランバナン"
+      ],
+      "animals": [
+        "コモドオオトカゲ"
+      ],
+      "climate": "熱帯で一年中暑い",
+      "climateRuby": "熱帯{ねったい}で一年中{いちねんじゅう}暑{あつ}い",
+      "trivia": "世界最大の群島国家です。",
+      "triviaRuby": "世界最大の群島{ぐんとう}国家{こっか}です。",
+      "neighbors": [
+        "my",
+        "pg"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FF0000",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#FF0000",
+        "bottomRight": "#FF0000"
+      },
+      "mapLat": -0.8,
+      "mapLon": 113.9,
+      "silhouette": "弧状に広がる島々",
+      "capitalRuby": "ジャカルタ",
+      "silhouetteRuby": "弧状{こじょう}に広{ひろ}がる島々{しまじま}",
+      "foodsRuby": [
+        "ナシゴレン",
+        "サテ"
+      ],
+      "landmarksRuby": [
+        "コモド島{しま}"
+      ],
+      "worldHeritageRuby": [
+        "ボロブドゥール",
+        "プランバナン"
+      ],
+      "animalsRuby": [
+        "コモドオオトカゲ"
+      ],
+      "resources": "パーム油・コーヒー",
+      "resourcesRuby": "パーム油{ゆ}・コーヒー"
+    },
+    {
+      "id": "lu",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "ルクセンブルク",
+      "nameRuby": "ルクセンブルク",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ルクセンブルク",
+      "population": 650000,
+      "areaKm2": 2586,
+      "foods": [
+        "クネーデル"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "ルクセンブルク旧市街"
+      ],
+      "animals": [
+        "リス"
+      ],
+      "climate": "温暖湿潤",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}",
+      "trivia": "世界で最も小さい国の一つです。",
+      "triviaRuby": "世界{せかい}で最{もっと}も小{ちい}さい国{くに}の一{ひと}つです。",
+      "neighbors": [
+        "be",
+        "fr",
+        "de"
+      ],
+      "flagQuarters": {
+        "topLeft": "#EF3340",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#00A1DE",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 49.8,
+      "mapLon": 6.1,
+      "silhouette": "小さな四角形",
+      "capitalRuby": "ルクセンブルク",
+      "silhouetteRuby": "小{ちい}さな四角形{しかっけい}",
+      "foodsRuby": [
+        "クネーデル"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "ルクセンブルク旧{きゅう}市街{しがい}"
+      ],
+      "animalsRuby": [
+        "リス"
+      ],
+      "resources": "鉄鋼",
+      "resourcesRuby": "鉄鋼{てっこう}"
+    },
+    {
+      "id": "bt",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "ブータン",
+      "nameRuby": "ブータン",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ティンプー",
+      "population": 780000,
+      "areaKm2": 38394,
+      "foods": [
+        "モモ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [],
+      "animals": [],
+      "climate": "高地で寒暖差が大きい",
+      "climateRuby": "高地{こうち}で寒暖{かんだん}差{さ}が大{おお}きい",
+      "trivia": "国民総幸福量を重視する国です。",
+      "triviaRuby": "国民{こくみん}総{そう}幸福{こうふく}量{りょう}を重視{じゅうし}する国{くに}です。",
+      "neighbors": [
+        "cn",
+        "in"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FF4E12",
+        "topRight": "#FF4E12",
+        "bottomLeft": "#FCD116",
+        "bottomRight": "#FF4E12"
+      },
+      "mapLat": 27.5,
+      "mapLon": 90.4,
+      "silhouette": "小さく山岳に囲まれた形",
+      "capitalRuby": "ティンプー",
+      "silhouetteRuby": "小{ちい}さく山岳{さんがく}に囲{かこ}まれた形{かたち}",
+      "foodsRuby": [
+        "モモ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [],
+      "animalsRuby": [],
+      "resources": "水力発電",
+      "resourcesRuby": "水力{すいりょく}発電{はつでん}"
+    },
+    {
+      "id": "uy",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "ウルグアイ",
+      "nameRuby": "ウルグアイ",
+      "region": "南アメリカ",
+      "regionRuby": "南{みなみ}アメリカ",
+      "capital": "モンテビデオ",
+      "population": 3500000,
+      "areaKm2": 176215,
+      "foods": [
+        "アサード"
+      ],
+      "landmarks": [
+        "プンタ・デル・エステ"
+      ],
+      "worldHeritage": [
+        "コロニア・デル・サクラメント"
+      ],
+      "animals": [
+        "ヌートリア"
+      ],
+      "climate": "温暖湿潤",
+      "climateRuby": "温暖{おんだん}湿潤{しつじゅん}",
+      "trivia": "南アメリカで2番目に小さい国です。",
+      "triviaRuby": "南{みなみ}アメリカで2番目{ばんめ}に小{ちい}さい国{くに}です。",
+      "neighbors": [
+        "ar",
+        "br"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#0038A8",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": -32.5,
+      "mapLon": -55.8,
+      "silhouette": "細長い帯状の形",
+      "capitalRuby": "モンテビデオ",
+      "silhouetteRuby": "細長{ほそなが}い帯状{おびじょう}の形{かたち}",
+      "foodsRuby": [
+        "アサード"
+      ],
+      "landmarksRuby": [
+        "プンタ・デル・エステ"
+      ],
+      "worldHeritageRuby": [
+        "コロニア・デル・サクラメント"
+      ],
+      "animalsRuby": [
+        "ヌートリア"
+      ],
+      "resources": "牛肉・羊毛",
+      "resourcesRuby": "牛肉{ぎゅうにく}・羊毛{ようもう}"
+    },
+    {
+      "id": "ee",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "エストニア",
+      "nameRuby": "エストニア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "タリン",
+      "population": 1300000,
+      "areaKm2": 45228,
+      "foods": [],
+      "landmarks": [
+        "タルトゥ大学"
+      ],
+      "worldHeritage": [
+        "タリン歴史地区"
+      ],
+      "animals": [
+        "オオカミ"
+      ],
+      "climate": "温帯で夏は短い",
+      "climateRuby": "温帯{おんたい}で夏{なつ}は短{みじか}い",
+      "trivia": "スカイプが生まれた国です。",
+      "triviaRuby": "スカイプが生{う}まれた国{くに}です。",
+      "neighbors": [
+        "lv",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#0072CE",
+        "topRight": "#000000",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#0072CE"
+      },
+      "mapLat": 58.6,
+      "mapLon": 25.0,
+      "silhouette": "北に向かって細長い形",
+      "capitalRuby": "タリン",
+      "silhouetteRuby": "北{きた}に向{む}かって細長{ほそなが}い形{かたち}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "タルトゥ大学{だいがく}"
+      ],
+      "worldHeritageRuby": [
+        "タリン歴史{れきし}地区{ちく}"
+      ],
+      "animalsRuby": [
+        "オオカミ"
+      ],
+      "resources": "IT・林業",
+      "resourcesRuby": "IT・林業{りんぎょう}"
+    },
+    {
+      "id": "lv",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "ラトビア",
+      "nameRuby": "ラトビア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "リガ",
+      "population": 1900000,
+      "areaKm2": 64559,
+      "foods": [
+        "グレービー"
+      ],
+      "landmarks": [
+        "リガ旧市街"
+      ],
+      "worldHeritage": [
+        "リガ歴史地区"
+      ],
+      "animals": [
+        "オオカミ"
+      ],
+      "climate": "温帯で冬は寒い",
+      "climateRuby": "温帯{おんたい}で冬{ふゆ}は寒{さむ}い",
+      "trivia": "バルト三国の中央に位置します。",
+      "triviaRuby": "バルト三{さん}国{こく}の中央{ちゅうおう}に位置{いち}します。",
+      "neighbors": [
+        "ee",
+        "lt",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#9E3039",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#9E3039",
+        "bottomRight": "#9E3039"
+      },
+      "mapLat": 56.9,
+      "mapLon": 24.6,
+      "silhouette": "細長い横長の形",
+      "capitalRuby": "リガ",
+      "silhouetteRuby": "細長{ほそなが}い横長{よこなが}の形{かたち}",
+      "foodsRuby": [
+        "グレービー"
+      ],
+      "landmarksRuby": [
+        "リガ旧{きゅう}市街{しがい}"
+      ],
+      "worldHeritageRuby": [
+        "リガ歴史{れきし}地区{ちく}"
+      ],
+      "animalsRuby": [
+        "オオカミ"
+      ],
+      "resources": "木材・リネン",
+      "resourcesRuby": "木材{もくざい}・リネン"
+    },
+    {
+      "id": "lt",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "リトアニア",
+      "nameRuby": "リトアニア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ヴィリニュス",
+      "population": 2800000,
+      "areaKm2": 65300,
+      "foods": [],
+      "landmarks": [
+        "トラカイ城"
+      ],
+      "worldHeritage": [
+        "ヴィリニュス歴史地区"
+      ],
+      "animals": [
+        "オオカミ"
+      ],
+      "climate": "温帯大陸性",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}",
+      "trivia": "バルト三国の最南端です。",
+      "triviaRuby": "バルト三{さん}国{こく}の最南端{さいなんたん}です。",
+      "neighbors": [
+        "lv",
+        "pl",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FDB913",
+        "topRight": "#006A44",
+        "bottomLeft": "#C1272D",
+        "bottomRight": "#FDB913"
+      },
+      "mapLat": 55.2,
+      "mapLon": 23.9,
+      "silhouette": "細長い横長の形",
+      "capitalRuby": "ヴィリニュス",
+      "silhouetteRuby": "細長{ほそなが}い横長{よこなが}の形{かたち}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "トラカイ城{じょう}"
+      ],
+      "worldHeritageRuby": [
+        "ヴィリニュス歴史{れきし}地区{ちく}"
+      ],
+      "animalsRuby": [
+        "オオカミ"
+      ],
+      "resources": "琥珀・リネン",
+      "resourcesRuby": "琥珀{こはく}・リネン"
+    },
+    {
+      "id": "sk",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "スロバキア",
+      "nameRuby": "スロバキア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ブラチスラヴァ",
+      "population": 5400000,
+      "areaKm2": 49035,
+      "foods": [
+        "ボルシチ"
+      ],
+      "landmarks": [
+        "ブラチスラヴァ城"
+      ],
+      "worldHeritage": [
+        "バルデヨフ",
+        "スピシュ城"
+      ],
+      "animals": [
+        "ヒグマ"
+      ],
+      "climate": "温帯大陸性",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}",
+      "trivia": "チェコとかつて一つの国でした。",
+      "triviaRuby": "チェコとかつて一{ひと}つの国{くに}でした。",
+      "neighbors": [
+        "pl",
+        "at"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#0B4EA2",
+        "bottomLeft": "#EE1C25",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 48.7,
+      "mapLon": 19.7,
+      "silhouette": "東西に細長い形",
+      "capitalRuby": "ブラチスラヴァ",
+      "silhouetteRuby": "東西{とうざい}に細長{ほそなが}い形{かたち}",
+      "foodsRuby": [
+        "ボルシチ"
+      ],
+      "landmarksRuby": [
+        "ブラチスラヴァ城{じょう}"
+      ],
+      "worldHeritageRuby": [
+        "バルデヨフ",
+        "スピシュ城{じょう}"
+      ],
+      "animalsRuby": [
+        "ヒグマ"
+      ],
+      "resources": "自動車",
+      "resourcesRuby": "自動車{じどうしゃ}"
+    },
+    {
+      "id": "si",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "スロベニア",
+      "nameRuby": "スロベニア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "リュブリャナ",
+      "population": 2100000,
+      "areaKm2": 20273,
+      "foods": [],
+      "landmarks": [
+        "ブレッド湖",
+        "ポストイナ鍾乳洞"
+      ],
+      "worldHeritage": [
+        "イドリヤ"
+      ],
+      "animals": [
+        "ヒグマ"
+      ],
+      "climate": "アルプスと地中海の中間",
+      "climateRuby": "アルプスと地中海{ちちゅうかい}の中間{ちゅうかん}",
+      "trivia": "アルプスとアドリア海に近い国です。",
+      "triviaRuby": "アルプスとアドリア海{かい}に近{ちか}い国{くに}です。",
+      "neighbors": [
+        "it",
+        "at"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#005DA4",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#ED1C24"
+      },
+      "mapLat": 46.2,
+      "mapLon": 14.8,
+      "silhouette": "小さな山岳国",
+      "capitalRuby": "リュブリャナ",
+      "silhouetteRuby": "小{ちい}さな山岳{さんがく}国{こく}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "ブレッド湖{こ}",
+        "ポストイナ鍾乳洞{しょうにゅうどう}"
+      ],
+      "worldHeritageRuby": [
+        "イドリヤ"
+      ],
+      "animalsRuby": [
+        "ヒグマ"
+      ],
+      "resources": "鉱泉・木材",
+      "resourcesRuby": "鉱泉{こうせん}・木材{もくざい}"
+    },
+    {
+      "id": "md",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "モルドバ",
+      "nameRuby": "モルドバ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "キシナウ",
+      "population": 2600000,
+      "areaKm2": 33846,
+      "foods": [
+        "ママリガ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "シュトルーヴェの測地弧"
+      ],
+      "animals": [
+        "ハクチョウ"
+      ],
+      "climate": "温帯大陸性",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}",
+      "trivia": "ワインの産地として知られています。",
+      "triviaRuby": "ワインの産地{さんち}として知{し}られています。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#0033A0",
+        "topRight": "#FFD200",
+        "bottomLeft": "#CC092F",
+        "bottomRight": "#0033A0"
+      },
+      "mapLat": 47.4,
+      "mapLon": 28.4,
+      "silhouette": "細長い楕円形",
+      "capitalRuby": "キシナウ",
+      "silhouetteRuby": "細長{ほそなが}い楕円{だえん}形{がた}",
+      "foodsRuby": [
+        "ママリガ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "シュトルーヴェの測地{そくち}弧{こ}"
+      ],
+      "animalsRuby": [
+        "ハクチョウ"
+      ],
+      "resources": "ワイン・農産物",
+      "resourcesRuby": "ワイン・農産物{のうさんぶつ}"
+    },
+    {
+      "id": "fj",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "フィジー",
+      "nameRuby": "フィジー",
+      "region": "オセアニア",
+      "regionRuby": "オセアニア",
+      "capital": "スバ",
+      "population": 900000,
+      "areaKm2": 18274,
+      "foods": [
+        "ココナッツ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "レブカ"
+      ],
+      "animals": [],
+      "climate": "熱帯海洋性",
+      "climateRuby": "熱帯{ねったい}海洋{かいよう}性{せい}",
+      "trivia": "300以上の島からなる国です。",
+      "triviaRuby": "300以上{いじょう}の島{しま}からなる国{くに}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#68BFE5",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#012169",
+        "bottomRight": "#CE1126"
+      },
+      "mapLat": -17.7,
+      "mapLon": 178.1,
+      "silhouette": "小さな島々の集まり",
+      "capitalRuby": "スバ",
+      "silhouetteRuby": "小{ちい}さな島々{しまじま}の集{あつ}まり",
+      "foodsRuby": [
+        "ココナッツ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "レブカ"
+      ],
+      "animalsRuby": [],
+      "resources": "サトウキビ・魚",
+      "resourcesRuby": "サトウキビ・魚{さかな}"
+    },
+    {
+      "id": "mn",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "モンゴル",
+      "nameRuby": "モンゴル",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ウランバートル",
+      "population": 3400000,
+      "areaKm2": 1564116,
+      "foods": [],
+      "landmarks": [
+        "ゲル（移動式住居）",
+        "ゴビ砂漠"
+      ],
+      "worldHeritage": [
+        "オルホン渓谷"
+      ],
+      "animals": [],
+      "climate": "大陸性で冬寒く夏暑い",
+      "climateRuby": "大陸{たいりく}性{せい}で冬{ふゆ}寒{さむ}く夏{なつ}暑{あつ}い",
+      "trivia": "人口密度が世界で最も低い国の一つです。",
+      "triviaRuby": "人口{じんこう}密度{みつど}が世界{せかい}で最{もっと}も低{ひく}い国{くに}の一{ひと}つです。",
+      "neighbors": [
+        "cn",
+        "ru"
+      ],
+      "flagQuarters": {
+        "topLeft": "#C4272F",
+        "topRight": "#015197",
+        "bottomLeft": "#C4272F",
+        "bottomRight": "#C4272F"
+      },
+      "mapLat": 46.9,
+      "mapLon": 103.8,
+      "silhouette": "大きな内陸の四角形",
+      "capitalRuby": "ウランバートル",
+      "silhouetteRuby": "大{おお}きな内陸{ないりく}の四角形{しかっけい}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "ゲル（移動{いどう}式{しき}住居{じゅうきょ}）",
+        "ゴビ砂漠{さばく}"
+      ],
+      "worldHeritageRuby": [
+        "オルホン渓谷{けいこく}"
+      ],
+      "animalsRuby": [],
+      "resources": "銅・羊毛",
+      "resourcesRuby": "銅{どう}・羊毛{ようもう}"
+    },
+    {
+      "id": "la",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "ラオス",
+      "nameRuby": "ラオス",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "ビエンチャン",
+      "population": 7500000,
+      "areaKm2": 236800,
+      "foods": [
+        "フォー"
+      ],
+      "landmarks": [
+        "クアンシーの滝"
+      ],
+      "worldHeritage": [
+        "ルアンプラバン",
+        "ワット・プー"
+      ],
+      "animals": [
+        "ゾウ"
+      ],
+      "climate": "熱帯モンスーン",
+      "climateRuby": "熱帯{ねったい}モンスーン",
+      "trivia": "東南アジアで唯一の内陸国です。",
+      "triviaRuby": "東南{とうなん}アジアで唯一{ゆいいつ}の内陸{ないりく}国{こく}です。",
+      "neighbors": [
+        "cn",
+        "vn",
+        "th",
+        "kh"
+      ],
+      "flagQuarters": {
+        "topLeft": "#CE1126",
+        "topRight": "#002868",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#CE1126"
+      },
+      "mapLat": 19.9,
+      "mapLon": 102.5,
+      "silhouette": "細長く縦に伸びる形",
+      "capitalRuby": "ビエンチャン",
+      "silhouetteRuby": "細長{ほそなが}く縦{たて}に伸{の}びる形{かたち}",
+      "foodsRuby": [
+        "フォー"
+      ],
+      "landmarksRuby": [
+        "クアンシーの滝{たき}"
+      ],
+      "worldHeritageRuby": [
+        "ルアンプラバン",
+        "ワット・プー"
+      ],
+      "animalsRuby": [
+        "ゾウ"
+      ],
+      "resources": "米・木材",
+      "resourcesRuby": "米・木材{もくざい}"
+    },
+    {
+      "id": "kh",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "カンボジア",
+      "nameRuby": "カンボジア",
+      "region": "アジア",
+      "regionRuby": "アジア",
+      "capital": "プノンペン",
+      "population": 17000000,
+      "areaKm2": 181035,
+      "foods": [],
+      "landmarks": [
+        "トンレサップ湖"
+      ],
+      "worldHeritage": [
+        "アンコールワット"
+      ],
+      "animals": [
+        "インドシナトラ"
+      ],
+      "climate": "熱帯モンスーン",
+      "climateRuby": "熱帯{ねったい}モンスーン",
+      "trivia": "アンコールワットは世界最大級の宗教建築です。",
+      "triviaRuby": "アンコールワットは世界{せかい}最大{さいだい}級{きゅう}の宗教{しゅうきょう}建築{けんちく}です。",
+      "neighbors": [
+        "th",
+        "la",
+        "vn"
+      ],
+      "flagQuarters": {
+        "topLeft": "#032EA1",
+        "topRight": "#E00025",
+        "bottomLeft": "#032EA1",
+        "bottomRight": "#032EA1"
+      },
+      "mapLat": 12.6,
+      "mapLon": 105.0,
+      "silhouette": "やや丸みのある形",
+      "capitalRuby": "プノンペン",
+      "silhouetteRuby": "やや丸{まる}みのある形{かたち}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "トンレサップ湖{こ}"
+      ],
+      "worldHeritageRuby": [
+        "アンコールワット"
+      ],
+      "animalsRuby": [
+        "インドシナトラ"
+      ],
+      "resources": "米",
+      "resourcesRuby": "米"
+    },
+    {
+      "id": "ad",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "アンドラ",
+      "nameRuby": "アンドラ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "アンドラ・ラ・ベリャ",
+      "population": 77000,
+      "areaKm2": 468,
+      "foods": [],
+      "landmarks": [],
+      "worldHeritage": [
+        "マドリウ＝ペラフィタ＝クラロ渓谷"
+      ],
+      "animals": [],
+      "climate": "高山気候で冬は雪",
+      "climateRuby": "高山気候{きこう}で冬{ふゆ}は雪{ゆき}",
+      "trivia": "ピレネー山脈に囲まれた小国です。",
+      "triviaRuby": "ピレネー山脈{さんみゃく}に囲{かこ}まれた小国{しょうこく}です。",
+      "neighbors": [
+        "fr",
+        "es"
+      ],
+      "flagQuarters": {
+        "topLeft": "#0018A8",
+        "topRight": "#FEDF00",
+        "bottomLeft": "#D0103A",
+        "bottomRight": "#0018A8"
+      },
+      "mapLat": 42.5,
+      "mapLon": 1.5,
+      "silhouette": "小さな山岳国",
+      "capitalRuby": "アンドラ・ラ・ベリャ",
+      "silhouetteRuby": "小{ちい}さな山岳{さんがく}国{こく}",
+      "foodsRuby": [],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "マドリウ＝ペラフィタ＝クラロ渓谷{けいこく}"
+      ],
+      "animalsRuby": [],
+      "resources": "観光",
+      "resourcesRuby": "観光{かんこう}"
+    },
+    {
+      "id": "mc",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "モナコ",
+      "nameRuby": "モナコ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "モナコ",
+      "population": 39000,
+      "areaKm2": 2,
+      "foods": [],
+      "landmarks": [],
+      "worldHeritage": [],
+      "animals": [
+        "ネコ"
+      ],
+      "climate": "地中海性で温暖",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}で温暖{おんだん}",
+      "trivia": "世界で2番目に小さい国です。",
+      "triviaRuby": "世界{せかい}で2番目{ばんめ}に小{ちい}さい国{くに}です。",
+      "neighbors": [
+        "fr"
+      ],
+      "flagQuarters": {
+        "topLeft": "#CE1126",
+        "topRight": "#FFFFFF",
+        "bottomLeft": "#CE1126",
+        "bottomRight": "#CE1126"
+      },
+      "mapLat": 43.7,
+      "mapLon": 7.4,
+      "silhouette": "海岸沿いの極小地域",
+      "capitalRuby": "モナコ",
+      "silhouetteRuby": "海岸{かいがん}沿{ぞ}いの極小{きょくしょう}地域{ちいき}",
+      "foodsRuby": [],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [],
+      "animalsRuby": [
+        "ネコ"
+      ],
+      "resources": "観光・金融",
+      "resourcesRuby": "観光{かんこう}・金融{きんゆう}"
+    },
+    {
+      "id": "sm",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "サンマリノ",
+      "nameRuby": "サンマリノ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "サンマリノ",
+      "population": 34000,
+      "areaKm2": 61,
+      "foods": [
+        "ニョッキ"
+      ],
+      "landmarks": [],
+      "worldHeritage": [
+        "ティターノ山"
+      ],
+      "animals": [
+        "ネコ"
+      ],
+      "climate": "地中海性",
+      "climateRuby": "地中海{ちちゅうかい}性{せい}",
+      "trivia": "世界で5番目に小さい国です。",
+      "triviaRuby": "世界{せかい}で5番目{ばんめ}に小{ちい}さい国{くに}です。",
+      "neighbors": [
+        "it"
+      ],
+      "flagQuarters": {
+        "topLeft": "#FFFFFF",
+        "topRight": "#5EB6E4",
+        "bottomLeft": "#FFFFFF",
+        "bottomRight": "#FFFFFF"
+      },
+      "mapLat": 43.9,
+      "mapLon": 12.5,
+      "silhouette": "小さな山の上の城",
+      "capitalRuby": "サンマリノ",
+      "silhouetteRuby": "小{ちい}さな山{やまのう}の上の城{しろ}",
+      "foodsRuby": [
+        "ニョッキ"
+      ],
+      "landmarksRuby": [],
+      "worldHeritageRuby": [
+        "ティターノ山{さん}"
+      ],
+      "animalsRuby": [
+        "ネコ"
+      ],
+      "resources": "切手",
+      "resourcesRuby": "切手{きって}"
+    },
+    {
+      "id": "me",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "モンテネグロ",
+      "nameRuby": "モンテネグロ",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "ポドゴリツァ",
+      "population": 620000,
+      "areaKm2": 13812,
+      "foods": [
+        "チェヴァピ"
+      ],
+      "landmarks": [
+        "コトル湾",
+        "タラ渓谷"
+      ],
+      "worldHeritage": [
+        "ドゥルミトル"
+      ],
+      "animals": [
+        "ヒグマ"
+      ],
+      "climate": "地中海性と山地気候",
+      "climateRuby": "地中海性と山地気候{きこう}",
+      "trivia": "アドリア海に面した小国です。",
+      "triviaRuby": "アドリア海{かい}に面{めん}した小国{しょうこく}です。",
+      "neighbors": [],
+      "flagQuarters": {
+        "topLeft": "#C40308",
+        "topRight": "#D4AF37",
+        "bottomLeft": "#1A5F3C",
+        "bottomRight": "#C40308"
+      },
+      "mapLat": 42.7,
+      "mapLon": 19.4,
+      "silhouette": "細長い海岸沿いの形",
+      "capitalRuby": "ポドゴリツァ",
+      "silhouetteRuby": "細長{ほそなが}い海岸{かいがん}沿{ぞ}いの形{かたち}",
+      "foodsRuby": [
+        "チェヴァピ"
+      ],
+      "landmarksRuby": [
+        "コトル湾{わん}",
+        "タラ渓谷{けいこく}"
+      ],
+      "worldHeritageRuby": [
+        "ドゥルミトル"
+      ],
+      "animalsRuby": [
+        "ヒグマ"
+      ],
+      "resources": "アルミニウム・観光",
+      "resourcesRuby": "アルミニウム・観光{かんこう}"
+    },
+    {
+      "id": "pg",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "パプアニューギニア",
+      "nameRuby": "パプアニューギニア",
+      "region": "オセアニア",
+      "regionRuby": "オセアニア",
+      "capital": "ポートモレスビー",
+      "population": 10000000,
+      "areaKm2": 462840,
+      "foods": [
+        "サゴ"
+      ],
+      "landmarks": [
+        "セピック川"
+      ],
+      "worldHeritage": [
+        "クク遺跡"
+      ],
+      "animals": [],
+      "climate": "熱帯雨林気候",
+      "climateRuby": "熱帯雨林気候{きこう}",
+      "trivia": "800以上の言語が話される国です。",
+      "triviaRuby": "800以上{いじょう}の言語{げんご}が話{はな}される国{くに}です。",
+      "neighbors": [
+        "id"
+      ],
+      "flagQuarters": {
+        "topLeft": "#000000",
+        "topRight": "#CE1126",
+        "bottomLeft": "#FCD116",
+        "bottomRight": "#000000"
+      },
+      "mapLat": -6.3,
+      "mapLon": 143.9,
+      "silhouette": "東部に大きな島",
+      "capitalRuby": "ポートモレスビー",
+      "silhouetteRuby": "東部{とうぶ}に大{おお}きな島{しま}",
+      "foodsRuby": [
+        "サゴ"
+      ],
+      "landmarksRuby": [
+        "セピック川{がわ}"
+      ],
+      "worldHeritageRuby": [
+        "クク遺跡{いせき}"
+      ],
+      "animalsRuby": [],
+      "resources": "金・ココナッツ",
+      "resourcesRuby": "金{きん}・ココナッツ"
+    },
+    {
+      "id": "mk",
+      "difficulties": [
+        "hard"
+      ],
+      "name": "北マケドニア",
+      "nameRuby": "北{きた}マケドニア",
+      "region": "ヨーロッパ",
+      "regionRuby": "ヨーロッパ",
+      "capital": "スコピエ",
+      "population": 2100000,
+      "areaKm2": 25713,
+      "foods": [],
+      "landmarks": [
+        "オフリド湖"
+      ],
+      "worldHeritage": [
+        "オフリド湖とその周辺地域"
+      ],
+      "animals": [
+        "ヒグマ"
+      ],
+      "climate": "温帯大陸性",
+      "climateRuby": "温帯{おんたい}大陸{たいりく}性{せい}",
+      "trivia": "アレクサンドロス大王ゆかりの地です。",
+      "triviaRuby": "アレクサンドロス大王{だいおう}ゆかりの地{ち}です。",
+      "neighbors": [
+        "gr"
+      ],
+      "flagQuarters": {
+        "topLeft": "#D20000",
+        "topRight": "#FFE600",
+        "bottomLeft": "#D20000",
+        "bottomRight": "#D20000"
+      },
+      "mapLat": 41.6,
+      "mapLon": 21.7,
+      "silhouette": "やや四角い内陸国",
+      "capitalRuby": "スコピエ",
+      "silhouetteRuby": "やや四角{しかく}い内陸{ないりく}国{こく}",
+      "foodsRuby": [],
+      "landmarksRuby": [
+        "オフリド湖{こ}"
+      ],
+      "worldHeritageRuby": [
+        "オフリド湖{こ}とその周辺{しゅうへん}地域{ちいき}"
+      ],
+      "animalsRuby": [
+        "ヒグマ"
+      ],
+      "resources": "ワイン・農産物",
+      "resourcesRuby": "ワイン・農産物{のうさんぶつ}"
+    }
+  ],
+  "japan": {
+    "population": 123800000,
+    "areaKm2": 377975
+  }
+}

@@ -1,6 +1,9 @@
-# 地図パズル（Web）
+# 地理ゲーム（Web）
 
-Android 統合版 [geo_kids_hub](../geo_kids_hub) と同じ **日本地図パズル**・**神奈川地図パズル**をブラウザで遊べる版です。
+Android 統合版 [geo_kids_hub](../geo_kids_hub) と同じ内容の Web 版です。
+
+- **世界の国当て**（ヒントパネル・図鑑・写真）
+- **日本地図パズル**・**神奈川地図パズル**
 
 - ピースをドラッグして地図にハメる（はめる前は名前非表示）
 - はめた地域をタップ → 図鑑へ（パズルから開いた場合は「パズルに戻る」）
@@ -27,10 +30,10 @@ npm run build
 npm run preview
 ```
 
-## 写真データ
+## データ同期
 
-図鑑の JPG は `geo_kids_hub/app/src/main/assets/japan/photos` と `kana/photos` を  
-`public/assets/japan/photos`・`public/assets/kana/photos` にコピーして使います。
+- 日本・神奈川図鑑写真: `scripts/sync-photos.ps1`
+- 世界の国: `npm run sync:world`（`geo_kids_hub/app/src/main/assets/world` → `public/assets/world`）
 
 ## Vercel で公開
 
