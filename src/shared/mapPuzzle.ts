@@ -94,7 +94,7 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
   const bounds = unionBounds(pieces);
 
   function bumpSuppressPieceTap(): void {
-    suppressPieceTapUntil = Date.now() + 400;
+    suppressPieceTapUntil = Date.now() + 250;
   }
 
   const placed = new Set<string>();
@@ -171,9 +171,9 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
 
   function trySnap(): void {
     if (!dragging) return;
-    bumpSuppressPieceTap();
     const dist = Math.hypot(dragOffsetX, dragOffsetY);
     if (dist <= SNAP_THRESHOLD) {
+      bumpSuppressPieceTap();
       placed.add(dragging.code);
       dragOffsetX = 0;
       dragOffsetY = 0;
@@ -233,6 +233,7 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     path.setAttribute('d', piece.path);
     if (mode === 'slot') {
+      path.setAttribute('class', 'puzzle-map-path--slot');
       path.setAttribute('fill', 'none');
       path.setAttribute('stroke', '#94a3b8');
       path.setAttribute('stroke-width', String(1.75 / transform.scale));
@@ -242,6 +243,7 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
       path.setAttribute('stroke-width', String(1.25 / transform.scale));
       if (mode === 'placed') {
         path.setAttribute('class', 'puzzle-map-path--placed');
+        path.setAttribute('data-piece-code', piece.code);
       }
       if (mode === 'drag') {
         path.setAttribute('opacity', '0.85');
@@ -289,7 +291,16 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
     return pt.matrixTransform(ctm.inverse());
   }
 
-  function findPlacedAt(clientX: number, clientY: number): MapPiece | null {
+  function pieceAtScreenPoint(clientX: number, clientY: number): MapPiece | null {
+    const top = document.elementFromPoint(clientX, clientY);
+    let node: Element | null = top;
+    while (node && node !== mapWrap) {
+      if (node instanceof SVGPathElement && node.classList.contains('puzzle-map-path--placed')) {
+        const code = node.getAttribute('data-piece-code');
+        if (code) return pieces.find((p) => p.code === code) ?? null;
+      }
+      node = node.parentElement;
+    }
     const mapPt = clientToMapPoint(clientX, clientY);
     if (!mapPt) return null;
     for (let i = pieces.length - 1; i >= 0; i--) {
@@ -298,6 +309,8 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
       const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('d', p.path);
       if (path.isPointInFill(mapPt)) return p;
+      path.setAttribute('stroke-width', String(12 / transform.scale));
+      if (path.isPointInStroke(mapPt)) return p;
     }
     return null;
   }
@@ -305,7 +318,7 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
   function onPlacedMapTap(clientX: number, clientY: number): void {
     if (dragging) return;
     if (Date.now() < suppressPieceTapUntil) return;
-    const hit = findPlacedAt(clientX, clientY);
+    const hit = pieceAtScreenPoint(clientX, clientY);
     if (hit) showPieceDialog(hit);
   }
 
@@ -399,10 +412,10 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
     });
   }
 
-  svg.addEventListener('click', (e) => {
+  mapWrap.addEventListener('click', (e) => {
     onPlacedMapTap(e.clientX, e.clientY);
   });
-  svg.addEventListener(
+  mapWrap.addEventListener(
     'touchend',
     (e) => {
       if (e.changedTouches.length !== 1) return;

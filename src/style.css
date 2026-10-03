@@ -273,8 +273,13 @@ body {
   pointer-events: none;
 }
 
+.puzzle-map-path--slot {
+  pointer-events: none;
+}
+
 .puzzle-map-path--placed {
   cursor: pointer;
+  pointer-events: all;
 }
 
 .puzzle-dialog-question {
