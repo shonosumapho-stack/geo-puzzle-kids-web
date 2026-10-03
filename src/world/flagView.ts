@@ -1,5 +1,5 @@
 import { worldImageUrl } from './assets';
-import type { FlagQuarters, HintType } from './types';
+import type { FlagQuarters } from './types';
 
 /** Android FlagView の4色クォーター描画と同じ見た目 */
 export function flagQuartersBackground(q: FlagQuarters): string {
@@ -10,14 +10,6 @@ export function flagQuartersBackground(q: FlagQuarters): string {
 export function applyFlagQuartersStyle(node: HTMLElement, q: FlagQuarters): void {
   node.style.background = flagQuartersBackground(q);
 }
-
-const FLAG_HINT_TYPES: HintType[] = ['flag_tl', 'flag_tr', 'flag_bl', 'flag_br'];
-
-export function isFlagHintType(type: HintType): boolean {
-  return FLAG_HINT_TYPES.includes(type);
-}
-
-type FlagQuarter = 'tl' | 'tr' | 'bl' | 'br';
 
 function loadFlagBitmap(countryId: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
@@ -51,27 +43,8 @@ function drawFlagFit(ctx: CanvasRenderingContext2D, bmp: HTMLImageElement, w: nu
   ctx.drawImage(bmp, 0, 0, bmp.width, bmp.height, dx, dy, dw, dh);
 }
 
-function drawFlagQuarter(
-  ctx: CanvasRenderingContext2D,
-  bmp: HTMLImageElement,
-  quarter: FlagQuarter,
-  w: number,
-  h: number,
-): void {
-  const hw = bmp.width / 2;
-  const hh = bmp.height / 2;
-  const src = {
-    tl: { x: 0, y: 0, sw: hw, sh: hh },
-    tr: { x: hw, y: 0, sw: hw, sh: hh },
-    bl: { x: 0, y: hh, sw: hw, sh: hh },
-    br: { x: hw, y: hh, sw: hw, sh: hh },
-  }[quarter];
-  ctx.drawImage(bmp, src.x, src.y, src.sw, src.sh, 0, 0, w, h);
-}
-
 const MINI_FLAG_W = 28;
 const MINI_FLAG_H = 20;
-const HINT_FLAG_H = 32;
 
 /** 回答一覧・図鑑の小さな国旗（画像優先、失敗時は4色） */
 export function createMiniFlag(countryId: string, quarters: FlagQuarters): HTMLDivElement {
@@ -89,37 +62,6 @@ export function createMiniFlag(countryId: string, quarters: FlagQuarters): HTMLD
     .catch(() => {
       canvas.remove();
       applyFlagQuartersStyle(wrap, quarters);
-    });
-
-  return wrap;
-}
-
-/** ゲームの国旗ヒント（画像の四分の一、失敗時は単色） */
-export function createFlagHintPreview(
-  countryId: string,
-  type: HintType,
-  fallbackColor: string,
-): HTMLDivElement {
-  const wrap = document.createElement('div');
-  wrap.className = 'world-flag-quarter world-flag-crop';
-  const quarter = type.replace('flag_', '') as FlagQuarter;
-  const canvas = document.createElement('canvas');
-  canvas.className = 'world-flag-crop-canvas';
-  wrap.appendChild(canvas);
-
-  void loadFlagBitmap(countryId)
-    .then((bmp) => {
-      requestAnimationFrame(() => {
-        const w = Math.max(wrap.clientWidth, 48);
-        const h = Math.max(wrap.clientHeight, HINT_FLAG_H);
-        const ctx = setupCanvas(canvas, w, h);
-        drawFlagQuarter(ctx, bmp, quarter, w, h);
-      });
-    })
-    .catch(() => {
-      canvas.remove();
-      wrap.classList.remove('world-flag-crop');
-      wrap.style.background = fallbackColor;
     });
 
   return wrap;
