@@ -1,0 +1,896 @@
+[
+  {
+    "asset": "photos/items/14100_food_0",
+    "summary": "Daiju Azuma / CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Siumaai.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%84%BC%E5%A3%B2"
+  },
+  {
+    "asset": "photos/items/14100_food_1",
+    "summary": "ウィ貴公子 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%81%A8%E3%83%A9%E3%82%A4%E3%82%B9_%E5%90%89%E6%9D%91%E5%AE%B6_2025%E5%B9%B42%E6%9C%8823%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202502231704_IMG_9709.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E7%B3%BB%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3"
+  },
+  {
+    "asset": "photos/items/14100_place_0",
+    "summary": "Matthide127 / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:20250101_Cosmo_Clock_21_122208.jpg"
+  },
+  {
+    "asset": "photos/items/14100_place_1",
+    "summary": "かなえゆうじん / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E4%B8%AD%E8%8F%AF%E8%A1%97-1.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E4%B8%AD%E8%8F%AF%E8%A1%97"
+  },
+  {
+    "asset": "photos/items/14100_trivia",
+    "summary": "DAJF / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sakuragicho_Station_from_Landmark_Tower_20140824.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E6%9C%A8%E7%94%BA%E9%A7%85"
+  },
+  {
+    "asset": "photos/items/14101_place_0",
+    "summary": "Pqks758 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:TakanoOhHashi.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%B6%B4%E8%A6%8B%E5%B7%9D"
+  },
+  {
+    "asset": "photos/items/14101_trivia",
+    "summary": "Pqks758 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsurumi-ku_yakusho.jpg"
+  },
+  {
+    "asset": "photos/items/14102_place_0",
+    "summary": "Kouchiumi / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HigashikanagawaSthigashi.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E7%A5%9E%E5%A5%88%E5%B7%9D"
+  },
+  {
+    "asset": "photos/items/14102_trivia",
+    "summary": "Waka77 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kanagawa-wardhall.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14103_place_0",
+    "summary": "Sakura Torch / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Station_20240630.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E9%A7%85"
+  },
+  {
+    "asset": "photos/items/14103_trivia",
+    "summary": "Kakidai / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_21.jpg"
+  },
+  {
+    "asset": "photos/items/14104_place_0",
+    "summary": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:YamashitakoenJP14Apr05.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14104_trivia",
+    "summary": "Suicasmo / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zenrin_Gate_%28Yokohama_Chinatown%29_20211212-1.jpg"
+  },
+  {
+    "asset": "photos/items/14105_place_0",
+    "summary": "user:hiroyuki0904 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Gumyouji.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%BC%98%E6%98%8E%E5%AF%BA"
+  },
+  {
+    "asset": "photos/items/14105_trivia",
+    "summary": "Hisi21 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_signboard_%22RIGHT_ONLY%22_at_Nakamurabashi_intersection%2C_Minami-ku%2C_Yokohama_city%2C_Kanagawa_prefecture%2C_Japan.jpg"
+  },
+  {
+    "asset": "photos/items/14106_place_0",
+    "summary": "ソースは私 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hodogaya_Park_in_Yokohama_Japan.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%BF%9D%E5%9C%9F%E3%82%B1%E8%B0%B7%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14106_trivia",
+    "summary": "Katsushika Hokusai / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Hodogaya_on_the_Tokaido.jpg"
+  },
+  {
+    "asset": "photos/items/14107_place_0",
+    "summary": "Kouchiumi at Japanese Wikipedia / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IsogoStnishi.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%AD%90%E9%A7%85"
+  },
+  {
+    "asset": "photos/items/14107_trivia",
+    "summary": "シニアカイーロ / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E5%B8%82%E9%9B%BB%E4%BF%9D%E5%AD%98%E9%A4%A8%E3%81%AB%E7%9C%A0%E3%82%8B%E8%BB%8A%E4%B8%A1%E9%81%94%282023%E5%B9%B4%E6%92%AE%E5%BD%B1%29.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%AD%90%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14108_place_0",
+    "summary": "Sidecoast / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Hakkeijima_Sea_Paradise.jpg"
+  },
+  {
+    "asset": "photos/items/14108_trivia",
+    "summary": "横浜市港湾局 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_aerial_photo_of_the_seashore_of_southern_Kanazawa-ku_1985.png"
+  },
+  {
+    "asset": "photos/items/14109_place_0",
+    "summary": "Sengoku40 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shinyokohama_station_ekimae.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%A8%AA%E6%B5%9C"
+  },
+  {
+    "asset": "photos/items/14109_trivia",
+    "summary": "Kakidai / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keio_University_Hiyoshi_Campus_%283%29.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B8%AF%E5%8C%97%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14110_place_0",
+    "summary": "Nyao148 / CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Totsuka-Sta-East.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E5%A1%9A%E9%A7%85"
+  },
+  {
+    "asset": "photos/items/14110_trivia",
+    "summary": "Tadill / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Soushu_Kasuga_Jinja.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E5%A1%9A%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14111_place_0",
+    "summary": "妖精書士 (talk) / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:K%C5%8Dnandai_from_Enkaizan.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B8%AF%E5%8D%97%E5%8F%B0"
+  },
+  {
+    "asset": "photos/items/14111_trivia",
+    "summary": "妖精書士 (talk) / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kuraki_Park2.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B8%AF%E5%8D%97%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14112_place_0",
+    "summary": "ウェルワィ / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zoorasia.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E3%82%88%E3%81%93%E3%81%AF%E3%81%BE%E5%8B%95%E7%89%A9%E5%9C%92%E3%82%BA%E3%83%BC%E3%83%A9%E3%82%B7%E3%82%A2"
+  },
+  {
+    "asset": "photos/items/14112_trivia",
+    "summary": "Nesnad / CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kodomo_Shizen_Koen_-_Kanagawa_-_2023_September_19_various.jpeg"
+  },
+  {
+    "asset": "photos/items/14113_place_0",
+    "summary": "明生 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Shikinomori_park_north_gate.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E5%AD%A3%E3%81%AE%E6%A3%AE%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14113_trivia",
+    "summary": "ja:user:たね\n\n改変元：著作権・使用制限テンプレート参照\n改変部分：アップロード者 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama-Midori-ku.PNG"
+  },
+  {
+    "asset": "photos/items/14114_place_0",
+    "summary": "Japanbird / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%80%AC%E8%B0%B7%E6%9C%AC%E9%83%B7%E5%85%AC%E5%9C%92_%E9%8A%98%E6%9D%BF_20260712.jpg"
+  },
+  {
+    "asset": "photos/items/14114_trivia",
+    "summary": "WildWind / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Nagayamon_Nagayamon.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%80%AC%E8%B0%B7%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14115_place_0",
+    "summary": "妖精書士 (talk) / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Nature_Sanctuary-Entrance.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E8%87%AA%E7%84%B6%E8%A6%B3%E5%AF%9F%E3%81%AE%E6%A3%AE"
+  },
+  {
+    "asset": "photos/items/14115_trivia",
+    "summary": "ハードマニアッカー / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jourou-zuka_in_Yokohama.jpg"
+  },
+  {
+    "asset": "photos/items/14116_place_0",
+    "summary": "ブルーノ・プラス / CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Izumi_River_in_Yokohama.jpg"
+  },
+  {
+    "asset": "photos/items/14116_trivia",
+    "summary": "Tatekawa-ko / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E5%B8%82%E6%B3%89%E5%8C%BA%E5%B2%A1%E6%B4%A5%E7%94%BA%E3%81%AE%E5%AF%8C%E5%A3%AB%E5%A1%9A.jpg"
+  },
+  {
+    "asset": "photos/items/14117_place_0",
+    "summary": "k yamada from Yokohama, Japan / CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Colorful_boats_kodomonokuni.jpg"
+  },
+  {
+    "asset": "photos/items/14117_trivia",
+    "summary": "Syced / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E9%9D%92%E8%91%89%E5%8C%BA%E5%A5%88%E8%89%AF1%E4%B8%81%E7%9B%AE_-36304.jpeg"
+  },
+  {
+    "asset": "photos/items/14118_place_0",
+    "summary": "掬茶 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Municipal_Subway_Center-Minami_Station_exterior.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E5%8D%97%E9%A7%85"
+  },
+  {
+    "asset": "photos/items/14118_trivia",
+    "summary": "Suikotei / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Otsuka_Relics_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%83%BD%E7%AD%91%E5%8C%BA"
+  },
+  {
+    "asset": "photos/items/14130_place_0",
+    "summary": "日陰猫Joga at Japanese Wikipedia / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Todoroki_Ryokuchi.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%AD%89%E3%80%85%E5%8A%9B%E7%B7%91%E5%9C%B0"
+  },
+  {
+    "asset": "photos/items/14130_trivia",
+    "summary": "ペン太 / CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kawasaki_Daishi_Main_Hall.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%B4%8E%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14150_place_0",
+    "summary": "Wikipedia / https://commons.wikimedia.org/wiki/File:Lake_Sagami_Aerial_photograph.1974.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Sagami_Aerial_photograph.1974.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A8%A1%E6%B9%96"
+  },
+  {
+    "asset": "photos/items/14150_trivia",
+    "summary": "File:Usugatake-hirugatake.JPG by User:Σ64\nFile:Gate 1 of Sagami Genaral Depot in 2011.jpg by User:Nikm\nFile:Sagamiko -01.jpg by User:Aimaimyi\nFile:Hashimoto, Sagamihara.jpg by User:Phronimoi\nFile:Odakyu Sagami-Ono Station Square 01.jpg by ja:利用者:S.fukasawa (Japanese Wikipedia), Uploaded by User:Fjkelfeimvvn\nFile:Astro-E2 in the Clean Room.jpeg by NASA, Uploaded by User:サヤ\nFile:Sakura Festival 2009 in Sagamihara 1.jpg by Suneko, Uploaded by User:Halfd\nComposition by User:Fjkelfeimvvn / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sagamihara_montage.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A8%A1%E5%8E%9F%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14201_food_0",
+    "summary": "武藏 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaigun_Curry_at_Wood_Island.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BB%8D%E3%82%AB%E3%83%AC%E3%83%BC"
+  },
+  {
+    "asset": "photos/items/14201_place_0",
+    "summary": "nattou / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Battleship_Mikasa_park.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%B8%89%E7%AC%A0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14201_trivia",
+    "summary": "Tdk at Japanese Wikipedia / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_of_yokosuka_landsat.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E9%A0%88%E8%B3%80%E6%B8%AF"
+  },
+  {
+    "asset": "photos/items/14203_place_0",
+    "summary": "hideki higano / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%A1%9A%E6%B5%B7%E5%B2%B8_-_panoramio.jpg"
+  },
+  {
+    "asset": "photos/items/14203_trivia",
+    "summary": "Nesnad / CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiratsuka_beach_park_2026_March_6.jpeg"
+  },
+  {
+    "asset": "photos/items/14204_food_0",
+    "summary": "Miyuki Meinaka / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitebait_Rice_Bowl_at_Enoshima.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E3%81%97%E3%82%89%E3%81%99%E4%B8%BC"
+  },
+  {
+    "asset": "photos/items/14204_place_0",
+    "summary": "663highland / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:230128_Kamakura_Daibutsu_Japan01s3.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%BE%B3%E9%99%A2"
+  },
+  {
+    "asset": "photos/items/14204_place_1",
+    "summary": "ulysses_powers from Tsurugaoka Hachimangu in Yukinoshita, Kamakura, Kanagawa / CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TsurugaokaHachimangu_by_ulysses_powers_in_Kamakura.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%B6%B4%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE"
+  },
+  {
+    "asset": "photos/items/14204_trivia",
+    "summary": "Fg2 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:TsurugaokaHachiman-M8867.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14205_food_0",
+    "summary": "Miyuki Meinaka / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitebait_Rice_Bowl_at_Enoshima.jpg"
+  },
+  {
+    "asset": "photos/items/14205_place_0",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Enoshima_view_from_Kugenuma_beach.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E3%81%AE%E5%B3%B6"
+  },
+  {
+    "asset": "photos/items/14205_trivia",
+    "summary": "KasaiHouselots / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%A7%8B%E3%81%AE%E6%B1%9F%E3%83%8E%E5%B3%B6.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B9%98%E5%8D%97%E6%B5%B7%E5%B2%B8"
+  },
+  {
+    "asset": "photos/items/14206_food_0",
+    "summary": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kamaboko.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E8%92%B2%E9%89%BE"
+  },
+  {
+    "asset": "photos/items/14206_place_0",
+    "summary": "663highland / CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:161223_Odawara_Castle_Odawara_Japan01s3.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E5%8E%9F%E5%9F%8E"
+  },
+  {
+    "asset": "photos/items/14206_trivia",
+    "summary": "663highland / CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:161223_Odawara_Castle_Odawara_Japan01s3.jpg"
+  },
+  {
+    "asset": "photos/items/14207_place_0",
+    "summary": "Aimaimyi / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chigasakikaigan_interchange_-01.jpg"
+  },
+  {
+    "asset": "photos/items/14207_trivia",
+    "summary": "Goki (talk) / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Southern_Beach_Chigasaki01.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E8%8C%85%E3%83%B6%E5%B4%8E%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14208_place_0",
+    "summary": "Zushi-Wiki / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E9%99%BD%E3%81%AE%E5%A1%94%E3%81%A8%E9%80%97%E5%AD%90%E6%B5%B7%E5%B2%B8.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%80%97%E5%AD%90%E6%B5%B7%E5%B2%B8"
+  },
+  {
+    "asset": "photos/items/14208_trivia",
+    "summary": "Zushi-Wiki / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E9%99%BD%E3%81%AE%E5%A1%94%E3%81%A8%E9%80%97%E5%AD%90%E6%B5%B7%E5%B2%B8.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E9%80%97%E5%AD%90%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14210_food_0",
+    "summary": "221.20 (talk) / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:MisakiMaguro01.JPG"
+  },
+  {
+    "asset": "photos/items/14210_place_0",
+    "summary": "Asturio Cantabrio / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_of_Misaki_ac_%283%29.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%B8%89%E5%B4%8E%E6%BC%81%E6%B8%AF"
+  },
+  {
+    "asset": "photos/items/14210_trivia",
+    "summary": "Tx-re / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jogashima_ohashi_bridge.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B5%A6%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14211_place_0",
+    "summary": "テレストレラッソ / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gongen-yama01.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%BC%98%E6%B3%95%E5%B1%B1"
+  },
+  {
+    "asset": "photos/items/14211_trivia",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nanohanadai_and_Mt.Fuji.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A6%E9%87%8E%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14212_place_0",
+    "summary": "Tx-re / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Sagami_river_Tx-re.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A8%A1%E5%B7%9D"
+  },
+  {
+    "asset": "photos/items/14212_trivia",
+    "summary": "Cassiopeia sweet / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Atsugi-Ayumibashi-Nightview.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9C%A8%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14213_place_0",
+    "summary": "Kaze315 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yamato_Station_Odakyu_Exit_20180325.jpg"
+  },
+  {
+    "asset": "photos/items/14213_trivia",
+    "summary": "かなえゆうじん / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%92%8C%E9%A7%85%E5%91%A8%E8%BE%BA.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%92%8C%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14214_place_0",
+    "summary": "Ymblanter / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Atsugi_View_of_Mount_Oyama_from_the_northern_part_of_the_city.jpg"
+  },
+  {
+    "asset": "photos/items/14214_trivia",
+    "summary": "Tak1701d / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oyama-Afuri_jinja_201709a.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B1%B1%E9%98%BF%E5%A4%AB%E5%88%A9%E7%A5%9E%E7%A4%BE"
+  },
+  {
+    "asset": "photos/items/14215_place_0",
+    "summary": "machiro / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vinawalk.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%80%81%E5%90%8D%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14215_trivia",
+    "summary": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:VINA_WALK_Ebina.jpg"
+  },
+  {
+    "asset": "photos/items/14216_place_0",
+    "summary": "小林俊通 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%BA%A7%E9%96%93%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E7%95%91_-_panoramio.jpg"
+  },
+  {
+    "asset": "photos/items/14216_trivia",
+    "summary": "tak1701d / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bando_08_Shokoku-ji_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%BA%A7%E9%96%93%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14217_place_0",
+    "summary": "先従隗始 / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kabokusan_Saij%C5%8D-ji_Temple_20220320_12.jpg"
+  },
+  {
+    "asset": "photos/items/14217_trivia",
+    "summary": "Σ64 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daiyuzan_Saijoji_Temple_12.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%8D%97%E8%B6%B3%E6%9F%84%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14218_place_0",
+    "summary": "hideki higano / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%B6%BE%E7%80%AC%E5%B8%82_%E5%9F%8E%E5%B1%B1%E5%85%AC%E5%9C%92_-_panoramio.jpg"
+  },
+  {
+    "asset": "photos/items/14218_trivia",
+    "summary": "hideki higano / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%B6%BE%E7%80%AC%E5%B8%82_%E5%9F%8E%E5%B1%B1%E5%85%AC%E5%9C%92_%E8%96%94%E8%96%87%E5%9C%92_-_panoramio.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%B6%BE%E7%80%AC%E5%B8%82"
+  },
+  {
+    "asset": "photos/items/14301_place_0",
+    "summary": "pcs34560 / Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:%E8%91%89%E5%B1%B1%E4%B8%80%E8%89%B2%E6%B5%B7%E5%B2%B8%E3%81%AE%E5%A4%9C.JPG"
+  },
+  {
+    "asset": "photos/items/14301_trivia",
+    "summary": "Quercus acuta / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Morito_Beach_-_Hayama.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E8%91%89%E5%B1%B1%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14321_place_0",
+    "summary": "五虎将軍 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Samukawa_Shrine_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%AF%92%E5%B7%9D%E7%A5%9E%E7%A4%BE"
+  },
+  {
+    "asset": "photos/items/14321_trivia",
+    "summary": "五虎将軍 / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Samukawa_Shrine_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%AF%92%E5%B7%9D%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14341_place_0",
+    "summary": "Kinstone / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%A3%AF%E3%81%AE%E5%B7%A6%E7%BE%A9%E9%95%B7%EF%BC%882023%E5%B9%B41%E6%9C%88%EF%BC%89_02.jpg"
+  },
+  {
+    "asset": "photos/items/14341_trivia",
+    "summary": "Wikipedia / https://commons.wikimedia.org/wiki/File:OISO.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:OISO.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A3%AF%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14342_place_0",
+    "summary": "koukoukun / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Azumayama.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%90%BE%E5%A6%BB%E5%B1%B1_(%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C)"
+  },
+  {
+    "asset": "photos/items/14342_trivia",
+    "summary": "ChiefHira / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kawawa_jinja_Gate.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%AE%AE%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14361_place_0",
+    "summary": "ふくろう日和 / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E9%87%8C%E9%83%BD%E3%81%BE%E3%81%A1%E3%82%AB%E3%83%95%E3%82%A7.jpg"
+  },
+  {
+    "asset": "photos/items/14361_trivia",
+    "summary": "Terakoya nakai / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E5%A5%88%E5%B7%9D_%E4%B8%AD%E4%BA%95%E7%94%BA_%E5%8E%B3%E5%B3%B6%E6%B9%BF%E6%80%A7%E5%85%AC%E5%9C%923.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E4%BA%95%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14362_place_0",
+    "summary": "Waka77 / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kanagawa_Ooi_Town_Hall_20110115.JPG"
+  },
+  {
+    "asset": "photos/items/14362_trivia",
+    "summary": "Mass Ave 975 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shindainichi03.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E8%B6%B3%E6%9F%84%E5%B9%B3%E9%87%8E"
+  },
+  {
+    "asset": "photos/items/14363_place_0",
+    "summary": "Kninjapan / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%BE%E7%94%B0%E7%94%BA%E5%AF%84%28%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8D%29%E3%83%AD%E3%82%A6%E3%83%90%E3%82%A4%E5%9C%92.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E7%94%B0%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14363_trivia",
+    "summary": "Kninjapan / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%BE%E7%94%B0%E7%94%BA%E5%AF%84%28%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8D%29%E3%83%AD%E3%82%A6%E3%83%90%E3%82%A4%E5%9C%92.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E7%94%B0%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14364_place_0",
+    "summary": "妖精書士 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nakagawa_Onsen.JPG",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89"
+  },
+  {
+    "asset": "photos/items/14364_trivia",
+    "summary": "Σ64 / CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Tanzawa_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%8C%97%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14366_place_0",
+    "summary": "As6022014 / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shingu_Hydrangea_Park2.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%98%E3%81%95%E3%81%84%E3%81%AE%E9%87%8C"
+  },
+  {
+    "asset": "photos/items/14366_trivia",
+    "summary": "リクガメ / CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%81%98%E3%81%95%E3%81%84%E3%81%AE%E9%87%8C.jpg"
+  },
+  {
+    "asset": "photos/items/14382_food_0",
+    "summary": "Wikipedia / https://commons.wikimedia.org/wiki/File:Yosegi_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Yosegi_1.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%AF%84%E6%9C%A8%E7%B4%B0%E5%B7%A5"
+  },
+  {
+    "asset": "photos/items/14382_place_0",
+    "summary": "Wikipedia / https://commons.wikimedia.org/wiki/File:Lake_Ashi_Aerial_photograph.1976.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Ashi_Aerial_photograph.1976.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E8%8A%A6%E3%83%8E%E6%B9%96"
+  },
+  {
+    "asset": "photos/items/14382_trivia",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hakone_yumoto_onsen_2.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89"
+  },
+  {
+    "asset": "photos/items/14383_place_0",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ManazuruPeninsula_view_from_Mitsuishi.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E9%B6%B4%E5%B2%AC"
+  },
+  {
+    "asset": "photos/items/14383_trivia",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ManazuruPeninsula_view_from_Mitsuishi.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E9%B6%B4%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14384_place_0",
+    "summary": "日:Muramasa,Muramasa / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dopponoyu01.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89"
+  },
+  {
+    "asset": "photos/items/14384_trivia",
+    "summary": "Quercus acuta / CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fujiki_river_-_Yugawara_onsen.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14401_place_0",
+    "summary": "Qurren / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aikawa_park_center.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E3%81%82%E3%81%84%E3%81%8B%E3%82%8F%E5%85%AC%E5%9C%92"
+  },
+  {
+    "asset": "photos/items/14401_trivia",
+    "summary": "Qurren / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aikawa_park_center.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%84%9B%E5%B7%9D%E7%94%BA"
+  },
+  {
+    "asset": "photos/items/14402_place_0",
+    "summary": "BehBeh at Japanese Wikipedia / CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MiyagaseKo.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E3%83%B6%E7%80%AC%E6%B9%96"
+  },
+  {
+    "asset": "photos/items/14402_trivia",
+    "summary": "Σ64 / CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Miyagase_02.jpg",
+    "wikiUrl": "https://ja.wikipedia.org/wiki/%E6%B8%85%E5%B7%9D%E6%9D%91"
+  },
+  {
+    "asset": "photos/maps/map_14100",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14101",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14102",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14103",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14104",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14105",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14106",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14107",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14108",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14109",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14110",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14111",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14112",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14113",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14114",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14115",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14116",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14117",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14118",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14130",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14150",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14201",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14203",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14204",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14205",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14206",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14207",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14208",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14210",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14211",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14212",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14213",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14214",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14215",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14216",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14217",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14218",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14301",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14321",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14341",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14342",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14361",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14362",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14363",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14364",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14366",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14382",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14383",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14384",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14401",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  },
+  {
+    "asset": "photos/maps/map_14402",
+    "summary": "アプリ内生成（まちの位置を示す地図）",
+    "source": ""
+  }
+]
