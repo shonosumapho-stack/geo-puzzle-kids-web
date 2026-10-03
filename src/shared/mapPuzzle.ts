@@ -3,6 +3,7 @@ import { el } from './dom';
 import type { MapPiece } from './types';
 
 const SNAP_THRESHOLD = 42;
+const TRAY_DRAG_START_PX = 10;
 
 export interface MapPuzzleOptions {
   title: string;
@@ -106,6 +107,9 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
   let timerRunning = true;
   let cleared = false;
   let transform: Transform = { scale: 1, tx: 0, ty: 0 };
+  let mapContentGroup: SVGGElement | null = null;
+  let lastDialogCode = '';
+  let lastDialogAt = 0;
 
   const screen = el('div', 'screen puzzle-screen');
   const header = el('div', 'puzzle-header');
@@ -225,17 +229,6 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
       path.setAttribute('stroke-width', String(1.25 / transform.scale));
       if (mode === 'placed') {
         path.setAttribute('class', 'puzzle-map-path--placed');
-        const openPlaced = (ev: Event) => {
-          if (Date.now() < suppressPieceTapUntil) return;
-          ev.preventDefault();
-          ev.stopPropagation();
-          showPieceDialog(piece);
-        };
-        path.addEventListener('pointerup', (ev) => {
-          if (ev.pointerType === 'mouse') return;
-          openPlaced(ev);
-        });
-        path.addEventListener('click', openPlaced);
       }
       if (mode === 'drag') {
         path.setAttribute('opacity', '0.85');
@@ -269,7 +262,38 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
       appendPath(dg, dragging, 'drag');
       g.appendChild(dg);
     }
+    mapContentGroup = g;
     mapGroup.appendChild(g);
+  }
+
+  function clientToMapPoint(clientX: number, clientY: number): DOMPoint | null {
+    if (!mapContentGroup) return null;
+    const ctm = mapContentGroup.getScreenCTM();
+    if (!ctm) return null;
+    const pt = svg.createSVGPoint();
+    pt.x = clientX;
+    pt.y = clientY;
+    return pt.matrixTransform(ctm.inverse());
+  }
+
+  function findPlacedAt(clientX: number, clientY: number): MapPiece | null {
+    const mapPt = clientToMapPoint(clientX, clientY);
+    if (!mapPt) return null;
+    for (let i = pieces.length - 1; i >= 0; i--) {
+      const p = pieces[i];
+      if (!placed.has(p.code)) continue;
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', p.path);
+      if (path.isPointInFill(mapPt)) return p;
+    }
+    return null;
+  }
+
+  function onPlacedMapTap(clientX: number, clientY: number): void {
+    if (dragging) return;
+    if (Date.now() < suppressPieceTapUntil) return;
+    const hit = findPlacedAt(clientX, clientY);
+    if (hit) showPieceDialog(hit);
   }
 
   function rebuildTray(): void {
@@ -299,13 +323,25 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
         drawMap();
       };
 
+      let trayDragActive = false;
+      let trayStartX = 0;
+      let trayStartY = 0;
+
       btn.addEventListener('pointerdown', (e) => {
-        e.preventDefault();
-        btn.setPointerCapture(e.pointerId);
-        startDrag(e.clientX, e.clientY);
+        trayDragActive = false;
+        trayStartX = e.clientX;
+        trayStartY = e.clientY;
       });
       btn.addEventListener('pointermove', (e) => {
+        if (!trayDragActive) {
+          const moved = Math.hypot(e.clientX - trayStartX, e.clientY - trayStartY);
+          if (moved < TRAY_DRAG_START_PX) return;
+          trayDragActive = true;
+          btn.setPointerCapture(e.pointerId);
+          startDrag(e.clientX, e.clientY);
+        }
         if (!dragging || dragging.code !== piece.code) return;
+        e.preventDefault();
         const rect = svg.getBoundingClientRect();
         const mapPt = viewToMap(e.clientX - rect.left, e.clientY - rect.top, transform);
         dragOffsetX = mapPt.x - piece.centroid[0];
@@ -313,19 +349,26 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
         drawMap();
       });
       btn.addEventListener('pointerup', () => {
-        if (dragging?.code === piece.code) trySnap();
+        if (trayDragActive && dragging?.code === piece.code) trySnap();
+        trayDragActive = false;
       });
       btn.addEventListener('pointercancel', () => {
         if (dragging?.code === piece.code) {
           dragging = null;
           drawMap();
         }
+        trayDragActive = false;
       });
       tray.appendChild(btn);
     }
   }
 
   function showPieceDialog(piece: MapPiece): void {
+    const now = Date.now();
+    if (piece.code === lastDialogCode && now - lastDialogAt < 400) return;
+    lastDialogCode = piece.code;
+    lastDialogAt = now;
+
     const dialog = el('div', 'puzzle-dialog');
     const card = el('div', 'puzzle-dialog-card');
     card.appendChild(el('h2', '', piece.name));
@@ -355,6 +398,19 @@ export function renderMapPuzzle(root: HTMLElement, options: MapPuzzleOptions): v
       if (ev.target === dialog) dialog.remove();
     });
   }
+
+  svg.addEventListener('click', (e) => {
+    onPlacedMapTap(e.clientX, e.clientY);
+  });
+  svg.addEventListener(
+    'touchend',
+    (e) => {
+      if (e.changedTouches.length !== 1) return;
+      const t = e.changedTouches[0];
+      onPlacedMapTap(t.clientX, t.clientY);
+    },
+    { passive: true },
+  );
 
   const ro = new ResizeObserver(() => {
     drawMap();

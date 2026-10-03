@@ -157,6 +157,10 @@ body {
 
 .puzzle-screen {
   padding-bottom: 0.5rem;
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .puzzle-header {
@@ -187,8 +191,8 @@ body {
 }
 
 .puzzle-map-wrap {
-  flex: 1;
-  min-height: min(52vh, 420px);
+  flex: 1 1 0;
+  min-height: 0;
   background: #1e293b;
   border-radius: 12px;
   border: 1px solid #334155;
@@ -198,8 +202,8 @@ body {
 .puzzle-map {
   width: 100%;
   height: 100%;
-  min-height: min(52vh, 420px);
-  touch-action: none;
+  min-height: 8rem;
+  touch-action: manipulation;
   display: block;
 }
 
@@ -208,9 +212,16 @@ body {
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
+  align-content: flex-start;
+  flex: 0 1 auto;
+  min-height: 0;
   padding: 0.75rem 0;
-  max-height: 38vh;
+  max-height: min(42vh, 320px);
+  overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  overscroll-behavior: contain;
 }
 
 .puzzle-tray-item {
@@ -221,7 +232,7 @@ body {
   border-radius: 10px;
   background: #0f172a;
   cursor: grab;
-  touch-action: none;
+  touch-action: manipulation;
   display: flex;
   align-items: center;
   justify-content: center;
