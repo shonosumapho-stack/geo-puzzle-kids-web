@@ -883,6 +883,14 @@ body {
   font-size: 0.95rem;
 }
 
+.ranking-source {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  margin: 0 0 0.85rem;
+  line-height: 1.4;
+}
+
 .ranking-value-hint {
   text-align: center;
   color: #64748b;

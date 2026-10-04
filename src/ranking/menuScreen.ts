@@ -16,7 +16,7 @@ export async function renderRankingMenu(root: HTMLElement): Promise<void> {
   back.href = '#/';
   const title = el('h1', 'world-menu-title');
   setRubyText(title, '都道府県{とどうふけん}ランキング', furigana);
-  const sub = el('p', 'world-menu-sub', '50の項目でくらべて、クイズにも挑戦しよう');
+  const sub = el('p', 'world-menu-sub', '公式統計の数値でくらべて、クイズにも挑戦しよう');
 
   const furiganaRow = el('label', 'furigana-toggle');
   const furiganaInput = document.createElement('input');
@@ -40,8 +40,9 @@ export async function renderRankingMenu(root: HTMLElement): Promise<void> {
     const name = el('span', 'ranking-cat-name');
     setRubyText(name, cat.nameRuby, furigana);
     left.appendChild(name);
-    if (cat.unitLabel) {
-      left.appendChild(el('span', 'ranking-cat-unit', cat.unitLabel));
+    const metaParts = [cat.unitLabel, cat.sourceYear].filter(Boolean);
+    if (metaParts.length) {
+      left.appendChild(el('span', 'ranking-cat-unit', metaParts.join(' · ')));
     }
     const top = cat.ranking[0];
     const topEl = el('span', 'ranking-cat-top');

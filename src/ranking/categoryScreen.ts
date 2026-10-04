@@ -20,17 +20,17 @@ export async function renderRankingCategory(root: HTMLElement, categoryId: strin
   const note = el('p', 'world-menu-sub');
   setRubyText(note, cat.noteRuby, furigana);
 
+  screen.append(back, title, note);
+
   if (cat.unitLabel) {
-    const unit = el('p', 'ranking-unit', `単位: ${cat.unitLabel}`);
-    screen.append(back, title, note, unit);
-  } else {
-    screen.append(back, title, note);
+    screen.appendChild(el('p', 'ranking-unit', `単位: ${cat.unitLabel}`));
   }
 
-  if (!cat.hasValues) {
-    screen.appendChild(
-      el('p', 'ranking-value-hint', 'この項目は順位のみ（数値は載せていません）'),
-    );
+  if (cat.source || cat.sourceYear) {
+    const src = el('p', 'ranking-source');
+    const parts = [cat.source, cat.sourceYear].filter(Boolean).join(' / ');
+    src.textContent = `出典: ${parts}`;
+    screen.appendChild(src);
   }
 
   const list = el('ol', cat.hasValues ? 'ranking-board' : 'ranking-board ranking-board--name-only');

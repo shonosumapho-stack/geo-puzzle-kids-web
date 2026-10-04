@@ -9,11 +9,12 @@ export interface RankEntry {
 export interface RankCategory {
   id: string;
   nameRuby: string;
-  /** 学習用の単位表示（例: t（トン）, mm（ミリ）） */
   unitLabel: string;
   noteRuby: string;
-  /** true のときだけ信頼できる数値を表示 */
   hasValues: boolean;
+  source?: string;
+  sourceYear?: string;
+  sourceUrl?: string;
   ranking: RankEntry[];
 }
 
