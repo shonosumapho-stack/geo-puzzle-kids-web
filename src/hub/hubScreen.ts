@@ -3,7 +3,7 @@ import { el } from '../shared/dom';
 export function renderHub(root: HTMLElement): void {
   const screen = el('div', 'screen hub-screen');
   const title = el('h1', 'hub-title', '地理ゲーム');
-  const sub = el('p', 'hub-subtitle', '地図パズル・国当て・都道府県ランキング');
+  const sub = el('p', 'hub-subtitle', '地図パズル・国当て・都道府県ランキング（生産量・気象・観光など）');
   const nav = el('nav', 'hub-nav');
 
   const world = el('a', 'hub-btn hub-btn-world', '世界の国当て');

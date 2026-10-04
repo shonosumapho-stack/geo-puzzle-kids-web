@@ -1,7 +1,7 @@
 /**
  * Builds public/assets/japan/prefecture_ranks.json from:
  * - prefecture_info.json (人口・面積) + 公式出典メタ
- * - scripts/rank-sources/official-stats.json (農林水産省作物統計ベース)
+ * - scripts/rank-sources/official-stats.json (作物＋気象・観光・経済など)
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -38,10 +38,50 @@ function rankFromMap(valueByCode, labelFn) {
   return rows.map((r) => entry(r.code, r.value, labelFn(r.value)));
 }
 
-function formatTons(v) {
-  if (v >= 10000) return `${Math.round(v).toLocaleString('ja-JP')} t`;
-  if (Number.isInteger(v)) return `${v.toLocaleString('ja-JP')} t`;
-  return `${v.toLocaleString('ja-JP')} t`;
+function jaNum(v, digits) {
+  if (digits != null) {
+    return Number(v).toLocaleString('ja-JP', {
+      minimumFractionDigits: digits,
+      maximumFractionDigits: digits,
+    });
+  }
+  if (Number.isInteger(v)) return Math.round(v).toLocaleString('ja-JP');
+  return Number(v).toLocaleString('ja-JP');
+}
+
+function formatByKind(kind, v) {
+  switch (kind) {
+    case 'tons':
+      return `${jaNum(Math.round(v))} t`;
+    case 'mm':
+      return `${jaNum(v, v % 1 === 0 ? 0 : 1)} mm`;
+    case 'hours':
+      return `${jaNum(Math.round(v))}時間`;
+    case 'celsius':
+      return `${jaNum(v, 1)}℃`;
+    case 'percent':
+      return `${jaNum(v, v % 1 === 0 ? 0 : 1)}％`;
+    case 'ha':
+      return `${jaNum(Math.round(v))} ha`;
+    case 'mannin':
+      return `${jaNum(v, v % 1 === 0 ? 0 : 1)}万人`;
+    case 'okuen':
+      return `${jaNum(v, v % 1 === 0 ? 0 : 1)}億円`;
+    case 'choen':
+      return `${jaNum(v, 2)}兆円`;
+    case 'dai':
+      return `${jaNum(Math.round(v))}台`;
+    case 'rate':
+      return jaNum(v, 2);
+    case 'yen':
+      return `${jaNum(Math.round(v))}円`;
+    case 'manen':
+      return `${jaNum(Math.round(v))}万円`;
+    case 'hon':
+      return `${jaNum(Math.round(v))}本`;
+    default:
+      return jaNum(v);
+  }
 }
 
 const popByCode = Object.fromEntries(info.map((p) => [p.code, p.population]));
@@ -86,7 +126,7 @@ const baseCategories = [
   },
 ];
 
-const cropCategories = official.categories.map((c) => ({
+const officialCategories = official.categories.map((c) => ({
   id: c.id,
   nameRuby: c.nameRuby,
   unitLabel: c.unitLabel,
@@ -95,10 +135,10 @@ const cropCategories = official.categories.map((c) => ({
   source: c.source,
   sourceYear: c.sourceYear,
   sourceUrl: c.sourceUrl,
-  ranking: rankFromMap(c.values, formatTons),
+  ranking: rankFromMap(c.values, (v) => formatByKind(c.valueKind || 'tons', v)),
 }));
 
-const categories = [...baseCategories, ...cropCategories];
+const categories = [...baseCategories, ...officialCategories];
 
 if (categories.length < 45) {
   console.error(`Too few categories: ${categories.length}`);
@@ -106,9 +146,9 @@ if (categories.length < 45) {
 }
 
 const out = {
-  version: 3,
+  version: 4,
   sourceNote:
-    '数値は公式統計に基づきます。作物は農林水産省「作物統計」（令和5年産）を、人口は総務省「人口推計」、面積は国土地理院「面積調」を参照しています。',
+    '数値は公式統計に基づきます。人口は総務省、面積は国土地理院、作物は農林水産省「作物統計」、気象・観光・経済などは各省庁の公表統計を参照しています。',
   categories,
 };
 
