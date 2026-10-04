@@ -79,6 +79,12 @@ function formatByKind(kind, v) {
       return `${jaNum(Math.round(v))}万円`;
     case 'hon':
       return `${jaNum(Math.round(v))}本`;
+    case 'hyakumannin':
+      return `${jaNum(v, v % 1 === 0 ? 0 : 1)}百万人`;
+    case 'age':
+      return `${jaNum(v, 2)}歳`;
+    case 'ken':
+      return `${jaNum(Math.round(v))}件`;
     default:
       return jaNum(v);
   }

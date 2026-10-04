@@ -7683,1041 +7683,1041 @@
     },
     {
       "id": "precipitation",
-      "nameRuby": "降水量{こうすいりょう}（年間{ねんかん}）",
+      "nameRuby": "降水量{こうすいりょう}（年間{ねんかん}・複数年平均{ふくすうねんへいきん}）",
       "unitLabel": "mm（ミリ）",
-      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年間降水量{ねんかんこうすいりょう}",
+      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}",
       "hasValues": true,
-      "source": "総務省「社会生活統計指標」（気象庁）",
-      "sourceYear": "令和5年（2023年）",
-      "sourceUrl": "https://region-case.com/rank-r5-weather-precipitation/",
+      "source": "総務省「日本統計年鑑」（気象庁データ）の複数年平均",
+      "sourceYear": "平成30年〜令和5年（2018〜2023年）の平均",
+      "sourceUrl": "https://region-case.com/rank-weather-precipitation/",
       "ranking": [
         {
           "code": "45",
           "name": "宮崎県",
           "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 3002.5,
-          "valueLabel": "3,002.5 mm"
+          "value": 2914.3,
+          "valueLabel": "2,914.3 mm"
         },
         {
           "code": "39",
           "name": "高知県",
           "nameRuby": "高知{こうち}県{けん}",
-          "value": 2783,
-          "valueLabel": "2,783 mm"
+          "value": 2799.8,
+          "valueLabel": "2,799.8 mm"
         },
         {
           "code": "46",
           "name": "鹿児島県",
           "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 2510,
-          "valueLabel": "2,510 mm"
-        },
-        {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 2498,
-          "valueLabel": "2,498 mm"
-        },
-        {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 2388.5,
-          "valueLabel": "2,388.5 mm"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 2382.5,
-          "valueLabel": "2,382.5 mm"
-        },
-        {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 2333,
-          "valueLabel": "2,333 mm"
+          "value": 2592.1,
+          "valueLabel": "2,592.1 mm"
         },
         {
           "code": "47",
           "name": "沖縄県",
           "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 2291.5,
-          "valueLabel": "2,291.5 mm"
+          "value": 2560.3,
+          "valueLabel": "2,560.3 mm"
         },
         {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 2208.5,
-          "valueLabel": "2,208.5 mm"
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2551.1,
+          "valueLabel": "2,551.1 mm"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 2473,
+          "valueLabel": "2,473 mm"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 2426.2,
+          "valueLabel": "2,426.2 mm"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 2397.3,
+          "valueLabel": "2,397.3 mm"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 2181.6,
+          "valueLabel": "2,181.6 mm"
         },
         {
           "code": "42",
           "name": "長崎県",
           "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 2134.5,
-          "valueLabel": "2,134.5 mm"
+          "value": 2066.5,
+          "valueLabel": "2,066.5 mm"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 2031.3,
+          "valueLabel": "2,031.3 mm"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 2015.9,
+          "valueLabel": "2,015.9 mm"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 1961,
+          "valueLabel": "1,961 mm"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 1932.8,
+          "valueLabel": "1,932.8 mm"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 1932.1,
+          "valueLabel": "1,932.1 mm"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 1840.8,
+          "valueLabel": "1,840.8 mm"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 1829.3,
+          "valueLabel": "1,829.3 mm"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 1736.3,
+          "valueLabel": "1,736.3 mm"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 1714.8,
+          "valueLabel": "1,714.8 mm"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 1704.4,
+          "valueLabel": "1,704.4 mm"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 1673.8,
+          "valueLabel": "1,673.8 mm"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1662.3,
+          "valueLabel": "1,662.3 mm"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 1632.6,
+          "valueLabel": "1,632.6 mm"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 1629.2,
+          "valueLabel": "1,629.2 mm"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 1621.8,
+          "valueLabel": "1,621.8 mm"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 1610.1,
+          "valueLabel": "1,610.1 mm"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 1556.7,
+          "valueLabel": "1,556.7 mm"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 1546.7,
+          "valueLabel": "1,546.7 mm"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 1538.8,
+          "valueLabel": "1,538.8 mm"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 1509.7,
+          "valueLabel": "1,509.7 mm"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 1495.6,
+          "valueLabel": "1,495.6 mm"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 1484.4,
+          "valueLabel": "1,484.4 mm"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 1468,
+          "valueLabel": "1,468 mm"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 1429.7,
+          "valueLabel": "1,429.7 mm"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 1413.8,
+          "valueLabel": "1,413.8 mm"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 1411.1,
+          "valueLabel": "1,411.1 mm"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 1322.9,
+          "valueLabel": "1,322.9 mm"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 1222.8,
+          "valueLabel": "1,222.8 mm"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 1221.3,
+          "valueLabel": "1,221.3 mm"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 1195.3,
+          "valueLabel": "1,195.3 mm"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 1176.9,
+          "valueLabel": "1,176.9 mm"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1160.8,
+          "valueLabel": "1,160.8 mm"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 1123.4,
+          "valueLabel": "1,123.4 mm"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 1091.4,
+          "valueLabel": "1,091.4 mm"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 1081.2,
+          "valueLabel": "1,081.2 mm"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1035,
+          "valueLabel": "1,035 mm"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 974.9,
+          "valueLabel": "974.9 mm"
+        }
+      ]
+    },
+    {
+      "id": "sunshine",
+      "nameRuby": "日照時間{にっしょうじかん}（年間{ねんかん}・複数年平均{ふくすうねんへいきん}）",
+      "unitLabel": "時間",
+      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}",
+      "hasValues": true,
+      "source": "総務省「日本統計年鑑」（気象庁データ）の複数年平均",
+      "sourceYear": "平成30年〜令和5年（2018〜2023年）の平均",
+      "sourceUrl": "https://region-case.com/rank-weather-sunshine/",
+      "ranking": [
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 2327,
+          "valueLabel": "2,327時間"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 2276,
+          "valueLabel": "2,276時間"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2263,
+          "valueLabel": "2,263時間"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 2261,
+          "valueLabel": "2,261時間"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 2245,
+          "valueLabel": "2,245時間"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 2242,
+          "valueLabel": "2,242時間"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 2240,
+          "valueLabel": "2,240時間"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 2232,
+          "valueLabel": "2,232時間"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 2231,
+          "valueLabel": "2,231時間"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 2224,
+          "valueLabel": "2,224時間"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 2224,
+          "valueLabel": "2,224時間"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 2210,
+          "valueLabel": "2,210時間"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 2204,
+          "valueLabel": "2,204時間"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 2189,
+          "valueLabel": "2,189時間"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 2179,
+          "valueLabel": "2,179時間"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2160,
+          "valueLabel": "2,160時間"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 2155,
+          "valueLabel": "2,155時間"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 2152,
+          "valueLabel": "2,152時間"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 2128,
+          "valueLabel": "2,128時間"
         },
         {
           "code": "41",
           "name": "佐賀県",
           "nameRuby": "佐賀{さが}県{けん}",
           "value": 2113,
-          "valueLabel": "2,113 mm"
-        },
-        {
-          "code": "35",
-          "name": "山口県",
-          "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 2067.5,
-          "valueLabel": "2,067.5 mm"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 2058.5,
-          "valueLabel": "2,058.5 mm"
-        },
-        {
-          "code": "21",
-          "name": "岐阜県",
-          "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 1986.5,
-          "valueLabel": "1,986.5 mm"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 1970.5,
-          "valueLabel": "1,970.5 mm"
-        },
-        {
-          "code": "15",
-          "name": "新潟県",
-          "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 1866,
-          "valueLabel": "1,866 mm"
+          "valueLabel": "2,113時間"
         },
         {
           "code": "43",
           "name": "熊本県",
           "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 1801.5,
-          "valueLabel": "1,801.5 mm"
+          "value": 2110,
+          "valueLabel": "2,110時間"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 2089,
+          "valueLabel": "2,089時間"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 2080,
+          "valueLabel": "2,080時間"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 2076,
+          "valueLabel": "2,076時間"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 2068,
+          "valueLabel": "2,068時間"
         },
         {
           "code": "40",
           "name": "福岡県",
           "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 1768,
-          "valueLabel": "1,768 mm"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 1761,
-          "valueLabel": "1,761 mm"
-        },
-        {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 1566,
-          "valueLabel": "1,566 mm"
-        },
-        {
-          "code": "09",
-          "name": "栃木県",
-          "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 1536.5,
-          "valueLabel": "1,536.5 mm"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 1507.5,
-          "valueLabel": "1,507.5 mm"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 1504.5,
-          "valueLabel": "1,504.5 mm"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 1460.5,
-          "valueLabel": "1,460.5 mm"
-        },
-        {
-          "code": "03",
-          "name": "岩手県",
-          "nameRuby": "岩手{いわて}県{けん}",
-          "value": 1453,
-          "valueLabel": "1,453 mm"
-        },
-        {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 1442,
-          "valueLabel": "1,442 mm"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 1399.5,
-          "valueLabel": "1,399.5 mm"
+          "value": 2059,
+          "valueLabel": "2,059時間"
         },
         {
           "code": "13",
           "name": "東京都",
           "nameRuby": "東京{とうきょう}都{と}",
-          "value": 1396.5,
-          "valueLabel": "1,396.5 mm"
-        },
-        {
-          "code": "14",
-          "name": "神奈川県",
-          "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 1377,
-          "valueLabel": "1,377 mm"
-        },
-        {
-          "code": "29",
-          "name": "奈良県",
-          "nameRuby": "奈良{なら}県{けん}",
-          "value": 1358,
-          "valueLabel": "1,358 mm"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 1346,
-          "valueLabel": "1,346 mm"
-        },
-        {
-          "code": "26",
-          "name": "京都府",
-          "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 1345,
-          "valueLabel": "1,345 mm"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 1343.5,
-          "valueLabel": "1,343.5 mm"
-        },
-        {
-          "code": "02",
-          "name": "青森県",
-          "nameRuby": "青森{あおもり}県{けん}",
-          "value": 1316,
-          "valueLabel": "1,316 mm"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 1279.5,
-          "valueLabel": "1,279.5 mm"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 1268.5,
-          "valueLabel": "1,268.5 mm"
-        },
-        {
-          "code": "30",
-          "name": "和歌山県",
-          "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 1268,
-          "valueLabel": "1,268 mm"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 1176.5,
-          "valueLabel": "1,176.5 mm"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 1073,
-          "valueLabel": "1,073 mm"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 1063,
-          "valueLabel": "1,063 mm"
-        },
-        {
-          "code": "04",
-          "name": "宮城県",
-          "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 1046,
-          "valueLabel": "1,046 mm"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 1032,
-          "valueLabel": "1,032 mm"
-        },
-        {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 1028.5,
-          "valueLabel": "1,028.5 mm"
-        },
-        {
-          "code": "07",
-          "name": "福島県",
-          "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 990.5,
-          "valueLabel": "990.5 mm"
-        },
-        {
-          "code": "01",
-          "name": "北海道",
-          "nameRuby": "北海道{ほっかいどう}",
-          "value": 966,
-          "valueLabel": "966 mm"
-        },
-        {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 946.5,
-          "valueLabel": "946.5 mm"
-        },
-        {
-          "code": "20",
-          "name": "長野県",
-          "nameRuby": "長野{ながの}県{けん}",
-          "value": 830,
-          "valueLabel": "830 mm"
-        }
-      ]
-    },
-    {
-      "id": "sunshine",
-      "nameRuby": "日照時間{にっしょうじかん}（年間{ねんかん}）",
-      "unitLabel": "時間",
-      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年間日照時間{ねんかんにっしょうじかん}",
-      "hasValues": true,
-      "source": "総務省「社会生活統計指標」（気象庁）",
-      "sourceYear": "令和5年（2023年）",
-      "sourceUrl": "https://region-case.com/rank-r5-weather-sunshine/",
-      "ranking": [
-        {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 2546,
-          "valueLabel": "2,546時間"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 2497,
-          "valueLabel": "2,497時間"
-        },
-        {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 2484,
-          "valueLabel": "2,484時間"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 2459,
-          "valueLabel": "2,459時間"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 2454,
-          "valueLabel": "2,454時間"
-        },
-        {
-          "code": "14",
-          "name": "神奈川県",
-          "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 2410,
-          "valueLabel": "2,410時間"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 2378,
-          "valueLabel": "2,378時間"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 2373,
-          "valueLabel": "2,373時間"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 2346,
-          "valueLabel": "2,346時間"
-        },
-        {
-          "code": "21",
-          "name": "岐阜県",
-          "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 2342,
-          "valueLabel": "2,342時間"
-        },
-        {
-          "code": "30",
-          "name": "和歌山県",
-          "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 2328,
-          "valueLabel": "2,328時間"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 2324,
-          "valueLabel": "2,324時間"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 2319,
-          "valueLabel": "2,319時間"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 2309,
-          "valueLabel": "2,309時間"
-        },
-        {
-          "code": "09",
-          "name": "栃木県",
-          "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 2294,
-          "valueLabel": "2,294時間"
-        },
-        {
-          "code": "13",
-          "name": "東京都",
-          "nameRuby": "東京{とうきょう}都{と}",
-          "value": 2259,
-          "valueLabel": "2,259時間"
-        },
-        {
-          "code": "39",
-          "name": "高知県",
-          "nameRuby": "高知{こうち}県{けん}",
-          "value": 2249,
-          "valueLabel": "2,249時間"
-        },
-        {
-          "code": "20",
-          "name": "長野県",
-          "nameRuby": "長野{ながの}県{けん}",
-          "value": 2236,
-          "valueLabel": "2,236時間"
-        },
-        {
-          "code": "45",
-          "name": "宮崎県",
-          "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 2213,
-          "valueLabel": "2,213時間"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 2208,
-          "valueLabel": "2,208時間"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 2201,
-          "valueLabel": "2,201時間"
-        },
-        {
-          "code": "04",
-          "name": "宮城県",
-          "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 2182,
-          "valueLabel": "2,182時間"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 2179,
-          "valueLabel": "2,179時間"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 2140,
-          "valueLabel": "2,140時間"
-        },
-        {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 2116,
-          "valueLabel": "2,116時間"
-        },
-        {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 2102,
-          "valueLabel": "2,102時間"
+          "value": 2048,
+          "valueLabel": "2,048時間"
         },
         {
           "code": "46",
           "name": "鹿児島県",
           "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 2102,
-          "valueLabel": "2,102時間"
-        },
-        {
-          "code": "43",
-          "name": "熊本県",
-          "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 2101,
-          "valueLabel": "2,101時間"
-        },
-        {
-          "code": "29",
-          "name": "奈良県",
-          "nameRuby": "奈良{なら}県{けん}",
-          "value": 2095,
-          "valueLabel": "2,095時間"
-        },
-        {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 2084,
-          "valueLabel": "2,084時間"
-        },
-        {
-          "code": "26",
-          "name": "京都府",
-          "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 2081,
-          "valueLabel": "2,081時間"
-        },
-        {
-          "code": "07",
-          "name": "福島県",
-          "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 2065,
-          "valueLabel": "2,065時間"
-        },
-        {
-          "code": "40",
-          "name": "福岡県",
-          "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 2033,
-          "valueLabel": "2,033時間"
-        },
-        {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 2030,
-          "valueLabel": "2,030時間"
+          "value": 2035,
+          "valueLabel": "2,035時間"
         },
         {
           "code": "35",
           "name": "山口県",
           "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 2019,
-          "valueLabel": "2,019時間"
+          "value": 2008,
+          "valueLabel": "2,008時間"
         },
         {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 1979,
-          "valueLabel": "1,979時間"
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 1997,
+          "valueLabel": "1,997時間"
         },
         {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 1956,
-          "valueLabel": "1,956時間"
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 1993,
+          "valueLabel": "1,993時間"
         },
         {
-          "code": "15",
-          "name": "新潟県",
-          "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 1944,
-          "valueLabel": "1,944時間"
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 1985,
+          "valueLabel": "1,985時間"
         },
         {
           "code": "42",
           "name": "長崎県",
           "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 1939,
-          "valueLabel": "1,939時間"
+          "value": 1967,
+          "valueLabel": "1,967時間"
         },
         {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 1936,
-          "valueLabel": "1,936時間"
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 1941,
+          "valueLabel": "1,941時間"
         },
         {
-          "code": "03",
-          "name": "岩手県",
-          "nameRuby": "岩手{いわて}県{けん}",
-          "value": 1913,
-          "valueLabel": "1,913時間"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 1894,
-          "valueLabel": "1,894時間"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 1894,
-          "valueLabel": "1,894時間"
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 1889,
+          "valueLabel": "1,889時間"
         },
         {
           "code": "01",
           "name": "北海道",
           "nameRuby": "北海道{ほっかいどう}",
-          "value": 1890,
-          "valueLabel": "1,890時間"
+          "value": 1880,
+          "valueLabel": "1,880時間"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 1869,
+          "valueLabel": "1,869時間"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 1842,
+          "valueLabel": "1,842時間"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 1821,
+          "valueLabel": "1,821時間"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 1799,
+          "valueLabel": "1,799時間"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 1786,
+          "valueLabel": "1,786時間"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 1782,
+          "valueLabel": "1,782時間"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 1777,
+          "valueLabel": "1,777時間"
         },
         {
           "code": "47",
           "name": "沖縄県",
           "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 1861,
-          "valueLabel": "1,861時間"
-        },
-        {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 1836,
-          "valueLabel": "1,836時間"
+          "value": 1766,
+          "valueLabel": "1,766時間"
         },
         {
           "code": "02",
           "name": "青森県",
           "nameRuby": "青森{あおもり}県{けん}",
-          "value": 1821,
-          "valueLabel": "1,821時間"
+          "value": 1750,
+          "valueLabel": "1,750時間"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 1746,
+          "valueLabel": "1,746時間"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 1690,
+          "valueLabel": "1,690時間"
         }
       ]
     },
     {
       "id": "temperature",
-      "nameRuby": "年平均気温{ねんへいきんきおん}",
+      "nameRuby": "年平均気温{ねんへいきんきおん}（複数年平均{ふくすうねんへいきん}）",
       "unitLabel": "℃",
-      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年平均気温{ねんへいきんきおん}",
+      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}",
       "hasValues": true,
-      "source": "総務省「社会生活統計指標」（気象庁）",
-      "sourceYear": "令和5年（2023年）",
-      "sourceUrl": "https://region-case.com/rank-2023-weather-temperature/",
+      "source": "総務省「日本統計年鑑」（気象庁データ）の複数年平均",
+      "sourceYear": "平成30年〜令和5年（2018〜2023年）の平均",
+      "sourceUrl": "https://region-case.com/rank-weather-temperature/",
       "ranking": [
         {
           "code": "47",
           "name": "沖縄県",
           "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 23.8,
-          "valueLabel": "23.8℃"
+          "value": 23.7,
+          "valueLabel": "23.7℃"
         },
         {
           "code": "46",
           "name": "鹿児島県",
           "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 19.5,
-          "valueLabel": "19.5℃"
-        },
-        {
-          "code": "40",
-          "name": "福岡県",
-          "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 18.5,
-          "valueLabel": "18.5℃"
+          "value": 19.3,
+          "valueLabel": "19.3℃"
         },
         {
           "code": "45",
           "name": "宮崎県",
           "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 18.4,
-          "valueLabel": "18.4℃"
+          "value": 18.2,
+          "valueLabel": "18.2℃"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 18,
+          "valueLabel": "18.0℃"
         },
         {
           "code": "42",
           "name": "長崎県",
           "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 18.3,
-          "valueLabel": "18.3℃"
+          "value": 17.9,
+          "valueLabel": "17.9℃"
         },
         {
           "code": "22",
           "name": "静岡県",
           "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 18.2,
-          "valueLabel": "18.2℃"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 18.1,
-          "valueLabel": "18.1℃"
-        },
-        {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 18.1,
-          "valueLabel": "18.1℃"
+          "value": 17.8,
+          "valueLabel": "17.8℃"
         },
         {
           "code": "43",
           "name": "熊本県",
           "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 18.1,
-          "valueLabel": "18.1℃"
-        },
-        {
-          "code": "14",
-          "name": "神奈川県",
-          "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 18,
-          "valueLabel": "18.0℃"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 18,
-          "valueLabel": "18.0℃"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 18,
-          "valueLabel": "18.0℃"
+          "value": 17.8,
+          "valueLabel": "17.8℃"
         },
         {
           "code": "39",
           "name": "高知県",
           "nameRuby": "高知{こうち}県{けん}",
-          "value": 17.9,
-          "valueLabel": "17.9℃"
+          "value": 17.7,
+          "valueLabel": "17.7℃"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 17.7,
+          "valueLabel": "17.7℃"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 17.6,
+          "valueLabel": "17.6℃"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 17.6,
+          "valueLabel": "17.6℃"
         },
         {
           "code": "30",
           "name": "和歌山県",
           "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 17.8,
-          "valueLabel": "17.8℃"
+          "value": 17.5,
+          "valueLabel": "17.5℃"
         },
         {
           "code": "38",
           "name": "愛媛県",
           "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 17.8,
-          "valueLabel": "17.8℃"
-        },
-        {
-          "code": "13",
-          "name": "東京都",
-          "nameRuby": "東京{とうきょう}都{と}",
-          "value": 17.6,
-          "valueLabel": "17.6℃"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 17.6,
-          "valueLabel": "17.6℃"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 17.6,
-          "valueLabel": "17.6℃"
+          "value": 17.4,
+          "valueLabel": "17.4℃"
         },
         {
           "code": "44",
           "name": "大分県",
           "nameRuby": "大分{おおいた}県{けん}",
-          "value": 17.6,
-          "valueLabel": "17.6℃"
+          "value": 17.4,
+          "valueLabel": "17.4℃"
         },
         {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 17.5,
-          "valueLabel": "17.5℃"
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 17.3,
+          "valueLabel": "17.3℃"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 17.3,
+          "valueLabel": "17.3℃"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 17.2,
+          "valueLabel": "17.2℃"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 17.1,
+          "valueLabel": "17.1℃"
         },
         {
           "code": "34",
           "name": "広島県",
           "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 17.5,
-          "valueLabel": "17.5℃"
+          "value": 17.1,
+          "valueLabel": "17.1℃"
         },
         {
           "code": "21",
           "name": "岐阜県",
           "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 17.4,
-          "valueLabel": "17.4℃"
+          "value": 17,
+          "valueLabel": "17.0℃"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 17,
+          "valueLabel": "17.0℃"
         },
         {
           "code": "24",
           "name": "三重県",
           "nameRuby": "三重{みえ}県{けん}",
-          "value": 17.4,
-          "valueLabel": "17.4℃"
+          "value": 17,
+          "valueLabel": "17.0℃"
         },
         {
           "code": "26",
           "name": "京都府",
           "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 17.4,
-          "valueLabel": "17.4℃"
+          "value": 17,
+          "valueLabel": "17.0℃"
         },
         {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 17.2,
-          "valueLabel": "17.2℃"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 16.9,
-          "valueLabel": "16.9℃"
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 16.7,
+          "valueLabel": "16.7℃"
         },
         {
           "code": "33",
           "name": "岡山県",
           "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 16.8,
-          "valueLabel": "16.8℃"
+          "value": 16.5,
+          "valueLabel": "16.5℃"
         },
         {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 16.6,
-          "valueLabel": "16.6℃"
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 16.3,
+          "valueLabel": "16.3℃"
         },
         {
           "code": "29",
           "name": "奈良県",
           "nameRuby": "奈良{なら}県{けん}",
-          "value": 16.6,
-          "valueLabel": "16.6℃"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 16.6,
-          "valueLabel": "16.6℃"
+          "value": 16.3,
+          "valueLabel": "16.3℃"
         },
         {
           "code": "35",
           "name": "山口県",
           "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 16.6,
-          "valueLabel": "16.6℃"
+          "value": 16.3,
+          "valueLabel": "16.3℃"
         },
         {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 16.5,
-          "valueLabel": "16.5℃"
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 16,
+          "valueLabel": "16.0℃"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 16,
+          "valueLabel": "16.0℃"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 15.9,
+          "valueLabel": "15.9℃"
         },
         {
           "code": "19",
           "name": "山梨県",
           "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 16.4,
-          "valueLabel": "16.4℃"
+          "value": 15.9,
+          "valueLabel": "15.9℃"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 15.9,
+          "valueLabel": "15.9℃"
         },
         {
           "code": "25",
           "name": "滋賀県",
           "nameRuby": "滋賀{しが}県{けん}",
-          "value": 16.3,
-          "valueLabel": "16.3℃"
+          "value": 15.8,
+          "valueLabel": "15.8℃"
         },
         {
           "code": "18",
           "name": "福井県",
           "nameRuby": "福井{ふくい}県{けん}",
-          "value": 16.2,
-          "valueLabel": "16.2℃"
+          "value": 15.6,
+          "valueLabel": "15.6℃"
         },
         {
           "code": "16",
           "name": "富山県",
           "nameRuby": "富山{とやま}県{けん}",
-          "value": 16.1,
-          "valueLabel": "16.1℃"
+          "value": 15.3,
+          "valueLabel": "15.3℃"
         },
         {
           "code": "08",
           "name": "茨城県",
           "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 16.1,
-          "valueLabel": "16.1℃"
+          "value": 15.2,
+          "valueLabel": "15.2℃"
         },
         {
           "code": "09",
           "name": "栃木県",
           "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 16,
-          "valueLabel": "16.0℃"
+          "value": 15.2,
+          "valueLabel": "15.2℃"
         },
         {
           "code": "15",
           "name": "新潟県",
           "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 15.4,
-          "valueLabel": "15.4℃"
+          "value": 14.7,
+          "valueLabel": "14.7℃"
         },
         {
           "code": "07",
           "name": "福島県",
           "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 15.2,
-          "valueLabel": "15.2℃"
+          "value": 14.2,
+          "valueLabel": "14.2℃"
         },
         {
           "code": "04",
           "name": "宮城県",
           "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 15,
-          "valueLabel": "15.0℃"
-        },
-        {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 13.7,
-          "valueLabel": "13.7℃"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 13.7,
-          "valueLabel": "13.7℃"
+          "value": 13.9,
+          "valueLabel": "13.9℃"
         },
         {
           "code": "20",
           "name": "長野県",
           "nameRuby": "長野{ながの}県{けん}",
-          "value": 13.6,
-          "valueLabel": "13.6℃"
+          "value": 13,
+          "valueLabel": "13.0℃"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 12.9,
+          "valueLabel": "12.9℃"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 12.9,
+          "valueLabel": "12.9℃"
         },
         {
           "code": "02",
           "name": "青森県",
           "nameRuby": "青森{あおもり}県{けん}",
-          "value": 12.6,
-          "valueLabel": "12.6℃"
+          "value": 11.6,
+          "valueLabel": "11.6℃"
         },
         {
           "code": "03",
           "name": "岩手県",
           "nameRuby": "岩手{いわて}県{けん}",
-          "value": 12.5,
-          "valueLabel": "12.5℃"
+          "value": 11.5,
+          "valueLabel": "11.5℃"
         },
         {
           "code": "01",
           "name": "北海道",
           "nameRuby": "北海道{ほっかいどう}",
-          "value": 11,
-          "valueLabel": "11.0℃"
+          "value": 10.1,
+          "valueLabel": "10.1℃"
         }
       ]
     },
     {
       "id": "humidity",
-      "nameRuby": "平均湿度{へいきんしつど}",
+      "nameRuby": "平均湿度{へいきんしつど}（複数年平均{ふくすうねんへいきん}）",
       "unitLabel": "％",
-      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の平均湿度{へいきんしつど}",
+      "noteRuby": "県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}",
       "hasValues": true,
-      "source": "総務省「社会生活統計指標」（気象庁）",
-      "sourceYear": "令和5年（2023年）",
-      "sourceUrl": "https://region-case.com/rank-r5-weather-humidity/",
+      "source": "総務省「日本統計年鑑」（気象庁データ）の複数年平均",
+      "sourceYear": "平成30年〜令和5年（2018〜2023年）の平均",
+      "sourceUrl": "https://region-case.com/rank-weather-humidity/",
       "ranking": [
         {
-          "code": "35",
-          "name": "山口県",
-          "nameRuby": "山口{やまぐち}県{けん}",
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
           "value": 77,
           "valueLabel": "77％"
         },
@@ -8729,46 +8729,60 @@
           "valueLabel": "77％"
         },
         {
-          "code": "02",
-          "name": "青森県",
-          "nameRuby": "青森{あおもり}県{けん}",
-          "value": 77,
-          "valueLabel": "77％"
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 76.7,
+          "valueLabel": "76.7％"
         },
         {
           "code": "03",
           "name": "岩手県",
           "nameRuby": "岩手{いわて}県{けん}",
-          "value": 77,
-          "valueLabel": "77％"
-        },
-        {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 76,
-          "valueLabel": "76％"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 76,
-          "valueLabel": "76％"
+          "value": 76.5,
+          "valueLabel": "76.5％"
         },
         {
           "code": "45",
           "name": "宮崎県",
           "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 76,
-          "valueLabel": "76％"
+          "value": 76.3,
+          "valueLabel": "76.3％"
         },
         {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 76,
-          "valueLabel": "76％"
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 76.2,
+          "valueLabel": "76.2％"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 75.5,
+          "valueLabel": "75.5％"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 75.5,
+          "valueLabel": "75.5％"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 75.5,
+          "valueLabel": "75.5％"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 75.3,
+          "valueLabel": "75.3％"
         },
         {
           "code": "15",
@@ -8778,163 +8792,156 @@
           "valueLabel": "75％"
         },
         {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 75,
-          "valueLabel": "75％"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 75,
-          "valueLabel": "75％"
-        },
-        {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 74,
-          "valueLabel": "74％"
-        },
-        {
           "code": "20",
           "name": "長野県",
           "nameRuby": "長野{ながの}県{けん}",
-          "value": 74,
-          "valueLabel": "74％"
+          "value": 74.7,
+          "valueLabel": "74.7％"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 74.7,
+          "valueLabel": "74.7％"
         },
         {
           "code": "06",
           "name": "山形県",
           "nameRuby": "山形{やまがた}県{けん}",
-          "value": 74,
-          "valueLabel": "74％"
+          "value": 74.5,
+          "valueLabel": "74.5％"
         },
         {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 73,
-          "valueLabel": "73％"
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 73.3,
+          "valueLabel": "73.3％"
         },
         {
           "code": "46",
           "name": "鹿児島県",
           "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 73,
-          "valueLabel": "73％"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 73,
-          "valueLabel": "73％"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 72,
-          "valueLabel": "72％"
-        },
-        {
-          "code": "39",
-          "name": "高知県",
-          "nameRuby": "高知{こうち}県{けん}",
-          "value": 72,
-          "valueLabel": "72％"
-        },
-        {
-          "code": "29",
-          "name": "奈良県",
-          "nameRuby": "奈良{なら}県{けん}",
-          "value": 71,
-          "valueLabel": "71％"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 71,
-          "valueLabel": "71％"
-        },
-        {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 71,
-          "valueLabel": "71％"
-        },
-        {
-          "code": "01",
-          "name": "北海道",
-          "nameRuby": "北海道{ほっかいどう}",
-          "value": 71,
-          "valueLabel": "71％"
+          "value": 72.7,
+          "valueLabel": "72.7％"
         },
         {
           "code": "04",
           "name": "宮城県",
           "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 71,
-          "valueLabel": "71％"
+          "value": 72.2,
+          "valueLabel": "72.2％"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 71.8,
+          "valueLabel": "71.8％"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 71.7,
+          "valueLabel": "71.7％"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 71.5,
+          "valueLabel": "71.5％"
         },
         {
           "code": "09",
           "name": "栃木県",
           "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 71,
-          "valueLabel": "71％"
+          "value": 71.5,
+          "valueLabel": "71.5％"
         },
         {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 71.2,
+          "valueLabel": "71.2％"
         },
         {
           "code": "07",
           "name": "福島県",
           "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 70,
-          "valueLabel": "70％"
+          "value": 71,
+          "valueLabel": "71％"
         },
         {
-          "code": "30",
-          "name": "和歌山県",
-          "nameRuby": "和歌山{わかやま}県{けん}",
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 70.8,
+          "valueLabel": "70.8％"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 70.8,
+          "valueLabel": "70.8％"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 70.5,
+          "valueLabel": "70.5％"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 70.5,
+          "valueLabel": "70.5％"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 70.2,
+          "valueLabel": "70.2％"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 69.7,
+          "valueLabel": "69.7％"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 69.5,
+          "valueLabel": "69.5％"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 69.2,
+          "valueLabel": "69.2％"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 69,
+          "valueLabel": "69％"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
           "value": 69,
           "valueLabel": "69％"
         },
@@ -8942,106 +8949,99 @@
           "code": "40",
           "name": "福岡県",
           "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 69,
-          "valueLabel": "69％"
+          "value": 68.7,
+          "valueLabel": "68.7％"
         },
         {
-          "code": "42",
-          "name": "長崎県",
-          "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 69,
-          "valueLabel": "69％"
-        },
-        {
-          "code": "43",
-          "name": "熊本県",
-          "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 69,
-          "valueLabel": "69％"
-        },
-        {
-          "code": "13",
-          "name": "東京都",
-          "nameRuby": "東京{とうきょう}都{と}",
-          "value": 68,
-          "valueLabel": "68％"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 68,
-          "valueLabel": "68％"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 67,
-          "valueLabel": "67％"
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 68.5,
+          "valueLabel": "68.5％"
         },
         {
           "code": "14",
           "name": "神奈川県",
           "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 67,
-          "valueLabel": "67％"
+          "value": 68.3,
+          "valueLabel": "68.3％"
         },
         {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 66,
-          "valueLabel": "66％"
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 66.7,
+          "valueLabel": "66.7％"
         },
         {
           "code": "26",
           "name": "京都府",
           "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 66,
-          "valueLabel": "66％"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 66,
-          "valueLabel": "66％"
+          "value": 66.5,
+          "valueLabel": "66.5％"
         },
         {
           "code": "11",
           "name": "埼玉県",
           "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 65,
-          "valueLabel": "65％"
+          "value": 66.3,
+          "valueLabel": "66.3％"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 66.3,
+          "valueLabel": "66.3％"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 65.5,
+          "valueLabel": "65.5％"
         },
         {
           "code": "27",
           "name": "大阪府",
           "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 65,
-          "valueLabel": "65％"
+          "value": 65.3,
+          "valueLabel": "65.3％"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 64.8,
+          "valueLabel": "64.8％"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 64.5,
+          "valueLabel": "64.5％"
         },
         {
           "code": "21",
           "name": "岐阜県",
           "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 64,
-          "valueLabel": "64％"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 61,
-          "valueLabel": "61％"
+          "value": 64.3,
+          "valueLabel": "64.3％"
         },
         {
           "code": "10",
           "name": "群馬県",
           "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 59,
-          "valueLabel": "59％"
+          "value": 63.7,
+          "valueLabel": "63.7％"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 61.2,
+          "valueLabel": "61.2％"
         }
       ]
     },
@@ -11774,1025 +11774,892 @@
       ]
     },
     {
-      "id": "minimum_wage",
-      "nameRuby": "最低賃金{さいていちんぎん}",
-      "unitLabel": "円",
-      "noteRuby": "都道府県{とどうふけん}ごとの時給{じきゅう}の最低額{さいていがく}",
+      "id": "bus_transport",
+      "nameRuby": "バス輸送量{ばすゆそうりょう}",
+      "unitLabel": "百万人",
+      "noteRuby": "バスに乗{の}った人{ひと}の数{かず}（輸送人員{ゆそうじんいん}）",
       "hasValues": true,
-      "source": "厚生労働省「地域別最低賃金」",
-      "sourceYear": "令和6年（2024年）",
-      "sourceUrl": "https://region-case.com/rank-2024-minimum-wage/",
+      "source": "国土交通省「自動車輸送統計」",
+      "sourceYear": "令和4年（2022年）",
+      "sourceUrl": "https://region-case.com/rank-2022-bus-transport/",
       "ranking": [
         {
           "code": "13",
           "name": "東京都",
           "nameRuby": "東京{とうきょう}都{と}",
-          "value": 1163,
-          "valueLabel": "1,163円"
+          "value": 762.9,
+          "valueLabel": "762.9百万人"
         },
         {
           "code": "14",
           "name": "神奈川県",
           "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 1162,
-          "valueLabel": "1,162円"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 1114,
-          "valueLabel": "1,114円"
-        },
-        {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 1078,
-          "valueLabel": "1,078円"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 1077,
-          "valueLabel": "1,077円"
+          "value": 600.3,
+          "valueLabel": "600.3百万人"
         },
         {
           "code": "12",
           "name": "千葉県",
           "nameRuby": "千葉{ちば}県{けん}",
-          "value": 1076,
-          "valueLabel": "1,076円"
-        },
-        {
-          "code": "26",
-          "name": "京都府",
-          "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 1058,
-          "valueLabel": "1,058円"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 1052,
-          "valueLabel": "1,052円"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 1034,
-          "valueLabel": "1,034円"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 1023,
-          "valueLabel": "1,023円"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 1020,
-          "valueLabel": "1,020円"
-        },
-        {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 1017,
-          "valueLabel": "1,017円"
-        },
-        {
-          "code": "01",
-          "name": "北海道",
-          "nameRuby": "北海道{ほっかいどう}",
-          "value": 1010,
-          "valueLabel": "1,010円"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 1005,
-          "valueLabel": "1,005円"
-        },
-        {
-          "code": "09",
-          "name": "栃木県",
-          "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 1004,
-          "valueLabel": "1,004円"
-        },
-        {
-          "code": "21",
-          "name": "岐阜県",
-          "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 1001,
-          "valueLabel": "1,001円"
-        },
-        {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 998,
-          "valueLabel": "998円"
-        },
-        {
-          "code": "20",
-          "name": "長野県",
-          "nameRuby": "長野{ながの}県{けん}",
-          "value": 998,
-          "valueLabel": "998円"
+          "value": 234.5,
+          "valueLabel": "234.5百万人"
         },
         {
           "code": "40",
           "name": "福岡県",
           "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 992,
-          "valueLabel": "992円"
+          "value": 224.9,
+          "valueLabel": "224.9百万人"
         },
         {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 988,
-          "valueLabel": "988円"
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 224.2,
+          "valueLabel": "224.2百万人"
         },
         {
-          "code": "29",
-          "name": "奈良県",
-          "nameRuby": "奈良{なら}県{けん}",
-          "value": 986,
-          "valueLabel": "986円"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 985,
-          "valueLabel": "985円"
-        },
-        {
-          "code": "15",
-          "name": "新潟県",
-          "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 985,
-          "valueLabel": "985円"
-        },
-        {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 984,
-          "valueLabel": "984円"
-        },
-        {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 984,
-          "valueLabel": "984円"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 982,
-          "valueLabel": "982円"
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 216,
+          "valueLabel": "216百万人"
         },
         {
           "code": "30",
           "name": "和歌山県",
           "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 980,
-          "valueLabel": "980円"
+          "value": 201.5,
+          "valueLabel": "201.5百万人"
         },
         {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 980,
-          "valueLabel": "980円"
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 172.2,
+          "valueLabel": "172.2百万人"
         },
         {
-          "code": "35",
-          "name": "山口県",
-          "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 979,
-          "valueLabel": "979円"
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 166.2,
+          "valueLabel": "166.2百万人"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 146.6,
+          "valueLabel": "146.6百万人"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 79.6,
+          "valueLabel": "79.6百万人"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 64.4,
+          "valueLabel": "64.4百万人"
         },
         {
           "code": "04",
           "name": "宮城県",
           "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 973,
-          "valueLabel": "973円"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 970,
-          "valueLabel": "970円"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 962,
-          "valueLabel": "962円"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 957,
-          "valueLabel": "957円"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 956,
-          "valueLabel": "956円"
-        },
-        {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 956,
-          "valueLabel": "956円"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 955,
-          "valueLabel": "955円"
-        },
-        {
-          "code": "07",
-          "name": "福島県",
-          "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 955,
-          "valueLabel": "955円"
-        },
-        {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 954,
-          "valueLabel": "954円"
+          "value": 59.4,
+          "valueLabel": "59.4百万人"
         },
         {
           "code": "42",
           "name": "長崎県",
           "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 953,
-          "valueLabel": "953円"
+          "value": 58.5,
+          "valueLabel": "58.5百万人"
         },
         {
-          "code": "46",
-          "name": "鹿児島県",
-          "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 953,
-          "valueLabel": "953円"
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 48.3,
+          "valueLabel": "48.3百万人"
         },
         {
-          "code": "02",
-          "name": "青森県",
-          "nameRuby": "青森{あおもり}県{けん}",
-          "value": 953,
-          "valueLabel": "953円"
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 45.1,
+          "valueLabel": "45.1百万人"
         },
         {
-          "code": "39",
-          "name": "高知県",
-          "nameRuby": "高知{こうち}県{けん}",
-          "value": 952,
-          "valueLabel": "952円"
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 38.4,
+          "valueLabel": "38.4百万人"
         },
         {
-          "code": "43",
-          "name": "熊本県",
-          "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 952,
-          "valueLabel": "952円"
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 35.7,
+          "valueLabel": "35.7百万人"
         },
         {
-          "code": "45",
-          "name": "宮崎県",
-          "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 952,
-          "valueLabel": "952円"
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 29.5,
+          "valueLabel": "29.5百万人"
         },
         {
           "code": "47",
           "name": "沖縄県",
           "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 952,
-          "valueLabel": "952円"
+          "value": 29.2,
+          "valueLabel": "29.2百万人"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 28.8,
+          "valueLabel": "28.8百万人"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 26.8,
+          "valueLabel": "26.8百万人"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 26.8,
+          "valueLabel": "26.8百万人"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 26,
+          "valueLabel": "26百万人"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 22.7,
+          "valueLabel": "22.7百万人"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 20.1,
+          "valueLabel": "20.1百万人"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 18.3,
+          "valueLabel": "18.3百万人"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 17.9,
+          "valueLabel": "17.9百万人"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 17.6,
+          "valueLabel": "17.6百万人"
         },
         {
           "code": "03",
           "name": "岩手県",
           "nameRuby": "岩手{いわて}県{けん}",
-          "value": 952,
-          "valueLabel": "952円"
+          "value": 17.5,
+          "valueLabel": "17.5百万人"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 17.4,
+          "valueLabel": "17.4百万人"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 15.3,
+          "valueLabel": "15.3百万人"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 10.7,
+          "valueLabel": "10.7百万人"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 10.7,
+          "valueLabel": "10.7百万人"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 10.7,
+          "valueLabel": "10.7百万人"
         },
         {
           "code": "05",
           "name": "秋田県",
           "nameRuby": "秋田{あきた}県{けん}",
-          "value": 951,
-          "valueLabel": "951円"
+          "value": 10.3,
+          "valueLabel": "10.3百万人"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 10.1,
+          "valueLabel": "10.1百万人"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 9.8,
+          "valueLabel": "9.8百万人"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 8.8,
+          "valueLabel": "8.8百万人"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 8.2,
+          "valueLabel": "8.2百万人"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 7.9,
+          "valueLabel": "7.9百万人"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 7.6,
+          "valueLabel": "7.6百万人"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 6.8,
+          "valueLabel": "6.8百万人"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 6.4,
+          "valueLabel": "6.4百万人"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 5.5,
+          "valueLabel": "5.5百万人"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 5.1,
+          "valueLabel": "5.1百万人"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 4.4,
+          "valueLabel": "4.4百万人"
         }
       ]
     },
     {
-      "id": "savings",
-      "nameRuby": "貯蓄現在高{ちょちくげんざいだか}（二人以上世帯{ふたりいじょうせたい}）",
-      "unitLabel": "万円",
-      "noteRuby": "世帯{せたい}あたりの貯金{ちょきん}などの平均{へいきん}",
+      "id": "female_lifespan",
+      "nameRuby": "女性{じょせい}の平均寿命{へいきんじゅみょう}",
+      "unitLabel": "歳",
+      "noteRuby": "女の人{ひと}が平均{へいきん}で何歳{なんさい}まで生{い}きるかの目安{めやす}",
       "hasValues": true,
-      "source": "総務省「家計調査」",
+      "source": "厚生労働省「完全生命表／都道府県別生命表」",
+      "sourceYear": "令和2年（2020年）",
+      "sourceUrl": "https://region-case.com/rank-2020-female-lifespan/",
+      "ranking": [
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 88.29,
+          "valueLabel": "88.29歳"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 88.26,
+          "valueLabel": "88.26歳"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 88.25,
+          "valueLabel": "88.25歳"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 88.23,
+          "valueLabel": "88.23歳"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 88.22,
+          "valueLabel": "88.22歳"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 88.21,
+          "valueLabel": "88.21歳"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 88.16,
+          "valueLabel": "88.16歳"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 88.11,
+          "valueLabel": "88.11歳"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 87.99,
+          "valueLabel": "87.99歳"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 87.97,
+          "valueLabel": "87.97歳"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 87.95,
+          "valueLabel": "87.95歳"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 87.94,
+          "valueLabel": "87.94歳"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 87.91,
+          "valueLabel": "87.91歳"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 87.9,
+          "valueLabel": "87.90歳"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 87.89,
+          "valueLabel": "87.89歳"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 87.88,
+          "valueLabel": "87.88歳"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 87.86,
+          "valueLabel": "87.86歳"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 87.84,
+          "valueLabel": "87.84歳"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 87.84,
+          "valueLabel": "87.84歳"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 87.78,
+          "valueLabel": "87.78歳"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 87.7,
+          "valueLabel": "87.70歳"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 87.64,
+          "valueLabel": "87.64歳"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 87.6,
+          "valueLabel": "87.60歳"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 87.59,
+          "valueLabel": "87.59歳"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 87.57,
+          "valueLabel": "87.57歳"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 87.53,
+          "valueLabel": "87.53歳"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 87.52,
+          "valueLabel": "87.52歳"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 87.51,
+          "valueLabel": "87.51歳"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 87.51,
+          "valueLabel": "87.51歳"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 87.5,
+          "valueLabel": "87.50歳"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 87.48,
+          "valueLabel": "87.48歳"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 87.43,
+          "valueLabel": "87.43歳"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 87.42,
+          "valueLabel": "87.42歳"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 87.41,
+          "valueLabel": "87.41歳"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 87.38,
+          "valueLabel": "87.38歳"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 87.37,
+          "valueLabel": "87.37歳"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 87.36,
+          "valueLabel": "87.36歳"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 87.34,
+          "valueLabel": "87.34歳"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 87.31,
+          "valueLabel": "87.31歳"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 87.18,
+          "valueLabel": "87.18歳"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 87.1,
+          "valueLabel": "87.10歳"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 87.08,
+          "valueLabel": "87.08歳"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 87.05,
+          "valueLabel": "87.05歳"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 86.94,
+          "valueLabel": "86.94歳"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 86.89,
+          "valueLabel": "86.89歳"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 86.81,
+          "valueLabel": "86.81歳"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 86.33,
+          "valueLabel": "86.33歳"
+        }
+      ]
+    },
+    {
+      "id": "world_heritage",
+      "nameRuby": "世界遺産{せかいいさん}の登録数{とうろくすう}",
+      "unitLabel": "件",
+      "noteRuby": "ユネスコの世界遺産{せかいいさん}が何件{なんけん}あるか",
+      "hasValues": true,
+      "source": "文化庁（ユネスコ世界遺産）",
       "sourceYear": "令和5年（2023年）",
-      "sourceUrl": "https://region-case.com/rank-2023-savings/",
+      "sourceUrl": "https://region-case.com/rank-world-heritage-site/",
       "ranking": [
-        {
-          "code": "13",
-          "name": "東京都",
-          "nameRuby": "東京{とうきょう}都{と}",
-          "value": 2720,
-          "valueLabel": "2,720万円"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 2518,
-          "valueLabel": "2,518万円"
-        },
         {
           "code": "29",
           "name": "奈良県",
           "nameRuby": "奈良{なら}県{けん}",
-          "value": 2432,
-          "valueLabel": "2,432万円"
-        },
-        {
-          "code": "14",
-          "name": "神奈川県",
-          "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 2372,
-          "valueLabel": "2,372万円"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 2341,
-          "valueLabel": "2,341万円"
-        },
-        {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 2281,
-          "valueLabel": "2,281万円"
-        },
-        {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 2225,
-          "valueLabel": "2,225万円"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 2202,
-          "valueLabel": "2,202万円"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 2079,
-          "valueLabel": "2,079万円"
-        },
-        {
-          "code": "09",
-          "name": "栃木県",
-          "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 2061,
-          "valueLabel": "2,061万円"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 2000,
-          "valueLabel": "2,000万円"
-        },
-        {
-          "code": "26",
-          "name": "京都府",
-          "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 1955,
-          "valueLabel": "1,955万円"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 1955,
-          "valueLabel": "1,955万円"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 1932,
-          "valueLabel": "1,932万円"
-        },
-        {
-          "code": "35",
-          "name": "山口県",
-          "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 1923,
-          "valueLabel": "1,923万円"
-        },
-        {
-          "code": "21",
-          "name": "岐阜県",
-          "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 1909,
-          "valueLabel": "1,909万円"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 1882,
-          "valueLabel": "1,882万円"
-        },
-        {
-          "code": "20",
-          "name": "長野県",
-          "nameRuby": "長野{ながの}県{けん}",
-          "value": 1851,
-          "valueLabel": "1,851万円"
-        },
-        {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 1842,
-          "valueLabel": "1,842万円"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 1837,
-          "valueLabel": "1,837万円"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 1836,
-          "valueLabel": "1,836万円"
-        },
-        {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 1807,
-          "valueLabel": "1,807万円"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 1711,
-          "valueLabel": "1,711万円"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 1680,
-          "valueLabel": "1,680万円"
-        },
-        {
-          "code": "15",
-          "name": "新潟県",
-          "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 1672,
-          "valueLabel": "1,672万円"
-        },
-        {
-          "code": "40",
-          "name": "福岡県",
-          "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 1657,
-          "valueLabel": "1,657万円"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 1634,
-          "valueLabel": "1,634万円"
-        },
-        {
-          "code": "04",
-          "name": "宮城県",
-          "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 1601,
-          "valueLabel": "1,601万円"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 1591,
-          "valueLabel": "1,591万円"
-        },
-        {
-          "code": "43",
-          "name": "熊本県",
-          "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 1585,
-          "valueLabel": "1,585万円"
-        },
-        {
-          "code": "07",
-          "name": "福島県",
-          "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 1572,
-          "valueLabel": "1,572万円"
-        },
-        {
-          "code": "39",
-          "name": "高知県",
-          "nameRuby": "高知{こうち}県{けん}",
-          "value": 1569,
-          "valueLabel": "1,569万円"
-        },
-        {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 1568,
-          "valueLabel": "1,568万円"
-        },
-        {
-          "code": "30",
-          "name": "和歌山県",
-          "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 1558,
-          "valueLabel": "1,558万円"
-        },
-        {
-          "code": "03",
-          "name": "岩手県",
-          "nameRuby": "岩手{いわて}県{けん}",
-          "value": 1476,
-          "valueLabel": "1,476万円"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 1427,
-          "valueLabel": "1,427万円"
-        },
-        {
-          "code": "01",
-          "name": "北海道",
-          "nameRuby": "北海道{ほっかいどう}",
-          "value": 1370,
-          "valueLabel": "1,370万円"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 1364,
-          "valueLabel": "1,364万円"
-        },
-        {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 1363,
-          "valueLabel": "1,363万円"
-        },
-        {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 1359,
-          "valueLabel": "1,359万円"
-        },
-        {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 1344,
-          "valueLabel": "1,344万円"
-        },
-        {
-          "code": "42",
-          "name": "長崎県",
-          "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 1263,
-          "valueLabel": "1,263万円"
+          "value": 4,
+          "valueLabel": "4件"
         },
         {
           "code": "46",
           "name": "鹿児島県",
           "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 1221,
-          "valueLabel": "1,221万円"
-        },
-        {
-          "code": "45",
-          "name": "宮崎県",
-          "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 1220,
-          "valueLabel": "1,220万円"
-        },
-        {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 1210,
-          "valueLabel": "1,210万円"
-        },
-        {
-          "code": "02",
-          "name": "青森県",
-          "nameRuby": "青森{あおもり}県{けん}",
-          "value": 1147,
-          "valueLabel": "1,147万円"
-        },
-        {
-          "code": "47",
-          "name": "沖縄県",
-          "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 963,
-          "valueLabel": "963万円"
-        }
-      ]
-    },
-    {
-      "id": "bridges",
-      "nameRuby": "道路橋{どうろきょう}の数{かず}",
-      "unitLabel": "本",
-      "noteRuby": "道路{どうろ}にある橋{はし}の本数{ほんすう}",
-      "hasValues": true,
-      "source": "国土交通省「道路統計年報」",
-      "sourceYear": "令和3年（2021年）",
-      "sourceUrl": "https://region-case.com/rank-2021-infra-bridge/",
-      "ranking": [
-        {
-          "code": "01",
-          "name": "北海道",
-          "nameRuby": "北海道{ほっかいどう}",
-          "value": 14409,
-          "valueLabel": "14,409本"
-        },
-        {
-          "code": "28",
-          "name": "兵庫県",
-          "nameRuby": "兵庫{ひょうご}県{けん}",
-          "value": 6988,
-          "valueLabel": "6,988本"
-        },
-        {
-          "code": "23",
-          "name": "愛知県",
-          "nameRuby": "愛知{あいち}県{けん}",
-          "value": 5868,
-          "valueLabel": "5,868本"
-        },
-        {
-          "code": "07",
-          "name": "福島県",
-          "nameRuby": "福島{ふくしま}県{けん}",
-          "value": 5613,
-          "valueLabel": "5,613本"
-        },
-        {
-          "code": "20",
-          "name": "長野県",
-          "nameRuby": "長野{ながの}県{けん}",
-          "value": 5612,
-          "valueLabel": "5,612本"
-        },
-        {
-          "code": "22",
-          "name": "静岡県",
-          "nameRuby": "静岡{しずおか}県{けん}",
-          "value": 5576,
-          "valueLabel": "5,576本"
-        },
-        {
-          "code": "21",
-          "name": "岐阜県",
-          "nameRuby": "岐阜{ぎふ}県{けん}",
-          "value": 5551,
-          "valueLabel": "5,551本"
-        },
-        {
-          "code": "40",
-          "name": "福岡県",
-          "nameRuby": "福岡{ふくおか}県{けん}",
-          "value": 5468,
-          "valueLabel": "5,468本"
-        },
-        {
-          "code": "15",
-          "name": "新潟県",
-          "nameRuby": "新潟{にいがた}県{けん}",
-          "value": 5400,
-          "valueLabel": "5,400本"
-        },
-        {
-          "code": "34",
-          "name": "広島県",
-          "nameRuby": "広島{ひろしま}県{けん}",
-          "value": 5312,
-          "valueLabel": "5,312本"
+          "value": 3,
+          "valueLabel": "3件"
         },
         {
           "code": "03",
           "name": "岩手県",
           "nameRuby": "岩手{いわて}県{けん}",
-          "value": 4434,
-          "valueLabel": "4,434本"
-        },
-        {
-          "code": "24",
-          "name": "三重県",
-          "nameRuby": "三重{みえ}県{けん}",
-          "value": 4140,
-          "valueLabel": "4,140本"
-        },
-        {
-          "code": "33",
-          "name": "岡山県",
-          "nameRuby": "岡山{おかやま}県{けん}",
-          "value": 4107,
-          "valueLabel": "4,107本"
-        },
-        {
-          "code": "44",
-          "name": "大分県",
-          "nameRuby": "大分{おおいた}県{けん}",
-          "value": 4050,
-          "valueLabel": "4,050本"
-        },
-        {
-          "code": "43",
-          "name": "熊本県",
-          "nameRuby": "熊本{くまもと}県{けん}",
-          "value": 3818,
-          "valueLabel": "3,818本"
-        },
-        {
-          "code": "32",
-          "name": "島根県",
-          "nameRuby": "島根{しまね}県{けん}",
-          "value": 3684,
-          "valueLabel": "3,684本"
-        },
-        {
-          "code": "11",
-          "name": "埼玉県",
-          "nameRuby": "埼玉{さいたま}県{けん}",
-          "value": 3616,
-          "valueLabel": "3,616本"
-        },
-        {
-          "code": "10",
-          "name": "群馬県",
-          "nameRuby": "群馬{ぐんま}県{けん}",
-          "value": 3569,
-          "valueLabel": "3,569本"
-        },
-        {
-          "code": "05",
-          "name": "秋田県",
-          "nameRuby": "秋田{あきた}県{けん}",
-          "value": 3562,
-          "valueLabel": "3,562本"
-        },
-        {
-          "code": "46",
-          "name": "鹿児島県",
-          "nameRuby": "鹿児島{かごしま}県{けん}",
-          "value": 3553,
-          "valueLabel": "3,553本"
-        },
-        {
-          "code": "12",
-          "name": "千葉県",
-          "nameRuby": "千葉{ちば}県{けん}",
-          "value": 3550,
-          "valueLabel": "3,550本"
-        },
-        {
-          "code": "45",
-          "name": "宮崎県",
-          "nameRuby": "宮崎{みやざき}県{けん}",
-          "value": 3459,
-          "valueLabel": "3,459本"
-        },
-        {
-          "code": "30",
-          "name": "和歌山県",
-          "nameRuby": "和歌山{わかやま}県{けん}",
-          "value": 3353,
-          "valueLabel": "3,353本"
-        },
-        {
-          "code": "08",
-          "name": "茨城県",
-          "nameRuby": "茨城{いばらき}県{けん}",
-          "value": 3349,
-          "valueLabel": "3,349本"
-        },
-        {
-          "code": "27",
-          "name": "大阪府",
-          "nameRuby": "大阪{おおさか}府{ふ}",
-          "value": 3316,
-          "valueLabel": "3,316本"
-        },
-        {
-          "code": "35",
-          "name": "山口県",
-          "nameRuby": "山口{やまぐち}県{けん}",
-          "value": 3308,
-          "valueLabel": "3,308本"
-        },
-        {
-          "code": "14",
-          "name": "神奈川県",
-          "nameRuby": "神奈川{かながわ}県{けん}",
-          "value": 3267,
-          "valueLabel": "3,267本"
-        },
-        {
-          "code": "39",
-          "name": "高知県",
-          "nameRuby": "高知{こうち}県{けん}",
-          "value": 3212,
-          "valueLabel": "3,212本"
-        },
-        {
-          "code": "26",
-          "name": "京都府",
-          "nameRuby": "京都{きょうと}府{ふ}",
-          "value": 3045,
-          "valueLabel": "3,045本"
-        },
-        {
-          "code": "06",
-          "name": "山形県",
-          "nameRuby": "山形{やまがた}県{けん}",
-          "value": 3015,
-          "valueLabel": "3,015本"
-        },
-        {
-          "code": "38",
-          "name": "愛媛県",
-          "nameRuby": "愛媛{えひめ}県{けん}",
-          "value": 3013,
-          "valueLabel": "3,013本"
-        },
-        {
-          "code": "04",
-          "name": "宮城県",
-          "nameRuby": "宮城{みやぎ}県{けん}",
-          "value": 2989,
-          "valueLabel": "2,989本"
-        },
-        {
-          "code": "09",
-          "name": "栃木県",
-          "nameRuby": "栃木{とちぎ}県{けん}",
-          "value": 2953,
-          "valueLabel": "2,953本"
+          "value": 3,
+          "valueLabel": "3件"
         },
         {
           "code": "13",
           "name": "東京都",
           "nameRuby": "東京{とうきょう}都{と}",
-          "value": 2709,
-          "valueLabel": "2,709本"
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
-          "code": "19",
-          "name": "山梨県",
-          "nameRuby": "山梨{やまなし}県{けん}",
-          "value": 2708,
-          "valueLabel": "2,708本"
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
-          "code": "25",
-          "name": "滋賀県",
-          "nameRuby": "滋賀{しが}県{けん}",
-          "value": 2508,
-          "valueLabel": "2,508本"
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
-          "code": "29",
-          "name": "奈良県",
-          "nameRuby": "奈良{なら}県{けん}",
-          "value": 2470,
-          "valueLabel": "2,470本"
-        },
-        {
-          "code": "36",
-          "name": "徳島県",
-          "nameRuby": "徳島{とくしま}県{けん}",
-          "value": 2469,
-          "valueLabel": "2,469本"
-        },
-        {
-          "code": "31",
-          "name": "鳥取県",
-          "nameRuby": "鳥取{とっとり}県{けん}",
-          "value": 2297,
-          "valueLabel": "2,297本"
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
           "code": "42",
           "name": "長崎県",
           "nameRuby": "長崎{ながさき}県{けん}",
-          "value": 2201,
-          "valueLabel": "2,201本"
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
-          "code": "41",
-          "name": "佐賀県",
-          "nameRuby": "佐賀{さが}県{けん}",
-          "value": 2178,
-          "valueLabel": "2,178本"
-        },
-        {
-          "code": "02",
-          "name": "青森県",
-          "nameRuby": "青森{あおもり}県{けん}",
-          "value": 2160,
-          "valueLabel": "2,160本"
-        },
-        {
-          "code": "16",
-          "name": "富山県",
-          "nameRuby": "富山{とやま}県{けん}",
-          "value": 2150,
-          "valueLabel": "2,150本"
-        },
-        {
-          "code": "18",
-          "name": "福井県",
-          "nameRuby": "福井{ふくい}県{けん}",
-          "value": 2077,
-          "valueLabel": "2,077本"
-        },
-        {
-          "code": "17",
-          "name": "石川県",
-          "nameRuby": "石川{いしかわ}県{けん}",
-          "value": 1994,
-          "valueLabel": "1,994本"
-        },
-        {
-          "code": "37",
-          "name": "香川県",
-          "nameRuby": "香川{かがわ}県{けん}",
-          "value": 1423,
-          "valueLabel": "1,423本"
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
         },
         {
           "code": "47",
           "name": "沖縄県",
           "nameRuby": "沖縄{おきなわ}県{けん}",
-          "value": 943,
-          "valueLabel": "943本"
+          "value": 2,
+          "valueLabel": "2件"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2件"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 2,
+          "valueLabel": "2件"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 1,
+          "valueLabel": "1件"
         }
       ]
     }

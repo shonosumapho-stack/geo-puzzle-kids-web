@@ -100,49 +100,57 @@ const CROP_DEFS = [
   { id: 'sugarcane', slug: 'sugarcane', nameRuby: 'さとうきび生産量{せいさんりょう}', unitLabel: 't（トン）', noteRuby: 'さとうきびの収穫量{しゅうかくりょう}' },
 ];
 
+/** 気象の複数年平均に使う西暦年（region-case に単年ページがある範囲） */
+const WEATHER_YEARS = [2018, 2019, 2020, 2021, 2022, 2023];
+
 /**
- * 非生産量 15件（ページが無い計画項目は同カテゴリの代替）
- * path: region-case.com のパス（末尾スラッシュなし）
+ * 非生産量 15件
+ * - weather: metric 指定で複数年ページを平均
+ * - それ以外: path の単年ページ
  */
 const OTHER_DEFS = [
   {
     id: 'precipitation',
-    path: 'rank-r5-weather-precipitation',
-    nameRuby: '降水量{こうすいりょう}（年間{ねんかん}）',
+    kind: 'weather',
+    metric: 'precipitation',
+    nameRuby: '降水量{こうすいりょう}（年間{ねんかん}・複数年平均{ふくすうねんへいきん}）',
     unitLabel: 'mm（ミリ）',
-    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年間降水量{ねんかんこうすいりょう}',
-    source: '総務省「社会生活統計指標」（気象庁）',
-    requireAny: ['総務省', '気象庁'],
+    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}',
+    source: '総務省「日本統計年鑑」（気象庁データ）の複数年平均',
+    requireAny: ['総務省', '気象庁', '日本統計年鑑'],
     valueKind: 'mm',
   },
   {
     id: 'sunshine',
-    path: 'rank-r5-weather-sunshine',
-    nameRuby: '日照時間{にっしょうじかん}（年間{ねんかん}）',
+    kind: 'weather',
+    metric: 'sunshine',
+    nameRuby: '日照時間{にっしょうじかん}（年間{ねんかん}・複数年平均{ふくすうねんへいきん}）',
     unitLabel: '時間',
-    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年間日照時間{ねんかんにっしょうじかん}',
-    source: '総務省「社会生活統計指標」（気象庁）',
-    requireAny: ['総務省', '気象庁'],
+    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}',
+    source: '総務省「日本統計年鑑」（気象庁データ）の複数年平均',
+    requireAny: ['総務省', '気象庁', '日本統計年鑑'],
     valueKind: 'hours',
   },
   {
     id: 'temperature',
-    path: 'rank-2023-weather-temperature',
-    nameRuby: '年平均気温{ねんへいきんきおん}',
+    kind: 'weather',
+    metric: 'temperature',
+    nameRuby: '年平均気温{ねんへいきんきおん}（複数年平均{ふくすうねんへいきん}）',
     unitLabel: '℃',
-    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の年平均気温{ねんへいきんきおん}',
-    source: '総務省「社会生活統計指標」（気象庁）',
-    requireAny: ['総務省', '気象庁'],
+    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}',
+    source: '総務省「日本統計年鑑」（気象庁データ）の複数年平均',
+    requireAny: ['総務省', '気象庁', '日本統計年鑑'],
     valueKind: 'celsius',
   },
   {
     id: 'humidity',
-    path: 'rank-r5-weather-humidity',
-    nameRuby: '平均湿度{へいきんしつど}',
+    kind: 'weather',
+    metric: 'humidity',
+    nameRuby: '平均湿度{へいきんしつど}（複数年平均{ふくすうねんへいきん}）',
     unitLabel: '％',
-    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}の平均湿度{へいきんしつど}',
-    source: '総務省「社会生活統計指標」（気象庁）',
-    requireAny: ['総務省', '気象庁'],
+    noteRuby: '県庁所在地{けんちょうしょざいち}などの気象官署{きしょうかんしょ}。平成30〜令和5年の平均{へいきん}',
+    source: '総務省「日本統計年鑑」（気象庁データ）の複数年平均',
+    requireAny: ['総務省', '気象庁', '日本統計年鑑'],
     valueKind: 'percent',
   },
   {
@@ -226,39 +234,39 @@ const OTHER_DEFS = [
     valueKind: 'rate',
   },
   {
-    id: 'minimum_wage',
-    path: 'rank-2024-minimum-wage',
-    nameRuby: '最低賃金{さいていちんぎん}',
-    unitLabel: '円',
-    noteRuby: '都道府県{とどうふけん}ごとの時給{じきゅう}の最低額{さいていがく}',
-    source: '厚生労働省「地域別最低賃金」',
+    id: 'bus_transport',
+    path: 'rank-2022-bus-transport',
+    nameRuby: 'バス輸送量{ばすゆそうりょう}',
+    unitLabel: '百万人',
+    noteRuby: 'バスに乗{の}った人{ひと}の数{かず}（輸送人員{ゆそうじんいん}）',
+    source: '国土交通省「自動車輸送統計」',
+    requireAny: ['国土交通省'],
+    valueKind: 'hyakumannin',
+  },
+  {
+    id: 'female_lifespan',
+    path: 'rank-2020-female-lifespan',
+    nameRuby: '女性{じょせい}の平均寿命{へいきんじゅみょう}',
+    unitLabel: '歳',
+    noteRuby: '女の人{ひと}が平均{へいきん}で何歳{なんさい}まで生{い}きるかの目安{めやす}',
+    source: '厚生労働省「完全生命表／都道府県別生命表」',
     requireAny: ['厚生労働省'],
-    valueKind: 'yen',
+    valueKind: 'age',
   },
   {
-    id: 'savings',
-    path: 'rank-2023-savings',
-    nameRuby: '貯蓄現在高{ちょちくげんざいだか}（二人以上世帯{ふたりいじょうせたい}）',
-    unitLabel: '万円',
-    noteRuby: '世帯{せたい}あたりの貯金{ちょきん}などの平均{へいきん}',
-    source: '総務省「家計調査」',
-    requireAny: ['総務省'],
-    valueKind: 'manen',
-  },
-  {
-    id: 'bridges',
-    path: 'rank-2021-infra-bridge',
-    nameRuby: '道路橋{どうろきょう}の数{かず}',
-    unitLabel: '本',
-    noteRuby: '道路{どうろ}にある橋{はし}の本数{ほんすう}',
-    source: '国土交通省「道路統計年報」',
-    requireAny: ['国土交通省', '道路統計'],
-    valueKind: 'hon',
+    id: 'world_heritage',
+    path: 'rank-world-heritage-site',
+    nameRuby: '世界遺産{せかいいさん}の登録数{とうろくすう}',
+    unitLabel: '件',
+    noteRuby: 'ユネスコの世界遺産{せかいいさん}が何件{なんけん}あるか',
+    source: '文化庁（ユネスコ世界遺産）',
+    requireAny: ['文化庁', 'ユネスコ', '世界遺産'],
+    valueKind: 'ken',
   },
 ];
 
 const VALUE_CELL_RE =
-  /^([0-9,]+(?:\.[0-9]+)?)\s*(㎜|mm|ミリ|時間|℃|%|％|ha|万人|億円|兆円|台|円|万円|本|t|頭|千羽|羽)?$/i;
+  /^([0-9,]+(?:\.[0-9]+)?)\s*(㎜|mm|ミリ|時間|℃|%|％|ha|万人|百万人|億円|兆円|台|円|万円|本|歳|件|t|頭|千羽|羽)?$/i;
 
 function parseAmount(raw) {
   if (!raw) return null;
@@ -385,6 +393,62 @@ async function fetchCrop(def) {
   };
 }
 
+function roundByKind(kind, v) {
+  switch (kind) {
+    case 'hours':
+      return Math.round(v);
+    case 'mm':
+    case 'celsius':
+    case 'percent':
+    case 'age':
+    case 'hyakumannin':
+      return Math.round(v * 10) / 10;
+    default:
+      return Math.round(v * 100) / 100;
+  }
+}
+
+async function fetchWeatherAverage(def) {
+  const sums = Object.create(null);
+  const counts = Object.create(null);
+  const usedYears = [];
+  for (const year of WEATHER_YEARS) {
+    const url = `https://region-case.com/rank-${year}-weather-${def.metric}/`;
+    process.stdout.write(`${year} `);
+    const html = await fetchHtml(url);
+    const ok = def.requireAny.some((k) => html.includes(k));
+    if (!ok) throw new Error(`${year}: missing attribution`);
+    const rows = parseTable(html);
+    if (rows.length < 40) throw new Error(`${year}: too few rows (${rows.length})`);
+    for (const row of rows) {
+      sums[row.code] = (sums[row.code] || 0) + row.value;
+      counts[row.code] = (counts[row.code] || 0) + 1;
+    }
+    usedYears.push(year);
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  if (usedYears.length < 4) throw new Error(`too few years (${usedYears.length})`);
+  const values = {};
+  for (const code of Object.keys(sums)) {
+    if (counts[code] < usedYears.length - 1) continue;
+    values[code] = roundByKind(def.valueKind, sums[code] / counts[code]);
+  }
+  if (Object.keys(values).length < 40) {
+    throw new Error(`too few averaged prefs (${Object.keys(values).length})`);
+  }
+  return {
+    id: def.id,
+    nameRuby: def.nameRuby,
+    unitLabel: def.unitLabel,
+    noteRuby: def.noteRuby,
+    valueKind: def.valueKind,
+    source: def.source,
+    sourceYear: `平成30年〜令和5年（${usedYears[0]}〜${usedYears[usedYears.length - 1]}年）の平均`,
+    sourceUrl: `https://region-case.com/rank-weather-${def.metric}/`,
+    values,
+  };
+}
+
 async function fetchOther(def) {
   const url = `https://region-case.com/${def.path}/`;
   const html = await fetchHtml(url);
@@ -425,13 +489,13 @@ async function main() {
   for (const def of OTHER_DEFS) {
     process.stdout.write(`fetch other ${def.id}... `);
     try {
-      const cat = await fetchOther(def);
+      const cat = def.kind === 'weather' ? await fetchWeatherAverage(def) : await fetchOther(def);
       categories.push(cat);
       console.log(`OK (${Object.keys(cat.values).length})`);
     } catch (e) {
       console.log(`FAIL ${e.message}`);
     }
-    await new Promise((r) => setTimeout(r, 350));
+    if (def.kind !== 'weather') await new Promise((r) => setTimeout(r, 350));
   }
 
   const out = {
