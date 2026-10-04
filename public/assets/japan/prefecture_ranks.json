@@ -1,0 +1,4683 @@
+{
+  "version": 1,
+  "sourceNote": "人口・面積・人口密度は図鑑データから算出。その他は子ども向け学習用のおおよその順位です。",
+  "categories": [
+    {
+      "id": "population",
+      "nameRuby": "人口{じんこう}",
+      "unitRuby": "人{にん}",
+      "noteRuby": "住{す}んでいる人{ひと}の多{おお}さ（推計{すいけい}）",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 14047594,
+          "valueLabel": "約1405万人"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 9237337,
+          "valueLabel": "約924万人"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 8809413,
+          "valueLabel": "約881万人"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 7542415,
+          "valueLabel": "約754万人"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 7344765,
+          "valueLabel": "約734万人"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6284480,
+          "valueLabel": "約628万人"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 5465002,
+          "valueLabel": "約547万人"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 5224614,
+          "valueLabel": "約522万人"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5135214,
+          "valueLabel": "約514万人"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 3633202,
+          "valueLabel": "約363万人"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 2869100,
+          "valueLabel": "約287万人"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 2801029,
+          "valueLabel": "約280万人"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 2526048,
+          "valueLabel": "約253万人"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 2311411,
+          "valueLabel": "約231万人"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 2201272,
+          "valueLabel": "約220万人"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 2048011,
+          "valueLabel": "約205万人"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 2001972,
+          "valueLabel": "約200万人"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 1939110,
+          "valueLabel": "約194万人"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 1930984,
+          "valueLabel": "約193万人"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 1888432,
+          "valueLabel": "約189万人"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 1833359,
+          "valueLabel": "約183万人"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 1778500,
+          "valueLabel": "約178万人"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 1738301,
+          "valueLabel": "約174万人"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 1602554,
+          "valueLabel": "約160万人"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 1467480,
+          "valueLabel": "約147万人"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 1412926,
+          "valueLabel": "約141万人"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 1342059,
+          "valueLabel": "約134万人"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 1336873,
+          "valueLabel": "約134万人"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 1334841,
+          "valueLabel": "約133万人"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 1328474,
+          "valueLabel": "約133万人"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 1237984,
+          "valueLabel": "約124万人"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 1210535,
+          "valueLabel": "約121万人"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 1134038,
+          "valueLabel": "約113万人"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 1132526,
+          "valueLabel": "約113万人"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 1070974,
+          "valueLabel": "約107万人"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 1069214,
+          "valueLabel": "約107万人"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 1034814,
+          "valueLabel": "約103万人"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 959502,
+          "valueLabel": "約96万人"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 959502,
+          "valueLabel": "約96万人"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 922584,
+          "valueLabel": "約92万人"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 811442,
+          "valueLabel": "約81万人"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 809974,
+          "valueLabel": "約81万人"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 766863,
+          "valueLabel": "約77万人"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 719559,
+          "valueLabel": "約72万人"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 691527,
+          "valueLabel": "約69万人"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 671126,
+          "valueLabel": "約67万人"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 553407,
+          "valueLabel": "約55万人"
+        }
+      ]
+    },
+    {
+      "id": "area",
+      "nameRuby": "面積{めんせき}",
+      "unitRuby": "km²",
+      "noteRuby": "都道府県{とどうふけん}の広{ひろ}さ",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 83424,
+          "valueLabel": "約83,424 km²"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 15275,
+          "valueLabel": "約15,275 km²"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 13784,
+          "valueLabel": "約13,784 km²"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 13562,
+          "valueLabel": "約13,562 km²"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 12584,
+          "valueLabel": "約12,584 km²"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 11638,
+          "valueLabel": "約11,638 km²"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 10621,
+          "valueLabel": "約10,621 km²"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 9646,
+          "valueLabel": "約9,646 km²"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 9323,
+          "valueLabel": "約9,323 km²"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 9187,
+          "valueLabel": "約9,187 km²"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 8479,
+          "valueLabel": "約8,479 km²"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8401,
+          "valueLabel": "約8,401 km²"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 7777,
+          "valueLabel": "約7,777 km²"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 7735,
+          "valueLabel": "約7,735 km²"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 7409,
+          "valueLabel": "約7,409 km²"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 7282,
+          "valueLabel": "約7,282 km²"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 7114,
+          "valueLabel": "約7,114 km²"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 7103,
+          "valueLabel": "約7,103 km²"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 6708,
+          "valueLabel": "約6,708 km²"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 6408,
+          "valueLabel": "約6,408 km²"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 6362,
+          "valueLabel": "約6,362 km²"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 6341,
+          "valueLabel": "約6,341 km²"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 6112,
+          "valueLabel": "約6,112 km²"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 6097,
+          "valueLabel": "約6,097 km²"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 5774,
+          "valueLabel": "約5,774 km²"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 5676,
+          "valueLabel": "約5,676 km²"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5173,
+          "valueLabel": "約5,173 km²"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 5158,
+          "valueLabel": "約5,158 km²"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 4986,
+          "valueLabel": "約4,986 km²"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 4725,
+          "valueLabel": "約4,725 km²"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 4612,
+          "valueLabel": "約4,612 km²"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 4465,
+          "valueLabel": "約4,465 km²"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 4248,
+          "valueLabel": "約4,248 km²"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 4190,
+          "valueLabel": "約4,190 km²"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 4186,
+          "valueLabel": "約4,186 km²"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 4147,
+          "valueLabel": "約4,147 km²"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 4132,
+          "valueLabel": "約4,132 km²"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 4017,
+          "valueLabel": "約4,017 km²"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 3798,
+          "valueLabel": "約3,798 km²"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 3691,
+          "valueLabel": "約3,691 km²"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 3507,
+          "valueLabel": "約3,507 km²"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 2440,
+          "valueLabel": "約2,440 km²"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2416,
+          "valueLabel": "約2,416 km²"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 2281,
+          "valueLabel": "約2,281 km²"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 2194,
+          "valueLabel": "約2,194 km²"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 1905,
+          "valueLabel": "約1,905 km²"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 1877,
+          "valueLabel": "約1,877 km²"
+        }
+      ]
+    },
+    {
+      "id": "density",
+      "nameRuby": "人口密度{じんこうみつど}",
+      "unitRuby": "人{にん}/km²",
+      "noteRuby": "1km²あたりの人{ひと}の多{おお}さ",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 6402.731996353692,
+          "valueLabel": "約6403人/km²"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 4624.363779527559,
+          "valueLabel": "約4624人/km²"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3823.40107615894,
+          "valueLabel": "約3823人/km²"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 1933.850710900474,
+          "valueLabel": "約1934人/km²"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 1458.0349893678717,
+          "valueLabel": "約1458人/km²"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 1218.3947266382318,
+          "valueLabel": "約1218人/km²"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 1029.9265944645006,
+          "valueLabel": "約1030人/km²"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 650.5180335674324,
+          "valueLabel": "約651人/km²"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 643.3494081543183,
+          "valueLabel": "約643人/km²"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 547.712055507372,
+          "valueLabel": "約548人/km²"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 511.1891315929675,
+          "valueLabel": "約511人/km²"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 470.57569296375266,
+          "valueLabel": "約471人/km²"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 467.1726886974412,
+          "valueLabel": "約467人/km²"
+        },
+        {
+          "code": "29",
+          "name": "奈良県",
+          "nameRuby": "奈良{なら}県{けん}",
+          "value": 359.9225142237876,
+          "valueLabel": "約360人/km²"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 351.73661936768735,
+          "valueLabel": "約352人/km²"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 332.5581967213115,
+          "valueLabel": "約333人/km²"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 330.34897983252745,
+          "valueLabel": "約330人/km²"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 323.54138431752176,
+          "valueLabel": "約324人/km²"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 317.414309255699,
+          "valueLabel": "約317人/km²"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 308.01870453758227,
+          "valueLabel": "約308人/km²"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 304.7956617415907,
+          "valueLabel": "約305人/km²"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 301.3395755305868,
+          "valueLabel": "約301人/km²"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 270.55088389870997,
+          "valueLabel": "約271人/km²"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 265.45290975541184,
+          "valueLabel": "約265人/km²"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 243.6002824858757,
+          "valueLabel": "約244人/km²"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 235.17283298097252,
+          "valueLabel": "約235人/km²"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 234.62019165879335,
+          "valueLabel": "約235人/km²"
+        },
+        {
+          "code": "35",
+          "name": "山口県",
+          "nameRuby": "山口{やまぐち}県{けん}",
+          "value": 219.57771596858638,
+          "valueLabel": "約220人/km²"
+        },
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 195.25587301587302,
+          "valueLabel": "約195人/km²"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 188.49185575746162,
+          "valueLabel": "約188人/km²"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 183.02219570405728,
+          "valueLabel": "約183人/km²"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 181.40515117581188,
+          "valueLabel": "約181人/km²"
+        },
+        {
+          "code": "44",
+          "name": "大分県",
+          "nameRuby": "大分{おおいた}県{けん}",
+          "value": 178.8421384639647,
+          "valueLabel": "約179人/km²"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 174.9262555626192,
+          "valueLabel": "約175人/km²"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 174.43713943615978,
+          "valueLabel": "約174人/km²"
+        },
+        {
+          "code": "36",
+          "name": "徳島県",
+          "nameRuby": "徳島{とくしま}県{けん}",
+          "value": 173.51314203038342,
+          "valueLabel": "約174人/km²"
+        },
+        {
+          "code": "31",
+          "name": "鳥取県",
+          "nameRuby": "鳥取{とっとり}県{けん}",
+          "value": 157.80068434559453,
+          "valueLabel": "約158人/km²"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 151.01098658015042,
+          "valueLabel": "約151人/km²"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 138.230639948287,
+          "valueLabel": "約138人/km²"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 133.00631166569937,
+          "valueLabel": "約133人/km²"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 128.34169603980925,
+          "valueLabel": "約128人/km²"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 114.87439665343773,
+          "valueLabel": "約115人/km²"
+        },
+        {
+          "code": "32",
+          "name": "島根県",
+          "nameRuby": "島根{しまね}県{けん}",
+          "value": 100.04859868813357,
+          "valueLabel": "約100人/km²"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 97.35703223989863,
+          "valueLabel": "約97人/km²"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 82.44560921120467,
+          "valueLabel": "約82人/km²"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 79.2494271685761,
+          "valueLabel": "約79人/km²"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 62.62722957422324,
+          "valueLabel": "約63人/km²"
+        }
+      ]
+    },
+    {
+      "id": "mikan",
+      "nameRuby": "みかんの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "甘{あま}いみかんがたくさんとれるところ",
+      "ranking": [
+        {
+          "code": "30",
+          "name": "和歌山県",
+          "nameRuby": "和歌山{わかやま}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "37",
+          "name": "香川県",
+          "nameRuby": "香川{かがわ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "nameRuby": "りんごの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "赤{あか}いりんごの名産地{めいさんち}",
+      "ranking": [
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "nameRuby": "米{こめ}の生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "ごはんになるお米{こめ}",
+      "ranking": [
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "04",
+          "name": "宮城県",
+          "nameRuby": "宮城{みやぎ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "nameRuby": "お茶{ちゃ}の生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "緑茶{りょくちゃ}など",
+      "ranking": [
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "grape",
+      "nameRuby": "ぶどうの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "ぶどうとりんごの産地{さんち}",
+      "ranking": [
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "peach",
+      "nameRuby": "ももの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "やわらかいもも",
+      "ranking": [
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "cherry",
+      "nameRuby": "さくらんぼの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "あかいさくらんぼ",
+      "ranking": [
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "pear",
+      "nameRuby": "なしの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "日本{にほん}なし",
+      "ranking": [
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "strawberry",
+      "nameRuby": "いちごの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "あまいいちご",
+      "ranking": [
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "melon",
+      "nameRuby": "メロンの生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "ネットメロンなど",
+      "ranking": [
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "nameRuby": "じゃがいも生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "カレーにも入{はい}るじゃがいも",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "nameRuby": "たまねぎ生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "たまねぎ",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "cabbage",
+      "nameRuby": "キャベツ生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "やわらかいキャベツ",
+      "ranking": [
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "nameRuby": "トマト生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "赤{あか}いトマト",
+      "ranking": [
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "nameRuby": "生乳{せいにゅう}生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "牛乳{ぎゅうにゅう}のもと",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "nameRuby": "牛肉{ぎゅうにく}生産{せいさん}",
+      "unitRuby": "頭{とう}",
+      "noteRuby": "牛{うし}の飼育{しいく}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "nameRuby": "豚肉{ぶたにく}生産{せいさん}",
+      "unitRuby": "頭{とう}",
+      "noteRuby": "豚{ぶた}の飼育{しいく}",
+      "ranking": [
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "nameRuby": "鶏肉{とりにく}生産{せいさん}",
+      "unitRuby": "羽{わ}",
+      "noteRuby": "とりの飼育{しいく}",
+      "ranking": [
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "nameRuby": "鶏卵{けいらん}生産量{せいさんりょう}",
+      "unitRuby": "t",
+      "noteRuby": "たまご",
+      "ranking": [
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "nameRuby": "漁獲量{ぎょかくりょう}",
+      "unitRuby": "t",
+      "noteRuby": "海{うみ}や川{かわ}での魚{さかな}など",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "coastline",
+      "nameRuby": "海岸線{かいがんせん}の長{なが}さ",
+      "unitRuby": "km",
+      "noteRuby": "海{うみ}に面{めん}した線{せん}の長{なが}さ",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "snowfall",
+      "nameRuby": "降雪量{こうせつりょう}",
+      "unitRuby": "cm",
+      "noteRuby": "雪{ゆき}の多{おお}さ",
+      "ranking": [
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "06",
+          "name": "山形県",
+          "nameRuby": "山形{やまがた}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "17",
+          "name": "石川県",
+          "nameRuby": "石川{いしかわ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "18",
+          "name": "福井県",
+          "nameRuby": "福井{ふくい}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "sunshine",
+      "nameRuby": "日照時間{にっしょうじかん}",
+      "unitRuby": "時間{じかん}",
+      "noteRuby": "太陽{たいよう}が照{て}る時間{じかん}",
+      "ranking": [
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "rainfall",
+      "nameRuby": "降水量{こうすいりょう}",
+      "unitRuby": "mm",
+      "noteRuby": "雨{あめ}の多{おお}さ",
+      "ranking": [
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "temperature",
+      "nameRuby": "年平均気温{ねんへいきんきおん}",
+      "unitRuby": "℃",
+      "noteRuby": "あたたかさ",
+      "ranking": [
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "41",
+          "name": "佐賀県",
+          "nameRuby": "佐賀{さが}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "39",
+          "name": "高知県",
+          "nameRuby": "高知{こうち}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "mountain",
+      "nameRuby": "いちばん高{たか}い山{やま}",
+      "unitRuby": "m",
+      "noteRuby": "県内{けんない}の最高峰{さいこうほう}",
+      "ranking": [
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "10",
+          "name": "群馬県",
+          "nameRuby": "群馬{ぐんま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "nameRuby": "島{しま}の数{かず}",
+      "unitRuby": "島{とう}",
+      "noteRuby": "離島{りとう}も含{ふく}む",
+      "ranking": [
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "38",
+          "name": "愛媛県",
+          "nameRuby": "愛媛{えひめ}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "24",
+          "name": "三重県",
+          "nameRuby": "三重{みえ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "tourists",
+      "nameRuby": "観光客{かんこうきゃく}数{すう}",
+      "unitRuby": "人{にん}",
+      "noteRuby": "訪{おとず}れる人{ひと}の多{おお}さ",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "hot_spring",
+      "nameRuby": "温泉{おんせん}の数{かず}",
+      "unitRuby": "源泉{げんせん}",
+      "noteRuby": "おんせん地{ち}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "09",
+          "name": "栃木県",
+          "nameRuby": "栃木{とちぎ}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "hotels",
+      "nameRuby": "ホテル・旅館{りょかん}",
+      "unitRuby": "軒{けん}",
+      "noteRuby": "泊{と}まれる宿{やど}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "universities",
+      "nameRuby": "大学{だいがく}の数{かず}",
+      "unitRuby": "校{こう}",
+      "noteRuby": "大学{だいがく}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "airports",
+      "nameRuby": "空港{くうこう}の数{かず}",
+      "unitRuby": "空港{くうこう}",
+      "noteRuby": "飛行機{ひこうき}が発着{はっちゃく}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "shinkansen",
+      "nameRuby": "新幹線駅{しんかんせんえき}",
+      "unitRuby": "駅{えき}",
+      "noteRuby": "新幹線{しんかんせん}が停{と}まる駅{えき}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "convenience",
+      "nameRuby": "コンビニの数{かず}",
+      "unitRuby": "店{みせ}",
+      "noteRuby": "便利{べんり}なお店{みせ}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "cars",
+      "nameRuby": "自動車{じどうしゃ}生産{せいさん}",
+      "unitRuby": "台{だい}",
+      "noteRuby": "車{くるま}づくり",
+      "ranking": [
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "factories",
+      "nameRuby": "工業{こうぎょう}出荷額{しゅっかがく}",
+      "unitRuby": "円{えん}",
+      "noteRuby": "工場{こうじょう}でつくったものの金額{きんがく}",
+      "ranking": [
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "ports",
+      "nameRuby": "港{みなと}の貨物量{かもつりょう}",
+      "unitRuby": "t",
+      "noteRuby": "船{ふね}で運{はこ}ぶ荷物{にもつ}",
+      "ranking": [
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "nameRuby": "鉄道路線{てつどうろせん}の長{なが}さ",
+      "unitRuby": "km",
+      "noteRuby": "電車{でんしゃ}の線路{せんろ}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "bridges",
+      "nameRuby": "橋{はし}の数{かず}",
+      "unitRuby": "橋{きょう}",
+      "noteRuby": "川{かわ}や海{うみ}に架{か}かる橋{はし}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "34",
+          "name": "広島県",
+          "nameRuby": "広島{ひろしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "shrines",
+      "nameRuby": "神社{じんじゃ}の数{かず}",
+      "unitRuby": "社{しゃ}",
+      "noteRuby": "神社{じんじゃ}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "nameRuby": "お寺{てら}の数{かず}",
+      "unitRuby": "寺{てら}",
+      "noteRuby": "お寺{てら}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "nameRuby": "博物館{はくぶつかん}・美術館{びじゅつかん}",
+      "unitRuby": "館{かん}",
+      "noteRuby": "学べる施設{しせつ}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "26",
+          "name": "京都府",
+          "nameRuby": "京都{きょうと}府{ふ}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "parks",
+      "nameRuby": "都市公園{としこうえん}面積{めんせき}",
+      "unitRuby": "ha",
+      "noteRuby": "まちの公園{こうえん}",
+      "ranking": [
+        {
+          "code": "13",
+          "name": "東京都",
+          "nameRuby": "東京{とうきょう}都{と}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "14",
+          "name": "神奈川県",
+          "nameRuby": "神奈川{かながわ}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "27",
+          "name": "大阪府",
+          "nameRuby": "大阪{おおさか}府{ふ}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "12",
+          "name": "千葉県",
+          "nameRuby": "千葉{ちば}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "11",
+          "name": "埼玉県",
+          "nameRuby": "埼玉{さいたま}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "40",
+          "name": "福岡県",
+          "nameRuby": "福岡{ふくおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "forests",
+      "nameRuby": "森林面積{しんりんめんせき}",
+      "unitRuby": "ha",
+      "noteRuby": "森{もり}の広{ひろ}さ",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "02",
+          "name": "青森県",
+          "nameRuby": "青森{あおもり}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "lakes",
+      "nameRuby": "湖{みずうみ}の面積{めんせき}",
+      "unitRuby": "km²",
+      "noteRuby": "大きな湖{みずうみ}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "25",
+          "name": "滋賀県",
+          "nameRuby": "滋賀{しが}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "05",
+          "name": "秋田県",
+          "nameRuby": "秋田{あきた}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "16",
+          "name": "富山県",
+          "nameRuby": "富山{とやま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "rivers",
+      "nameRuby": "川{かわ}の長{なが}さ",
+      "unitRuby": "km",
+      "noteRuby": "長い川{かわ}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "15",
+          "name": "新潟県",
+          "nameRuby": "新潟{にいがた}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "03",
+          "name": "岩手県",
+          "nameRuby": "岩手{いわて}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "21",
+          "name": "岐阜県",
+          "nameRuby": "岐阜{ぎふ}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "28",
+          "name": "兵庫県",
+          "nameRuby": "兵庫{ひょうご}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "33",
+          "name": "岡山県",
+          "nameRuby": "岡山{おかやま}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "23",
+          "name": "愛知県",
+          "nameRuby": "愛知{あいち}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "08",
+          "name": "茨城県",
+          "nameRuby": "茨城{いばらき}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    },
+    {
+      "id": "volcanoes",
+      "nameRuby": "活火山{かつかざん}の数{かず}",
+      "unitRuby": "山{さん}",
+      "noteRuby": "活{かつ}動する火山{かざん}",
+      "ranking": [
+        {
+          "code": "01",
+          "name": "北海道",
+          "nameRuby": "北海道{ほっかいどう}",
+          "value": 1,
+          "valueLabel": "1位"
+        },
+        {
+          "code": "46",
+          "name": "鹿児島県",
+          "nameRuby": "鹿児島{かごしま}県{けん}",
+          "value": 2,
+          "valueLabel": "2位"
+        },
+        {
+          "code": "20",
+          "name": "長野県",
+          "nameRuby": "長野{ながの}県{けん}",
+          "value": 3,
+          "valueLabel": "3位"
+        },
+        {
+          "code": "19",
+          "name": "山梨県",
+          "nameRuby": "山梨{やまなし}県{けん}",
+          "value": 4,
+          "valueLabel": "4位"
+        },
+        {
+          "code": "22",
+          "name": "静岡県",
+          "nameRuby": "静岡{しずおか}県{けん}",
+          "value": 5,
+          "valueLabel": "5位"
+        },
+        {
+          "code": "43",
+          "name": "熊本県",
+          "nameRuby": "熊本{くまもと}県{けん}",
+          "value": 6,
+          "valueLabel": "6位"
+        },
+        {
+          "code": "45",
+          "name": "宮崎県",
+          "nameRuby": "宮崎{みやざき}県{けん}",
+          "value": 7,
+          "valueLabel": "7位"
+        },
+        {
+          "code": "47",
+          "name": "沖縄県",
+          "nameRuby": "沖縄{おきなわ}県{けん}",
+          "value": 8,
+          "valueLabel": "8位"
+        },
+        {
+          "code": "42",
+          "name": "長崎県",
+          "nameRuby": "長崎{ながさき}県{けん}",
+          "value": 9,
+          "valueLabel": "9位"
+        },
+        {
+          "code": "07",
+          "name": "福島県",
+          "nameRuby": "福島{ふくしま}県{けん}",
+          "value": 10,
+          "valueLabel": "10位"
+        }
+      ]
+    }
+  ]
+}

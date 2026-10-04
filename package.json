@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "sync:world": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-world.ps1",
+    "build:ranks": "node ./scripts/build-prefecture-ranks.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {

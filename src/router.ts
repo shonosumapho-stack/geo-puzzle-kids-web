@@ -6,6 +6,9 @@ import { renderKanagawaMenu } from './kanagawa/menuScreen';
 import { loadMunicipalities, loadPrefectures, loadWards, piecesForCodes } from './shared/mapData';
 import { renderJapanEncyclopedia, renderKanagawaEncyclopedia } from './shared/encyclopediaUi';
 import { renderMapPuzzle } from './shared/mapPuzzle';
+import { renderRankingCategory } from './ranking/categoryScreen';
+import { renderRankingMenu } from './ranking/menuScreen';
+import { renderRankingQuiz, renderRankingResult } from './ranking/quizScreen';
 import { renderWorldCountryDetail } from './world/countryDetailScreen';
 import { renderWorldEncyclopedia } from './world/encyclopediaScreen';
 import { renderWorldGame } from './world/gameScreen';
@@ -99,6 +102,29 @@ export function navigate(root: HTMLElement): void {
       difficulty: query.get('difficulty') ?? undefined,
     });
     document.title = '国のくわし';
+    return;
+  }
+  if (path === '/ranking') {
+    void renderRankingMenu(root);
+    document.title = '都道府県ランキング';
+    return;
+  }
+  if (path === '/ranking/quiz') {
+    void renderRankingQuiz(root);
+    document.title = 'ランキングクイズ';
+    return;
+  }
+  if (path === '/ranking/result') {
+    const score = parseInt(query.get('score') ?? '0', 10);
+    const total = parseInt(query.get('total') ?? '10', 10);
+    renderRankingResult(root, score, total);
+    document.title = 'けっか';
+    return;
+  }
+  if (path.startsWith('/ranking/category/')) {
+    const id = path.replace('/ranking/category/', '');
+    void renderRankingCategory(root, id);
+    document.title = '都道府県ランキング';
     return;
   }
   if (path === '/japan') {

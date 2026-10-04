@@ -81,6 +81,10 @@ body {
   background: #fbbf24;
 }
 
+.hub-btn-ranking {
+  background: #fb7185;
+}
+
 .game-title {
   text-align: center;
   margin: 0.5rem 0;
@@ -804,4 +808,147 @@ body {
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
+}
+
+.ranking-list-title {
+  color: #fda4af;
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.ranking-cat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.ranking-cat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  text-decoration: none;
+}
+
+.ranking-cat-name {
+  font-weight: 700;
+  color: #fda4af;
+}
+
+.ranking-cat-top {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-align: right;
+}
+
+.ranking-note {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.ranking-board {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.ranking-board-row {
+  display: grid;
+  grid-template-columns: 2rem 1fr auto;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.55rem 0.65rem;
+  background: #1e293b;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.ranking-board-rank {
+  font-weight: 800;
+  color: #fbbf24;
+  text-align: center;
+}
+
+.ranking-board-name {
+  font-weight: 600;
+}
+
+.ranking-board-value {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.ranking-quiz-cat {
+  text-align: center;
+  color: #fda4af;
+  font-weight: 700;
+  margin: 0.25rem 0;
+}
+
+.quiz-progress {
+  text-align: center;
+  color: #94a3b8;
+  margin: 0.5rem 0;
+}
+
+.quiz-question {
+  font-weight: 700;
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.45;
+}
+
+.quiz-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quiz-choice {
+  min-height: 3rem;
+  border: 2px solid #334155;
+  border-radius: 12px;
+  background: #1e293b;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #f1f5f9;
+}
+
+.quiz-choice:disabled {
+  cursor: default;
+}
+
+.quiz-choice--correct {
+  background: #166534;
+  border-color: #22c55e;
+}
+
+.quiz-choice--wrong {
+  background: #991b1b;
+  border-color: #ef4444;
+}
+
+.quiz-feedback {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0.75rem 0;
+  color: #5eead4;
+}
+
+.result-best {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 1rem;
 }
