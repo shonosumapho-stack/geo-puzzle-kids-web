@@ -36,12 +36,17 @@ export async function renderRankingMenu(root: HTMLElement): Promise<void> {
   for (const cat of data.categories) {
     const row = el('a', 'ranking-cat-row');
     row.href = `#/ranking/category/${cat.id}`;
+    const left = el('span', 'ranking-cat-left');
     const name = el('span', 'ranking-cat-name');
     setRubyText(name, cat.nameRuby, furigana);
+    left.appendChild(name);
+    if (cat.unitLabel) {
+      left.appendChild(el('span', 'ranking-cat-unit', cat.unitLabel));
+    }
     const top = cat.ranking[0];
     const topEl = el('span', 'ranking-cat-top');
     setRubyText(topEl, `1位 ${top.nameRuby}`, furigana);
-    row.append(name, topEl);
+    row.append(left, topEl);
     list.appendChild(row);
   }
 

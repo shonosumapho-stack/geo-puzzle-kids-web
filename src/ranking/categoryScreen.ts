@@ -20,17 +20,32 @@ export async function renderRankingCategory(root: HTMLElement, categoryId: strin
   const note = el('p', 'world-menu-sub');
   setRubyText(note, cat.noteRuby, furigana);
 
-  const list = el('ol', 'ranking-board');
+  if (cat.unitLabel) {
+    const unit = el('p', 'ranking-unit', `単位: ${cat.unitLabel}`);
+    screen.append(back, title, note, unit);
+  } else {
+    screen.append(back, title, note);
+  }
+
+  if (!cat.hasValues) {
+    screen.appendChild(
+      el('p', 'ranking-value-hint', 'この項目は順位のみ（数値は載せていません）'),
+    );
+  }
+
+  const list = el('ol', cat.hasValues ? 'ranking-board' : 'ranking-board ranking-board--name-only');
   cat.ranking.forEach((entry, i) => {
     const li = el('li', 'ranking-board-row');
     const rank = el('span', 'ranking-board-rank', `${i + 1}`);
     const name = el('span', 'ranking-board-name');
     setRubyText(name, entry.nameRuby, furigana);
-    const val = el('span', 'ranking-board-value', entry.valueLabel);
-    li.append(rank, name, val);
+    li.append(rank, name);
+    if (cat.hasValues && entry.valueLabel) {
+      li.appendChild(el('span', 'ranking-board-value', entry.valueLabel));
+    }
     list.appendChild(li);
   });
 
-  screen.append(back, title, note, list);
+  screen.appendChild(list);
   root.replaceChildren(screen);
 }

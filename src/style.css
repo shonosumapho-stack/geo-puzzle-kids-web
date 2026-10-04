@@ -836,15 +836,28 @@ body {
   text-decoration: none;
 }
 
+.ranking-cat-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
 .ranking-cat-name {
   font-weight: 700;
   color: #fda4af;
+}
+
+.ranking-cat-unit {
+  font-size: 0.75rem;
+  color: #5eead4;
 }
 
 .ranking-cat-top {
   font-size: 0.85rem;
   color: #94a3b8;
   text-align: right;
+  flex-shrink: 0;
 }
 
 .ranking-note {
@@ -862,6 +875,21 @@ body {
   gap: 0.35rem;
 }
 
+.ranking-unit {
+  text-align: center;
+  color: #5eead4;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+}
+
+.ranking-value-hint {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.8rem;
+  margin: 0 0 0.75rem;
+}
+
 .ranking-board-row {
   display: grid;
   grid-template-columns: 2rem 1fr auto;
@@ -871,6 +899,10 @@ body {
   background: #1e293b;
   border-radius: 10px;
   border: 1px solid #334155;
+}
+
+.ranking-board--name-only .ranking-board-row {
+  grid-template-columns: 2rem 1fr;
 }
 
 .ranking-board-rank {
